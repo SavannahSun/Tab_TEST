@@ -1,7 +1,7 @@
-# data
-/home/sunyvxuan/projects/TabPFN/data/
-/home/sunyvxuan/projects/TabPFN/data_OpenML_CC18/
-/home/sunyvxuan/projects/TabPFN/data_OpenML_CTR23/
+# 忽略 data 和两个子目录
+data/
+data_OpenML_CC18/
+data_OpenML_CTR23/
 
-# resouces
-/home/sunyvxuan/projects/TabPFN/TabPFN/
+# 忽略整个 TabPFN 文件夹（如果你不想同步它）
+TabPFN/
