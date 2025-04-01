@@ -5,3 +5,4 @@ data_OpenML_CTR23/
 
 # 忽略整个 TabPFN 文件夹（如果你不想同步它）
 TabPFN/
+tabpfn-extensions/
