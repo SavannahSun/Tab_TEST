@@ -3,17 +3,17 @@ import openml
 import pandas as pd
 
 # **1️⃣ 设定存储目录**
-# save_dir = "./data_OpenML_CC18"
-save_dir = "./data_OpenML_CTR23"
+save_dir = "./data_OpenML_CC18"
+# save_dir = "./data_OpenML_CTR23"
 os.makedirs(save_dir, exist_ok=True)  # 确保文件夹存在
 
 # **2️⃣ 获取 OpenML-CC18 数据集列表**
-# benchmark_suite = openml.study.get_suite(99)  # OpenML-CC18
-benchmark_suite = openml.study.get_suite(353)  # OpenML-CTR23
+benchmark_suite = openml.study.get_suite(99)  # OpenML-CC18
+# benchmark_suite = openml.study.get_suite(353)  # OpenML-CTR23
 dataset_ids = benchmark_suite.data
 
-# print(f"🔍 发现 {len(dataset_ids)} 个 OpenML-CC18 数据集，开始下载...")
-print(f"🔍 发现 {len(dataset_ids)} 个 OpenML-CTR23 数据集，开始下载...")
+print(f"🔍 发现 {len(dataset_ids)} 个 OpenML-CC18 数据集，开始下载...")
+# print(f"🔍 发现 {len(dataset_ids)} 个 OpenML-CTR23 数据集，开始下载...")
 
 # **3️⃣ 遍历所有数据集**
 for dataset_id in dataset_ids:

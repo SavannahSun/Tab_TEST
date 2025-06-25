@@ -1,0 +1,3175 @@
+
+📂 Dataset: dataset_3.csv
+    🔸 Samples: 3196, Features: 36, Classes: 2
+🚀 Evaluating TabPFN on dataset_3.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 3: Accuracy = 0.9906, Macro F1 = 0.9906
+    🔹 Fold 4: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 5: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 6: Accuracy = 0.9844, Macro F1 = 0.9844
+    🔹 Fold 7: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 8: Accuracy = 0.9937, Macro F1 = 0.9937
+    🔹 Fold 9: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 10: Accuracy = 0.9906, Macro F1 = 0.9906
+✅ TabPFN on dataset_3.csv: Accuracy = 0.9941, Macro F1 = 0.9940, Time = 16.99s
+🚀 Evaluating CatBoost on dataset_3.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 3: Accuracy = 0.9906, Macro F1 = 0.9906
+    🔹 Fold 4: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 5: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 6: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 0.9937, Macro F1 = 0.9937
+    🔹 Fold 9: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ CatBoost on dataset_3.csv: Accuracy = 0.9966, Macro F1 = 0.9966, Time = 26.36s
+🚀 Evaluating RF on dataset_3.csv...
+    🔹 Fold 1: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 2: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 3: Accuracy = 0.9844, Macro F1 = 0.9843
+    🔹 Fold 4: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 5: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 6: Accuracy = 0.9781, Macro F1 = 0.9781
+    🔹 Fold 7: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 8: Accuracy = 0.9906, Macro F1 = 0.9906
+    🔹 Fold 9: Accuracy = 0.9906, Macro F1 = 0.9906
+    🔹 Fold 10: Accuracy = 0.9906, Macro F1 = 0.9906
+✅ RF on dataset_3.csv: Accuracy = 0.9909, Macro F1 = 0.9909, Time = 21.29s
+🚀 Evaluating SPORF on dataset_3.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 3: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9938, Macro F1 = 0.9937
+    🔹 Fold 6: Accuracy = 0.9844, Macro F1 = 0.9843
+    🔹 Fold 7: Accuracy = 0.9969, Macro F1 = 0.9969
+    🔹 Fold 8: Accuracy = 0.9906, Macro F1 = 0.9906
+    🔹 Fold 9: Accuracy = 0.9937, Macro F1 = 0.9937
+    🔹 Fold 10: Accuracy = 0.9969, Macro F1 = 0.9969
+✅ SPORF on dataset_3.csv: Accuracy = 0.9944, Macro F1 = 0.9944, Time = 20.30s
+📤 The result that has been written to dataset_3.csv
+
+
+📂 Dataset: dataset_6.csv
+    🔸 Samples: 20000, Features: 16, Classes: 26
+⏭️ Skip TabPFN on dataset_6.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_6.csv...
+    🔹 Fold 1: Accuracy = 0.9740, Macro F1 = 0.9740
+    🔹 Fold 2: Accuracy = 0.9660, Macro F1 = 0.9660
+    🔹 Fold 3: Accuracy = 0.9650, Macro F1 = 0.9648
+    🔹 Fold 4: Accuracy = 0.9715, Macro F1 = 0.9714
+    🔹 Fold 5: Accuracy = 0.9605, Macro F1 = 0.9602
+    🔹 Fold 6: Accuracy = 0.9740, Macro F1 = 0.9739
+    🔹 Fold 7: Accuracy = 0.9660, Macro F1 = 0.9662
+    🔹 Fold 8: Accuracy = 0.9630, Macro F1 = 0.9630
+    🔹 Fold 9: Accuracy = 0.9685, Macro F1 = 0.9683
+    🔹 Fold 10: Accuracy = 0.9665, Macro F1 = 0.9663
+✅ CatBoost on dataset_6.csv: Accuracy = 0.9675, Macro F1 = 0.9674, Time = 301.31s
+🚀 Evaluating RF on dataset_6.csv...
+    🔹 Fold 1: Accuracy = 0.9735, Macro F1 = 0.9735
+    🔹 Fold 2: Accuracy = 0.9620, Macro F1 = 0.9618
+    🔹 Fold 3: Accuracy = 0.9670, Macro F1 = 0.9667
+    🔹 Fold 4: Accuracy = 0.9700, Macro F1 = 0.9699
+    🔹 Fold 5: Accuracy = 0.9665, Macro F1 = 0.9663
+    🔹 Fold 6: Accuracy = 0.9735, Macro F1 = 0.9734
+    🔹 Fold 7: Accuracy = 0.9680, Macro F1 = 0.9680
+    🔹 Fold 8: Accuracy = 0.9630, Macro F1 = 0.9630
+    🔹 Fold 9: Accuracy = 0.9730, Macro F1 = 0.9730
+    🔹 Fold 10: Accuracy = 0.9655, Macro F1 = 0.9654
+✅ RF on dataset_6.csv: Accuracy = 0.9682, Macro F1 = 0.9681, Time = 24.96s
+🚀 Evaluating SPORF on dataset_6.csv...
+    🔹 Fold 1: Accuracy = 0.9755, Macro F1 = 0.9755
+    🔹 Fold 2: Accuracy = 0.9645, Macro F1 = 0.9644
+    🔹 Fold 3: Accuracy = 0.9690, Macro F1 = 0.9688
+    🔹 Fold 4: Accuracy = 0.9755, Macro F1 = 0.9754
+    🔹 Fold 5: Accuracy = 0.9715, Macro F1 = 0.9712
+    🔹 Fold 6: Accuracy = 0.9765, Macro F1 = 0.9765
+    🔹 Fold 7: Accuracy = 0.9710, Macro F1 = 0.9710
+    🔹 Fold 8: Accuracy = 0.9680, Macro F1 = 0.9679
+    🔹 Fold 9: Accuracy = 0.9760, Macro F1 = 0.9759
+    🔹 Fold 10: Accuracy = 0.9735, Macro F1 = 0.9733
+✅ SPORF on dataset_6.csv: Accuracy = 0.9721, Macro F1 = 0.9720, Time = 27.67s
+📤 The result that has been written to dataset_6.csv
+
+📂 Dataset: dataset_11.csv
+    🔸 Samples: 625, Features: 4, Classes: 3
+🚀 Evaluating TabPFN on dataset_11.csv...
+    🔹 Fold 1: Accuracy = 0.9524, Macro F1 = 0.9053
+    🔹 Fold 2: Accuracy = 0.9683, Macro F1 = 0.9325
+    🔹 Fold 3: Accuracy = 0.9683, Macro F1 = 0.9325
+    🔹 Fold 4: Accuracy = 0.9841, Macro F1 = 0.9638
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 0.9194, Macro F1 = 0.8417
+    🔹 Fold 7: Accuracy = 0.9677, Macro F1 = 0.9325
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9839, Macro F1 = 0.9638
+✅ TabPFN on dataset_11.csv: Accuracy = 0.9744, Macro F1 = 0.9472, Time = 7.39s
+🚀 Evaluating CatBoost on dataset_11.csv...
+    🔹 Fold 1: Accuracy = 0.9048, Macro F1 = 0.6333
+    🔹 Fold 2: Accuracy = 0.9048, Macro F1 = 0.7231
+    🔹 Fold 3: Accuracy = 0.8889, Macro F1 = 0.7048
+    🔹 Fold 4: Accuracy = 0.9048, Macro F1 = 0.7159
+    🔹 Fold 5: Accuracy = 0.8571, Macro F1 = 0.6051
+    🔹 Fold 6: Accuracy = 0.9032, Macro F1 = 0.7216
+    🔹 Fold 7: Accuracy = 0.8871, Macro F1 = 0.6267
+    🔹 Fold 8: Accuracy = 0.9194, Macro F1 = 0.7335
+    🔹 Fold 9: Accuracy = 0.9032, Macro F1 = 0.7220
+    🔹 Fold 10: Accuracy = 0.8871, Macro F1 = 0.6267
+✅ CatBoost on dataset_11.csv: Accuracy = 0.8960, Macro F1 = 0.6813, Time = 5.87s
+🚀 Evaluating RF on dataset_11.csv...
+    🔹 Fold 1: Accuracy = 0.8095, Macro F1 = 0.5910
+    🔹 Fold 2: Accuracy = 0.8730, Macro F1 = 0.6164
+    🔹 Fold 3: Accuracy = 0.7937, Macro F1 = 0.5850
+    🔹 Fold 4: Accuracy = 0.8413, Macro F1 = 0.6029
+    🔹 Fold 5: Accuracy = 0.7937, Macro F1 = 0.5795
+    🔹 Fold 6: Accuracy = 0.8226, Macro F1 = 0.5763
+    🔹 Fold 7: Accuracy = 0.8710, Macro F1 = 0.6207
+    🔹 Fold 8: Accuracy = 0.8710, Macro F1 = 0.6209
+    🔹 Fold 9: Accuracy = 0.8710, Macro F1 = 0.6152
+    🔹 Fold 10: Accuracy = 0.8065, Macro F1 = 0.5910
+✅ RF on dataset_11.csv: Accuracy = 0.8353, Macro F1 = 0.5999, Time = 17.91s
+🚀 Evaluating SPORF on dataset_11.csv...
+    🔹 Fold 1: Accuracy = 0.8889, Macro F1 = 0.6273
+    🔹 Fold 2: Accuracy = 0.9048, Macro F1 = 0.6282
+    🔹 Fold 3: Accuracy = 0.8889, Macro F1 = 0.6224
+    🔹 Fold 4: Accuracy = 0.9048, Macro F1 = 0.6282
+    🔹 Fold 5: Accuracy = 0.8889, Macro F1 = 0.6175
+    🔹 Fold 6: Accuracy = 0.8710, Macro F1 = 0.6049
+    🔹 Fold 7: Accuracy = 0.8871, Macro F1 = 0.6267
+    🔹 Fold 8: Accuracy = 0.9032, Macro F1 = 0.6335
+    🔹 Fold 9: Accuracy = 0.9032, Macro F1 = 0.6273
+    🔹 Fold 10: Accuracy = 0.8548, Macro F1 = 0.6102
+✅ SPORF on dataset_11.csv: Accuracy = 0.8896, Macro F1 = 0.6226, Time = 17.16s
+📤 The result that has been written to dataset_11.csv
+
+📂 Dataset: dataset_12.csv
+    🔸 Samples: 2000, Features: 216, Classes: 10
+🚀 Evaluating TabPFN on dataset_12.csv...
+    🔹 Fold 1: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 2: Accuracy = 0.9950, Macro F1 = 0.9950
+    🔹 Fold 3: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 4: Accuracy = 0.9600, Macro F1 = 0.9600
+    🔹 Fold 5: Accuracy = 0.9900, Macro F1 = 0.9900
+    🔹 Fold 6: Accuracy = 0.9700, Macro F1 = 0.9699
+    🔹 Fold 7: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 8: Accuracy = 0.9750, Macro F1 = 0.9751
+    🔹 Fold 9: Accuracy = 0.9800, Macro F1 = 0.9800
+    🔹 Fold 10: Accuracy = 0.9900, Macro F1 = 0.9900
+✅ TabPFN on dataset_12.csv: Accuracy = 0.9800, Macro F1 = 0.9800, Time = 40.58s
+🚀 Evaluating CatBoost on dataset_12.csv...
+    🔹 Fold 1: Accuracy = 0.9750, Macro F1 = 0.9749
+    🔹 Fold 2: Accuracy = 0.9850, Macro F1 = 0.9849
+    🔹 Fold 3: Accuracy = 0.9900, Macro F1 = 0.9900
+    🔹 Fold 4: Accuracy = 0.9500, Macro F1 = 0.9508
+    🔹 Fold 5: Accuracy = 0.9800, Macro F1 = 0.9801
+    🔹 Fold 6: Accuracy = 0.9800, Macro F1 = 0.9799
+    🔹 Fold 7: Accuracy = 0.9700, Macro F1 = 0.9701
+    🔹 Fold 8: Accuracy = 0.9600, Macro F1 = 0.9599
+    🔹 Fold 9: Accuracy = 0.9650, Macro F1 = 0.9649
+    🔹 Fold 10: Accuracy = 0.9850, Macro F1 = 0.9850
+✅ CatBoost on dataset_12.csv: Accuracy = 0.9740, Macro F1 = 0.9741, Time = 105.28s
+🚀 Evaluating RF on dataset_12.csv...
+    🔹 Fold 1: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 2: Accuracy = 0.9950, Macro F1 = 0.9950
+    🔹 Fold 3: Accuracy = 0.9550, Macro F1 = 0.9549
+    🔹 Fold 4: Accuracy = 0.9650, Macro F1 = 0.9653
+    🔹 Fold 5: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 6: Accuracy = 0.9700, Macro F1 = 0.9698
+    🔹 Fold 7: Accuracy = 0.9450, Macro F1 = 0.9448
+    🔹 Fold 8: Accuracy = 0.9600, Macro F1 = 0.9598
+    🔹 Fold 9: Accuracy = 0.9650, Macro F1 = 0.9650
+    🔹 Fold 10: Accuracy = 0.9800, Macro F1 = 0.9801
+✅ RF on dataset_12.csv: Accuracy = 0.9680, Macro F1 = 0.9680, Time = 19.64s
+🚀 Evaluating SPORF on dataset_12.csv...
+    🔹 Fold 1: Accuracy = 0.9650, Macro F1 = 0.9651
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 4: Accuracy = 0.9650, Macro F1 = 0.9653
+    🔹 Fold 5: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 6: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 7: Accuracy = 0.9450, Macro F1 = 0.9449
+    🔹 Fold 8: Accuracy = 0.9650, Macro F1 = 0.9651
+    🔹 Fold 9: Accuracy = 0.9550, Macro F1 = 0.9551
+    🔹 Fold 10: Accuracy = 0.9850, Macro F1 = 0.9851
+✅ SPORF on dataset_12.csv: Accuracy = 0.9710, Macro F1 = 0.9710, Time = 31.00s
+📤 The result that has been written to dataset_12.csv
+
+📂 Dataset: dataset_14.csv
+    🔸 Samples: 2000, Features: 76, Classes: 10
+🚀 Evaluating TabPFN on dataset_14.csv...
+    🔹 Fold 1: Accuracy = 0.8900, Macro F1 = 0.8857
+    🔹 Fold 2: Accuracy = 0.8900, Macro F1 = 0.8910
+    🔹 Fold 3: Accuracy = 0.9200, Macro F1 = 0.9187
+    🔹 Fold 4: Accuracy = 0.8850, Macro F1 = 0.8856
+    🔹 Fold 5: Accuracy = 0.8700, Macro F1 = 0.8684
+    🔹 Fold 6: Accuracy = 0.8650, Macro F1 = 0.8651
+    🔹 Fold 7: Accuracy = 0.8550, Macro F1 = 0.8508
+    🔹 Fold 8: Accuracy = 0.8950, Macro F1 = 0.8922
+    🔹 Fold 9: Accuracy = 0.8900, Macro F1 = 0.8868
+    🔹 Fold 10: Accuracy = 0.8950, Macro F1 = 0.8962
+✅ TabPFN on dataset_14.csv: Accuracy = 0.8855, Macro F1 = 0.8840, Time = 9.87s
+🚀 Evaluating CatBoost on dataset_14.csv...
+    🔹 Fold 1: Accuracy = 0.8700, Macro F1 = 0.8671
+    🔹 Fold 2: Accuracy = 0.8600, Macro F1 = 0.8607
+    🔹 Fold 3: Accuracy = 0.8300, Macro F1 = 0.8311
+    🔹 Fold 4: Accuracy = 0.8600, Macro F1 = 0.8600
+    🔹 Fold 5: Accuracy = 0.8500, Macro F1 = 0.8478
+    🔹 Fold 6: Accuracy = 0.8100, Macro F1 = 0.8070
+    🔹 Fold 7: Accuracy = 0.7800, Macro F1 = 0.7844
+    🔹 Fold 8: Accuracy = 0.8650, Macro F1 = 0.8627
+    🔹 Fold 9: Accuracy = 0.7850, Macro F1 = 0.7802
+    🔹 Fold 10: Accuracy = 0.8650, Macro F1 = 0.8677
+✅ CatBoost on dataset_14.csv: Accuracy = 0.8375, Macro F1 = 0.8369, Time = 37.83s
+🚀 Evaluating RF on dataset_14.csv...
+    🔹 Fold 1: Accuracy = 0.8650, Macro F1 = 0.8638
+    🔹 Fold 2: Accuracy = 0.8450, Macro F1 = 0.8470
+    🔹 Fold 3: Accuracy = 0.8300, Macro F1 = 0.8304
+    🔹 Fold 4: Accuracy = 0.8200, Macro F1 = 0.8195
+    🔹 Fold 5: Accuracy = 0.8350, Macro F1 = 0.8303
+    🔹 Fold 6: Accuracy = 0.8150, Macro F1 = 0.8114
+    🔹 Fold 7: Accuracy = 0.8000, Macro F1 = 0.8008
+    🔹 Fold 8: Accuracy = 0.8500, Macro F1 = 0.8494
+    🔹 Fold 9: Accuracy = 0.8050, Macro F1 = 0.7985
+    🔹 Fold 10: Accuracy = 0.8500, Macro F1 = 0.8495
+✅ RF on dataset_14.csv: Accuracy = 0.8315, Macro F1 = 0.8300, Time = 16.99s
+🚀 Evaluating SPORF on dataset_14.csv...
+    🔹 Fold 1: Accuracy = 0.8650, Macro F1 = 0.8634
+    🔹 Fold 2: Accuracy = 0.8450, Macro F1 = 0.8495
+    🔹 Fold 3: Accuracy = 0.8250, Macro F1 = 0.8274
+    🔹 Fold 4: Accuracy = 0.8150, Macro F1 = 0.8142
+    🔹 Fold 5: Accuracy = 0.8450, Macro F1 = 0.8411
+    🔹 Fold 6: Accuracy = 0.8000, Macro F1 = 0.7961
+    🔹 Fold 7: Accuracy = 0.7900, Macro F1 = 0.7944
+    🔹 Fold 8: Accuracy = 0.8500, Macro F1 = 0.8495
+    🔹 Fold 9: Accuracy = 0.8100, Macro F1 = 0.8054
+    🔹 Fold 10: Accuracy = 0.8350, Macro F1 = 0.8377
+✅ SPORF on dataset_14.csv: Accuracy = 0.8280, Macro F1 = 0.8279, Time = 20.02s
+📤 The result that has been written to dataset_14.csv
+
+📂 Dataset: dataset_15.csv
+    🔸 Samples: 699, Features: 9, Classes: 2
+🚀 Evaluating TabPFN on dataset_15.csv...
+    🔹 Fold 1: Accuracy = 0.9429, Macro F1 = 0.9378
+    🔹 Fold 2: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 3: Accuracy = 0.9571, Macro F1 = 0.9520
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9857, Macro F1 = 0.9843
+    🔹 Fold 6: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 7: Accuracy = 0.9429, Macro F1 = 0.9378
+    🔹 Fold 8: Accuracy = 0.9571, Macro F1 = 0.9537
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9565, Macro F1 = 0.9505
+✅ TabPFN on dataset_15.csv: Accuracy = 0.9657, Macro F1 = 0.9622, Time = 5.77s
+🚀 Evaluating CatBoost on dataset_15.csv...
+    🔹 Fold 1: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 2: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 3: Accuracy = 0.9429, Macro F1 = 0.9366
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 6: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 7: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 8: Accuracy = 0.9571, Macro F1 = 0.9537
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9420, Macro F1 = 0.9333
+✅ CatBoost on dataset_15.csv: Accuracy = 0.9671, Macro F1 = 0.9636, Time = 2.41s
+🚀 Evaluating RF on dataset_15.csv...
+    🔹 Fold 1: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 2: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 3: Accuracy = 0.9571, Macro F1 = 0.9520
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9857, Macro F1 = 0.9843
+    🔹 Fold 6: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 7: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 8: Accuracy = 0.9571, Macro F1 = 0.9537
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9275, Macro F1 = 0.9155
+✅ RF on dataset_15.csv: Accuracy = 0.9670, Macro F1 = 0.9633, Time = 15.95s
+🚀 Evaluating SPORF on dataset_15.csv...
+    🔹 Fold 1: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 2: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 3: Accuracy = 0.9571, Macro F1 = 0.9520
+    🔹 Fold 4: Accuracy = 0.9857, Macro F1 = 0.9843
+    🔹 Fold 5: Accuracy = 0.9857, Macro F1 = 0.9843
+    🔹 Fold 6: Accuracy = 0.9714, Macro F1 = 0.9689
+    🔹 Fold 7: Accuracy = 0.9571, Macro F1 = 0.9529
+    🔹 Fold 8: Accuracy = 0.9571, Macro F1 = 0.9537
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9565, Macro F1 = 0.9505
+✅ SPORF on dataset_15.csv: Accuracy = 0.9699, Macro F1 = 0.9668, Time = 15.13s
+📤 The result that has been written to dataset_15.csv
+
+📂 Dataset: dataset_16.csv
+    🔸 Samples: 2000, Features: 64, Classes: 10
+🚀 Evaluating TabPFN on dataset_16.csv...
+    🔹 Fold 1: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 2: Accuracy = 0.9950, Macro F1 = 0.9950
+    🔹 Fold 3: Accuracy = 0.9950, Macro F1 = 0.9950
+    🔹 Fold 4: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 5: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 6: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 7: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 8: Accuracy = 0.9700, Macro F1 = 0.9703
+    🔹 Fold 9: Accuracy = 0.9700, Macro F1 = 0.9698
+    🔹 Fold 10: Accuracy = 0.9850, Macro F1 = 0.9850
+✅ TabPFN on dataset_16.csv: Accuracy = 0.9805, Macro F1 = 0.9805, Time = 18.45s
+🚀 Evaluating CatBoost on dataset_16.csv...
+    🔹 Fold 1: Accuracy = 0.9650, Macro F1 = 0.9650
+    🔹 Fold 2: Accuracy = 0.9700, Macro F1 = 0.9698
+    🔹 Fold 3: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 4: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 5: Accuracy = 0.9800, Macro F1 = 0.9800
+    🔹 Fold 6: Accuracy = 0.9650, Macro F1 = 0.9650
+    🔹 Fold 7: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 8: Accuracy = 0.9500, Macro F1 = 0.9497
+    🔹 Fold 9: Accuracy = 0.9500, Macro F1 = 0.9499
+    🔹 Fold 10: Accuracy = 0.9850, Macro F1 = 0.9851
+✅ CatBoost on dataset_16.csv: Accuracy = 0.9700, Macro F1 = 0.9699, Time = 87.64s
+🚀 Evaluating RF on dataset_16.csv...
+    🔹 Fold 1: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 2: Accuracy = 0.9750, Macro F1 = 0.9750
+    🔹 Fold 3: Accuracy = 0.9750, Macro F1 = 0.9749
+    🔹 Fold 4: Accuracy = 0.9650, Macro F1 = 0.9653
+    🔹 Fold 5: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 6: Accuracy = 0.9550, Macro F1 = 0.9547
+    🔹 Fold 7: Accuracy = 0.9500, Macro F1 = 0.9498
+    🔹 Fold 8: Accuracy = 0.9450, Macro F1 = 0.9448
+    🔹 Fold 9: Accuracy = 0.9450, Macro F1 = 0.9450
+    🔹 Fold 10: Accuracy = 0.9800, Macro F1 = 0.9800
+✅ RF on dataset_16.csv: Accuracy = 0.9630, Macro F1 = 0.9629, Time = 16.88s
+🚀 Evaluating SPORF on dataset_16.csv...
+    🔹 Fold 1: Accuracy = 0.9700, Macro F1 = 0.9700
+    🔹 Fold 2: Accuracy = 0.9850, Macro F1 = 0.9850
+    🔹 Fold 3: Accuracy = 0.9800, Macro F1 = 0.9799
+    🔹 Fold 4: Accuracy = 0.9650, Macro F1 = 0.9652
+    🔹 Fold 5: Accuracy = 0.9650, Macro F1 = 0.9650
+    🔹 Fold 6: Accuracy = 0.9600, Macro F1 = 0.9598
+    🔹 Fold 7: Accuracy = 0.9550, Macro F1 = 0.9557
+    🔹 Fold 8: Accuracy = 0.9500, Macro F1 = 0.9499
+    🔹 Fold 9: Accuracy = 0.9500, Macro F1 = 0.9501
+    🔹 Fold 10: Accuracy = 0.9700, Macro F1 = 0.9700
+✅ SPORF on dataset_16.csv: Accuracy = 0.9650, Macro F1 = 0.9651, Time = 18.47s
+📤 The result that has been written to dataset_16.csv
+
+📂 Dataset: dataset_18.csv
+    🔸 Samples: 2000, Features: 6, Classes: 10
+🚀 Evaluating TabPFN on dataset_18.csv...
+    🔹 Fold 1: Accuracy = 0.7900, Macro F1 = 0.7823
+    🔹 Fold 2: Accuracy = 0.7650, Macro F1 = 0.7504
+    🔹 Fold 3: Accuracy = 0.7750, Macro F1 = 0.7683
+    🔹 Fold 4: Accuracy = 0.7350, Macro F1 = 0.7313
+    🔹 Fold 5: Accuracy = 0.7550, Macro F1 = 0.7522
+    🔹 Fold 6: Accuracy = 0.7350, Macro F1 = 0.7240
+    🔹 Fold 7: Accuracy = 0.7600, Macro F1 = 0.7481
+    🔹 Fold 8: Accuracy = 0.7750, Macro F1 = 0.7624
+    🔹 Fold 9: Accuracy = 0.7300, Macro F1 = 0.7268
+    🔹 Fold 10: Accuracy = 0.7600, Macro F1 = 0.7430
+✅ TabPFN on dataset_18.csv: Accuracy = 0.7580, Macro F1 = 0.7489, Time = 2.71s
+🚀 Evaluating CatBoost on dataset_18.csv...
+    🔹 Fold 1: Accuracy = 0.7450, Macro F1 = 0.7438
+    🔹 Fold 2: Accuracy = 0.7150, Macro F1 = 0.7116
+    🔹 Fold 3: Accuracy = 0.7250, Macro F1 = 0.7233
+    🔹 Fold 4: Accuracy = 0.7600, Macro F1 = 0.7626
+    🔹 Fold 5: Accuracy = 0.7050, Macro F1 = 0.7043
+    🔹 Fold 6: Accuracy = 0.7050, Macro F1 = 0.6977
+    🔹 Fold 7: Accuracy = 0.7300, Macro F1 = 0.7213
+    🔹 Fold 8: Accuracy = 0.7450, Macro F1 = 0.7408
+    🔹 Fold 9: Accuracy = 0.7100, Macro F1 = 0.7091
+    🔹 Fold 10: Accuracy = 0.7350, Macro F1 = 0.7314
+✅ CatBoost on dataset_18.csv: Accuracy = 0.7275, Macro F1 = 0.7246, Time = 12.07s
+🚀 Evaluating RF on dataset_18.csv...
+    🔹 Fold 1: Accuracy = 0.7250, Macro F1 = 0.7253
+    🔹 Fold 2: Accuracy = 0.7100, Macro F1 = 0.7070
+    🔹 Fold 3: Accuracy = 0.7350, Macro F1 = 0.7329
+    🔹 Fold 4: Accuracy = 0.7200, Macro F1 = 0.7228
+    🔹 Fold 5: Accuracy = 0.6950, Macro F1 = 0.6944
+    🔹 Fold 6: Accuracy = 0.6750, Macro F1 = 0.6723
+    🔹 Fold 7: Accuracy = 0.6850, Macro F1 = 0.6823
+    🔹 Fold 8: Accuracy = 0.7300, Macro F1 = 0.7256
+    🔹 Fold 9: Accuracy = 0.6650, Macro F1 = 0.6666
+    🔹 Fold 10: Accuracy = 0.6900, Macro F1 = 0.6874
+✅ RF on dataset_18.csv: Accuracy = 0.7030, Macro F1 = 0.7017, Time = 19.66s
+🚀 Evaluating SPORF on dataset_18.csv...
+    🔹 Fold 1: Accuracy = 0.7350, Macro F1 = 0.7363
+    🔹 Fold 2: Accuracy = 0.7000, Macro F1 = 0.6968
+    🔹 Fold 3: Accuracy = 0.7250, Macro F1 = 0.7219
+    🔹 Fold 4: Accuracy = 0.7300, Macro F1 = 0.7329
+    🔹 Fold 5: Accuracy = 0.7050, Macro F1 = 0.7060
+    🔹 Fold 6: Accuracy = 0.6500, Macro F1 = 0.6469
+    🔹 Fold 7: Accuracy = 0.7100, Macro F1 = 0.7088
+    🔹 Fold 8: Accuracy = 0.7500, Macro F1 = 0.7449
+    🔹 Fold 9: Accuracy = 0.6850, Macro F1 = 0.6848
+    🔹 Fold 10: Accuracy = 0.6850, Macro F1 = 0.6833
+✅ SPORF on dataset_18.csv: Accuracy = 0.7075, Macro F1 = 0.7063, Time = 18.05s
+📤 The result that has been written to dataset_18.csv
+
+📂 Dataset: dataset_22.csv
+    🔸 Samples: 2000, Features: 47, Classes: 10
+🚀 Evaluating TabPFN on dataset_22.csv...
+    🔹 Fold 1: Accuracy = 0.8800, Macro F1 = 0.8769
+    🔹 Fold 2: Accuracy = 0.8950, Macro F1 = 0.8927
+    🔹 Fold 3: Accuracy = 0.8900, Macro F1 = 0.8893
+    🔹 Fold 4: Accuracy = 0.8850, Macro F1 = 0.8821
+    🔹 Fold 5: Accuracy = 0.8450, Macro F1 = 0.8434
+    🔹 Fold 6: Accuracy = 0.8900, Macro F1 = 0.8900
+    🔹 Fold 7: Accuracy = 0.8450, Macro F1 = 0.8450
+    🔹 Fold 8: Accuracy = 0.8850, Macro F1 = 0.8811
+    🔹 Fold 9: Accuracy = 0.9050, Macro F1 = 0.9047
+    🔹 Fold 10: Accuracy = 0.9050, Macro F1 = 0.9015
+✅ TabPFN on dataset_22.csv: Accuracy = 0.8825, Macro F1 = 0.8807, Time = 16.98s
+🚀 Evaluating CatBoost on dataset_22.csv...
+    🔹 Fold 1: Accuracy = 0.7950, Macro F1 = 0.7950
+    🔹 Fold 2: Accuracy = 0.8050, Macro F1 = 0.8010
+    🔹 Fold 3: Accuracy = 0.7850, Macro F1 = 0.7863
+    🔹 Fold 4: Accuracy = 0.7900, Macro F1 = 0.7879
+    🔹 Fold 5: Accuracy = 0.7600, Macro F1 = 0.7612
+    🔹 Fold 6: Accuracy = 0.8000, Macro F1 = 0.8010
+    🔹 Fold 7: Accuracy = 0.7200, Macro F1 = 0.7150
+    🔹 Fold 8: Accuracy = 0.7850, Macro F1 = 0.7769
+    🔹 Fold 9: Accuracy = 0.7600, Macro F1 = 0.7525
+    🔹 Fold 10: Accuracy = 0.7800, Macro F1 = 0.7755
+✅ CatBoost on dataset_22.csv: Accuracy = 0.7780, Macro F1 = 0.7752, Time = 16.06s
+🚀 Evaluating RF on dataset_22.csv...
+    🔹 Fold 1: Accuracy = 0.7850, Macro F1 = 0.7783
+    🔹 Fold 2: Accuracy = 0.8000, Macro F1 = 0.7953
+    🔹 Fold 3: Accuracy = 0.7750, Macro F1 = 0.7745
+    🔹 Fold 4: Accuracy = 0.7950, Macro F1 = 0.7930
+    🔹 Fold 5: Accuracy = 0.7600, Macro F1 = 0.7529
+    🔹 Fold 6: Accuracy = 0.8050, Macro F1 = 0.8029
+    🔹 Fold 7: Accuracy = 0.7650, Macro F1 = 0.7625
+    🔹 Fold 8: Accuracy = 0.7800, Macro F1 = 0.7727
+    🔹 Fold 9: Accuracy = 0.7700, Macro F1 = 0.7642
+    🔹 Fold 10: Accuracy = 0.7850, Macro F1 = 0.7834
+✅ RF on dataset_22.csv: Accuracy = 0.7820, Macro F1 = 0.7780, Time = 17.55s
+🚀 Evaluating SPORF on dataset_22.csv...
+    🔹 Fold 1: Accuracy = 0.8000, Macro F1 = 0.7953
+    🔹 Fold 2: Accuracy = 0.8250, Macro F1 = 0.8221
+    🔹 Fold 3: Accuracy = 0.8000, Macro F1 = 0.7963
+    🔹 Fold 4: Accuracy = 0.8050, Macro F1 = 0.8047
+    🔹 Fold 5: Accuracy = 0.7750, Macro F1 = 0.7726
+    🔹 Fold 6: Accuracy = 0.8150, Macro F1 = 0.8158
+    🔹 Fold 7: Accuracy = 0.7850, Macro F1 = 0.7840
+    🔹 Fold 8: Accuracy = 0.8050, Macro F1 = 0.7986
+    🔹 Fold 9: Accuracy = 0.7700, Macro F1 = 0.7625
+    🔹 Fold 10: Accuracy = 0.7800, Macro F1 = 0.7762
+✅ SPORF on dataset_22.csv: Accuracy = 0.7960, Macro F1 = 0.7928, Time = 18.11s
+📤 The result that has been written to dataset_22.csv
+
+📂 Dataset: dataset_23.csv
+    🔸 Samples: 1473, Features: 9, Classes: 3
+🚀 Evaluating TabPFN on dataset_23.csv...
+    🔹 Fold 1: Accuracy = 0.5473, Macro F1 = 0.5351
+    🔹 Fold 2: Accuracy = 0.5743, Macro F1 = 0.5626
+    🔹 Fold 3: Accuracy = 0.5878, Macro F1 = 0.5817
+    🔹 Fold 4: Accuracy = 0.5714, Macro F1 = 0.5469
+    🔹 Fold 5: Accuracy = 0.5306, Macro F1 = 0.4878
+    🔹 Fold 6: Accuracy = 0.5646, Macro F1 = 0.5348
+    🔹 Fold 7: Accuracy = 0.5442, Macro F1 = 0.5251
+    🔹 Fold 8: Accuracy = 0.5850, Macro F1 = 0.5537
+    🔹 Fold 9: Accuracy = 0.5374, Macro F1 = 0.5190
+    🔹 Fold 10: Accuracy = 0.5238, Macro F1 = 0.5002
+✅ TabPFN on dataset_23.csv: Accuracy = 0.5567, Macro F1 = 0.5347, Time = 5.75s
+🚀 Evaluating CatBoost on dataset_23.csv...
+    🔹 Fold 1: Accuracy = 0.5541, Macro F1 = 0.5363
+    🔹 Fold 2: Accuracy = 0.5676, Macro F1 = 0.5545
+    🔹 Fold 3: Accuracy = 0.6554, Macro F1 = 0.6481
+    🔹 Fold 4: Accuracy = 0.5578, Macro F1 = 0.5211
+    🔹 Fold 5: Accuracy = 0.5374, Macro F1 = 0.4953
+    🔹 Fold 6: Accuracy = 0.5714, Macro F1 = 0.5403
+    🔹 Fold 7: Accuracy = 0.5374, Macro F1 = 0.5205
+    🔹 Fold 8: Accuracy = 0.5510, Macro F1 = 0.5196
+    🔹 Fold 9: Accuracy = 0.5374, Macro F1 = 0.5082
+    🔹 Fold 10: Accuracy = 0.5578, Macro F1 = 0.5130
+✅ CatBoost on dataset_23.csv: Accuracy = 0.5627, Macro F1 = 0.5357, Time = 2.64s
+🚀 Evaluating RF on dataset_23.csv...
+    🔹 Fold 1: Accuracy = 0.4595, Macro F1 = 0.4464
+    🔹 Fold 2: Accuracy = 0.5203, Macro F1 = 0.5141
+    🔹 Fold 3: Accuracy = 0.5743, Macro F1 = 0.5413
+    🔹 Fold 4: Accuracy = 0.5238, Macro F1 = 0.4964
+    🔹 Fold 5: Accuracy = 0.5306, Macro F1 = 0.4860
+    🔹 Fold 6: Accuracy = 0.5170, Macro F1 = 0.4905
+    🔹 Fold 7: Accuracy = 0.5714, Macro F1 = 0.5538
+    🔹 Fold 8: Accuracy = 0.5578, Macro F1 = 0.5088
+    🔹 Fold 9: Accuracy = 0.4694, Macro F1 = 0.4360
+    🔹 Fold 10: Accuracy = 0.4762, Macro F1 = 0.4416
+✅ RF on dataset_23.csv: Accuracy = 0.5200, Macro F1 = 0.4915, Time = 21.30s
+🚀 Evaluating SPORF on dataset_23.csv...
+    🔹 Fold 1: Accuracy = 0.4662, Macro F1 = 0.4458
+    🔹 Fold 2: Accuracy = 0.5068, Macro F1 = 0.4870
+    🔹 Fold 3: Accuracy = 0.5608, Macro F1 = 0.5370
+    🔹 Fold 4: Accuracy = 0.5102, Macro F1 = 0.4817
+    🔹 Fold 5: Accuracy = 0.5170, Macro F1 = 0.4527
+    🔹 Fold 6: Accuracy = 0.4966, Macro F1 = 0.4524
+    🔹 Fold 7: Accuracy = 0.5850, Macro F1 = 0.5710
+    🔹 Fold 8: Accuracy = 0.5646, Macro F1 = 0.5204
+    🔹 Fold 9: Accuracy = 0.4762, Macro F1 = 0.4414
+    🔹 Fold 10: Accuracy = 0.5102, Macro F1 = 0.4735
+✅ SPORF on dataset_23.csv: Accuracy = 0.5194, Macro F1 = 0.4863, Time = 19.34s
+📤 The result that has been written to dataset_23.csv
+
+📂 Dataset: dataset_28.csv
+    🔸 Samples: 5620, Features: 64, Classes: 10
+🚀 Evaluating TabPFN on dataset_28.csv...
+    🔹 Fold 1: Accuracy = 0.9929, Macro F1 = 0.9930
+    🔹 Fold 2: Accuracy = 0.9769, Macro F1 = 0.9770
+    🔹 Fold 3: Accuracy = 0.9893, Macro F1 = 0.9893
+    🔹 Fold 4: Accuracy = 0.9858, Macro F1 = 0.9859
+    🔹 Fold 5: Accuracy = 0.9822, Macro F1 = 0.9823
+    🔹 Fold 6: Accuracy = 0.9929, Macro F1 = 0.9929
+    🔹 Fold 7: Accuracy = 0.9786, Macro F1 = 0.9786
+    🔹 Fold 8: Accuracy = 0.9947, Macro F1 = 0.9946
+    🔹 Fold 9: Accuracy = 0.9929, Macro F1 = 0.9929
+    🔹 Fold 10: Accuracy = 0.9840, Macro F1 = 0.9840
+✅ TabPFN on dataset_28.csv: Accuracy = 0.9870, Macro F1 = 0.9871, Time = 21.60s
+🚀 Evaluating CatBoost on dataset_28.csv...
+    🔹 Fold 1: Accuracy = 0.9893, Macro F1 = 0.9894
+    🔹 Fold 2: Accuracy = 0.9751, Macro F1 = 0.9752
+    🔹 Fold 3: Accuracy = 0.9947, Macro F1 = 0.9947
+    🔹 Fold 4: Accuracy = 0.9786, Macro F1 = 0.9786
+    🔹 Fold 5: Accuracy = 0.9769, Macro F1 = 0.9768
+    🔹 Fold 6: Accuracy = 0.9893, Macro F1 = 0.9894
+    🔹 Fold 7: Accuracy = 0.9822, Macro F1 = 0.9822
+    🔹 Fold 8: Accuracy = 0.9929, Macro F1 = 0.9929
+    🔹 Fold 9: Accuracy = 0.9893, Macro F1 = 0.9894
+    🔹 Fold 10: Accuracy = 0.9840, Macro F1 = 0.9839
+✅ CatBoost on dataset_28.csv: Accuracy = 0.9852, Macro F1 = 0.9852, Time = 62.36s
+🚀 Evaluating RF on dataset_28.csv...
+    🔹 Fold 1: Accuracy = 0.9929, Macro F1 = 0.9929
+    🔹 Fold 2: Accuracy = 0.9751, Macro F1 = 0.9752
+    🔹 Fold 3: Accuracy = 0.9911, Macro F1 = 0.9911
+    🔹 Fold 4: Accuracy = 0.9822, Macro F1 = 0.9822
+    🔹 Fold 5: Accuracy = 0.9769, Macro F1 = 0.9769
+    🔹 Fold 6: Accuracy = 0.9911, Macro F1 = 0.9911
+    🔹 Fold 7: Accuracy = 0.9804, Macro F1 = 0.9804
+    🔹 Fold 8: Accuracy = 0.9858, Macro F1 = 0.9858
+    🔹 Fold 9: Accuracy = 0.9893, Macro F1 = 0.9894
+    🔹 Fold 10: Accuracy = 0.9840, Macro F1 = 0.9839
+✅ RF on dataset_28.csv: Accuracy = 0.9849, Macro F1 = 0.9849, Time = 22.63s
+🚀 Evaluating SPORF on dataset_28.csv...
+    🔹 Fold 1: Accuracy = 0.9911, Macro F1 = 0.9912
+    🔹 Fold 2: Accuracy = 0.9751, Macro F1 = 0.9752
+    🔹 Fold 3: Accuracy = 0.9911, Macro F1 = 0.9911
+    🔹 Fold 4: Accuracy = 0.9822, Macro F1 = 0.9822
+    🔹 Fold 5: Accuracy = 0.9804, Macro F1 = 0.9804
+    🔹 Fold 6: Accuracy = 0.9840, Macro F1 = 0.9840
+    🔹 Fold 7: Accuracy = 0.9786, Macro F1 = 0.9786
+    🔹 Fold 8: Accuracy = 0.9875, Macro F1 = 0.9876
+    🔹 Fold 9: Accuracy = 0.9875, Macro F1 = 0.9876
+    🔹 Fold 10: Accuracy = 0.9875, Macro F1 = 0.9875
+✅ SPORF on dataset_28.csv: Accuracy = 0.9845, Macro F1 = 0.9845, Time = 20.90s
+📤 The result that has been written to dataset_28.csv
+
+📂 Dataset: dataset_29.csv
+    🔸 Samples: 690, Features: 15, Classes: 2
+🚀 Evaluating TabPFN on dataset_29.csv...
+    🔹 Fold 1: Accuracy = 0.8551, Macro F1 = 0.8543
+    🔹 Fold 2: Accuracy = 0.8406, Macro F1 = 0.8384
+    🔹 Fold 3: Accuracy = 0.8406, Macro F1 = 0.8384
+    🔹 Fold 4: Accuracy = 0.8986, Macro F1 = 0.8982
+    🔹 Fold 5: Accuracy = 0.8261, Macro F1 = 0.8258
+    🔹 Fold 6: Accuracy = 0.8841, Macro F1 = 0.8829
+    🔹 Fold 7: Accuracy = 0.8986, Macro F1 = 0.8972
+    🔹 Fold 8: Accuracy = 0.8986, Macro F1 = 0.8954
+    🔹 Fold 9: Accuracy = 0.8986, Macro F1 = 0.8982
+    🔹 Fold 10: Accuracy = 0.8986, Macro F1 = 0.8978
+✅ TabPFN on dataset_29.csv: Accuracy = 0.8739, Macro F1 = 0.8726, Time = 6.60s
+🚀 Evaluating CatBoost on dataset_29.csv...
+    🔹 Fold 1: Accuracy = 0.8551, Macro F1 = 0.8526
+    🔹 Fold 2: Accuracy = 0.8696, Macro F1 = 0.8655
+    🔹 Fold 3: Accuracy = 0.8551, Macro F1 = 0.8526
+    🔹 Fold 4: Accuracy = 0.8986, Macro F1 = 0.8978
+    🔹 Fold 5: Accuracy = 0.8551, Macro F1 = 0.8548
+    🔹 Fold 6: Accuracy = 0.8696, Macro F1 = 0.8678
+    🔹 Fold 7: Accuracy = 0.8986, Macro F1 = 0.8978
+    🔹 Fold 8: Accuracy = 0.9420, Macro F1 = 0.9405
+    🔹 Fold 9: Accuracy = 0.8841, Macro F1 = 0.8838
+    🔹 Fold 10: Accuracy = 0.8841, Macro F1 = 0.8821
+✅ CatBoost on dataset_29.csv: Accuracy = 0.8812, Macro F1 = 0.8795, Time = 3.18s
+🚀 Evaluating RF on dataset_29.csv...
+    🔹 Fold 1: Accuracy = 0.8696, Macro F1 = 0.8668
+    🔹 Fold 2: Accuracy = 0.8841, Macro F1 = 0.8821
+    🔹 Fold 3: Accuracy = 0.8406, Macro F1 = 0.8356
+    🔹 Fold 4: Accuracy = 0.9275, Macro F1 = 0.9270
+    🔹 Fold 5: Accuracy = 0.8696, Macro F1 = 0.8691
+    🔹 Fold 6: Accuracy = 0.8551, Macro F1 = 0.8536
+    🔹 Fold 7: Accuracy = 0.8986, Macro F1 = 0.8978
+    🔹 Fold 8: Accuracy = 0.8841, Macro F1 = 0.8798
+    🔹 Fold 9: Accuracy = 0.8986, Macro F1 = 0.8982
+    🔹 Fold 10: Accuracy = 0.8696, Macro F1 = 0.8686
+✅ RF on dataset_29.csv: Accuracy = 0.8797, Macro F1 = 0.8778, Time = 21.48s
+🚀 Evaluating SPORF on dataset_29.csv...
+    🔹 Fold 1: Accuracy = 0.8551, Macro F1 = 0.8536
+    🔹 Fold 2: Accuracy = 0.8696, Macro F1 = 0.8668
+    🔹 Fold 3: Accuracy = 0.8406, Macro F1 = 0.8384
+    🔹 Fold 4: Accuracy = 0.9130, Macro F1 = 0.9126
+    🔹 Fold 5: Accuracy = 0.8841, Macro F1 = 0.8838
+    🔹 Fold 6: Accuracy = 0.8696, Macro F1 = 0.8686
+    🔹 Fold 7: Accuracy = 0.8841, Macro F1 = 0.8829
+    🔹 Fold 8: Accuracy = 0.8986, Macro F1 = 0.8942
+    🔹 Fold 9: Accuracy = 0.8841, Macro F1 = 0.8834
+    🔹 Fold 10: Accuracy = 0.8696, Macro F1 = 0.8686
+✅ SPORF on dataset_29.csv: Accuracy = 0.8768, Macro F1 = 0.8753, Time = 20.41s
+📤 The result that has been written to dataset_29.csv
+
+📂 Dataset: dataset_31.csv
+    🔸 Samples: 1000, Features: 20, Classes: 2
+🚀 Evaluating TabPFN on dataset_31.csv...
+    🔹 Fold 1: Accuracy = 0.7300, Macro F1 = 0.6614
+    🔹 Fold 2: Accuracy = 0.8100, Macro F1 = 0.7358
+    🔹 Fold 3: Accuracy = 0.7700, Macro F1 = 0.7235
+    🔹 Fold 4: Accuracy = 0.7400, Macro F1 = 0.6533
+    🔹 Fold 5: Accuracy = 0.7500, Macro F1 = 0.6865
+    🔹 Fold 6: Accuracy = 0.7100, Macro F1 = 0.6514
+    🔹 Fold 7: Accuracy = 0.8100, Macro F1 = 0.7276
+    🔹 Fold 8: Accuracy = 0.7700, Macro F1 = 0.6802
+    🔹 Fold 9: Accuracy = 0.8000, Macro F1 = 0.7259
+    🔹 Fold 10: Accuracy = 0.7100, Macro F1 = 0.6364
+✅ TabPFN on dataset_31.csv: Accuracy = 0.7600, Macro F1 = 0.6882, Time = 7.95s
+🚀 Evaluating CatBoost on dataset_31.csv...
+    🔹 Fold 1: Accuracy = 0.7100, Macro F1 = 0.6278
+    🔹 Fold 2: Accuracy = 0.7900, Macro F1 = 0.7080
+    🔹 Fold 3: Accuracy = 0.7800, Macro F1 = 0.7141
+    🔹 Fold 4: Accuracy = 0.6700, Macro F1 = 0.5112
+    🔹 Fold 5: Accuracy = 0.8100, Macro F1 = 0.7432
+    🔹 Fold 6: Accuracy = 0.7600, Macro F1 = 0.6800
+    🔹 Fold 7: Accuracy = 0.8000, Macro F1 = 0.7177
+    🔹 Fold 8: Accuracy = 0.7300, Macro F1 = 0.6129
+    🔹 Fold 9: Accuracy = 0.8200, Macro F1 = 0.7600
+    🔹 Fold 10: Accuracy = 0.7500, Macro F1 = 0.6621
+✅ CatBoost on dataset_31.csv: Accuracy = 0.7620, Macro F1 = 0.6737, Time = 3.50s
+🚀 Evaluating RF on dataset_31.csv...
+    🔹 Fold 1: Accuracy = 0.7500, Macro F1 = 0.6791
+    🔹 Fold 2: Accuracy = 0.7900, Macro F1 = 0.6989
+    🔹 Fold 3: Accuracy = 0.7300, Macro F1 = 0.6447
+    🔹 Fold 4: Accuracy = 0.7100, Macro F1 = 0.5704
+    🔹 Fold 5: Accuracy = 0.8100, Macro F1 = 0.7358
+    🔹 Fold 6: Accuracy = 0.7500, Macro F1 = 0.6865
+    🔹 Fold 7: Accuracy = 0.8000, Macro F1 = 0.6986
+    🔹 Fold 8: Accuracy = 0.7400, Macro F1 = 0.6533
+    🔹 Fold 9: Accuracy = 0.7900, Macro F1 = 0.6889
+    🔹 Fold 10: Accuracy = 0.7200, Macro F1 = 0.6267
+✅ RF on dataset_31.csv: Accuracy = 0.7590, Macro F1 = 0.6683, Time = 22.60s
+🚀 Evaluating SPORF on dataset_31.csv...
+    🔹 Fold 1: Accuracy = 0.7900, Macro F1 = 0.7236
+    🔹 Fold 2: Accuracy = 0.8000, Macro F1 = 0.7086
+    🔹 Fold 3: Accuracy = 0.7700, Macro F1 = 0.6891
+    🔹 Fold 4: Accuracy = 0.6600, Macro F1 = 0.5047
+    🔹 Fold 5: Accuracy = 0.7800, Macro F1 = 0.7141
+    🔹 Fold 6: Accuracy = 0.7600, Macro F1 = 0.6956
+    🔹 Fold 7: Accuracy = 0.8100, Macro F1 = 0.7276
+    🔹 Fold 8: Accuracy = 0.7400, Macro F1 = 0.6533
+    🔹 Fold 9: Accuracy = 0.7800, Macro F1 = 0.6795
+    🔹 Fold 10: Accuracy = 0.7600, Macro F1 = 0.6800
+✅ SPORF on dataset_31.csv: Accuracy = 0.7650, Macro F1 = 0.6776, Time = 18.19s
+📤 The result that has been written to dataset_31.csv
+
+📂 Dataset: dataset_32.csv
+    🔸 Samples: 10992, Features: 16, Classes: 10
+⏭️ Skip TabPFN on dataset_32.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_32.csv...
+    🔹 Fold 1: Accuracy = 0.9955, Macro F1 = 0.9954
+    🔹 Fold 2: Accuracy = 0.9936, Macro F1 = 0.9936
+    🔹 Fold 3: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 4: Accuracy = 0.9955, Macro F1 = 0.9955
+    🔹 Fold 5: Accuracy = 0.9955, Macro F1 = 0.9954
+    🔹 Fold 6: Accuracy = 0.9936, Macro F1 = 0.9937
+    🔹 Fold 7: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 8: Accuracy = 0.9909, Macro F1 = 0.9911
+    🔹 Fold 9: Accuracy = 0.9927, Macro F1 = 0.9927
+    🔹 Fold 10: Accuracy = 0.9945, Macro F1 = 0.9946
+✅ CatBoost on dataset_32.csv: Accuracy = 0.9939, Macro F1 = 0.9939, Time = 66.50s
+🚀 Evaluating RF on dataset_32.csv...
+    🔹 Fold 1: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 2: Accuracy = 0.9909, Macro F1 = 0.9909
+    🔹 Fold 3: Accuracy = 0.9900, Macro F1 = 0.9899
+    🔹 Fold 4: Accuracy = 0.9982, Macro F1 = 0.9982
+    🔹 Fold 5: Accuracy = 0.9900, Macro F1 = 0.9901
+    🔹 Fold 6: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 7: Accuracy = 0.9936, Macro F1 = 0.9938
+    🔹 Fold 8: Accuracy = 0.9836, Macro F1 = 0.9840
+    🔹 Fold 9: Accuracy = 0.9955, Macro F1 = 0.9956
+    🔹 Fold 10: Accuracy = 0.9918, Macro F1 = 0.9919
+✅ RF on dataset_32.csv: Accuracy = 0.9923, Macro F1 = 0.9924, Time = 20.97s
+🚀 Evaluating SPORF on dataset_32.csv...
+    🔹 Fold 1: Accuracy = 0.9973, Macro F1 = 0.9973
+    🔹 Fold 2: Accuracy = 0.9918, Macro F1 = 0.9918
+    🔹 Fold 3: Accuracy = 0.9918, Macro F1 = 0.9917
+    🔹 Fold 4: Accuracy = 0.9973, Macro F1 = 0.9973
+    🔹 Fold 5: Accuracy = 0.9927, Macro F1 = 0.9928
+    🔹 Fold 6: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 7: Accuracy = 0.9964, Macro F1 = 0.9965
+    🔹 Fold 8: Accuracy = 0.9891, Macro F1 = 0.9894
+    🔹 Fold 9: Accuracy = 0.9973, Macro F1 = 0.9973
+    🔹 Fold 10: Accuracy = 0.9936, Macro F1 = 0.9937
+✅ SPORF on dataset_32.csv: Accuracy = 0.9942, Macro F1 = 0.9942, Time = 20.44s
+📤 The result that has been written to dataset_32.csv
+
+📂 Dataset: dataset_37.csv
+    🔸 Samples: 768, Features: 8, Classes: 2
+🚀 Evaluating TabPFN on dataset_37.csv...
+    🔹 Fold 1: Accuracy = 0.7532, Macro F1 = 0.7091
+    🔹 Fold 2: Accuracy = 0.8052, Macro F1 = 0.7755
+    🔹 Fold 3: Accuracy = 0.7273, Macro F1 = 0.7030
+    🔹 Fold 4: Accuracy = 0.8312, Macro F1 = 0.8010
+    🔹 Fold 5: Accuracy = 0.7792, Macro F1 = 0.7456
+    🔹 Fold 6: Accuracy = 0.7532, Macro F1 = 0.7156
+    🔹 Fold 7: Accuracy = 0.7013, Macro F1 = 0.6692
+    🔹 Fold 8: Accuracy = 0.7403, Macro F1 = 0.7148
+    🔹 Fold 9: Accuracy = 0.7632, Macro F1 = 0.7260
+    🔹 Fold 10: Accuracy = 0.7500, Macro F1 = 0.7074
+✅ TabPFN on dataset_37.csv: Accuracy = 0.7604, Macro F1 = 0.7267, Time = 2.48s
+🚀 Evaluating CatBoost on dataset_37.csv...
+    🔹 Fold 1: Accuracy = 0.7792, Macro F1 = 0.7331
+    🔹 Fold 2: Accuracy = 0.7532, Macro F1 = 0.6935
+    🔹 Fold 3: Accuracy = 0.7403, Macro F1 = 0.7148
+    🔹 Fold 4: Accuracy = 0.8182, Macro F1 = 0.7927
+    🔹 Fold 5: Accuracy = 0.8052, Macro F1 = 0.7755
+    🔹 Fold 6: Accuracy = 0.7792, Macro F1 = 0.7331
+    🔹 Fold 7: Accuracy = 0.7532, Macro F1 = 0.7215
+    🔹 Fold 8: Accuracy = 0.7922, Macro F1 = 0.7677
+    🔹 Fold 9: Accuracy = 0.8158, Macro F1 = 0.7954
+    🔹 Fold 10: Accuracy = 0.7368, Macro F1 = 0.6883
+✅ CatBoost on dataset_37.csv: Accuracy = 0.7773, Macro F1 = 0.7416, Time = 2.57s
+🚀 Evaluating RF on dataset_37.csv...
+    🔹 Fold 1: Accuracy = 0.7662, Macro F1 = 0.7276
+    🔹 Fold 2: Accuracy = 0.7922, Macro F1 = 0.7579
+    🔹 Fold 3: Accuracy = 0.7532, Macro F1 = 0.7313
+    🔹 Fold 4: Accuracy = 0.8312, Macro F1 = 0.8054
+    🔹 Fold 5: Accuracy = 0.7532, Macro F1 = 0.7156
+    🔹 Fold 6: Accuracy = 0.7532, Macro F1 = 0.7017
+    🔹 Fold 7: Accuracy = 0.7273, Macro F1 = 0.6922
+    🔹 Fold 8: Accuracy = 0.7922, Macro F1 = 0.7631
+    🔹 Fold 9: Accuracy = 0.8026, Macro F1 = 0.7690
+    🔹 Fold 10: Accuracy = 0.7105, Macro F1 = 0.6785
+✅ RF on dataset_37.csv: Accuracy = 0.7682, Macro F1 = 0.7342, Time = 22.32s
+🚀 Evaluating SPORF on dataset_37.csv...
+    🔹 Fold 1: Accuracy = 0.7532, Macro F1 = 0.7156
+    🔹 Fold 2: Accuracy = 0.8182, Macro F1 = 0.7881
+    🔹 Fold 3: Accuracy = 0.8052, Macro F1 = 0.7879
+    🔹 Fold 4: Accuracy = 0.8312, Macro F1 = 0.8094
+    🔹 Fold 5: Accuracy = 0.7792, Macro F1 = 0.7397
+    🔹 Fold 6: Accuracy = 0.7273, Macro F1 = 0.6703
+    🔹 Fold 7: Accuracy = 0.7273, Macro F1 = 0.6922
+    🔹 Fold 8: Accuracy = 0.8052, Macro F1 = 0.7801
+    🔹 Fold 9: Accuracy = 0.7500, Macro F1 = 0.7074
+    🔹 Fold 10: Accuracy = 0.7237, Macro F1 = 0.6902
+✅ SPORF on dataset_37.csv: Accuracy = 0.7720, Macro F1 = 0.7381, Time = 20.60s
+📤 The result that has been written to dataset_37.csv
+
+📂 Dataset: dataset_38.csv
+    🔸 Samples: 3772, Features: 29, Classes: 2
+🚀 Evaluating TabPFN on dataset_38.csv...
+    🔹 Fold 1: Accuracy = 0.9815, Macro F1 = 0.9206
+    🔹 Fold 2: Accuracy = 0.9735, Macro F1 = 0.8843
+    🔹 Fold 3: Accuracy = 0.9894, Macro F1 = 0.9555
+    🔹 Fold 4: Accuracy = 0.9867, Macro F1 = 0.9409
+    🔹 Fold 5: Accuracy = 0.9973, Macro F1 = 0.9887
+    🔹 Fold 6: Accuracy = 0.9920, Macro F1 = 0.9630
+    🔹 Fold 7: Accuracy = 0.9841, Macro F1 = 0.9244
+    🔹 Fold 8: Accuracy = 0.9867, Macro F1 = 0.9355
+    🔹 Fold 9: Accuracy = 0.9788, Macro F1 = 0.9110
+    🔹 Fold 10: Accuracy = 0.9920, Macro F1 = 0.9646
+✅ TabPFN on dataset_38.csv: Accuracy = 0.9862, Macro F1 = 0.9388, Time = 14.09s
+🚀 Evaluating CatBoost on dataset_38.csv...
+    🔹 Fold 1: Accuracy = 0.9947, Macro F1 = 0.9759
+    🔹 Fold 2: Accuracy = 0.9815, Macro F1 = 0.9206
+    🔹 Fold 3: Accuracy = 0.9947, Macro F1 = 0.9768
+    🔹 Fold 4: Accuracy = 0.9920, Macro F1 = 0.9646
+    🔹 Fold 5: Accuracy = 0.9973, Macro F1 = 0.9882
+    🔹 Fold 6: Accuracy = 0.9894, Macro F1 = 0.9496
+    🔹 Fold 7: Accuracy = 0.9867, Macro F1 = 0.9383
+    🔹 Fold 8: Accuracy = 0.9841, Macro F1 = 0.9276
+    🔹 Fold 9: Accuracy = 0.9894, Macro F1 = 0.9555
+    🔹 Fold 10: Accuracy = 0.9920, Macro F1 = 0.9660
+✅ CatBoost on dataset_38.csv: Accuracy = 0.9902, Macro F1 = 0.9563, Time = 10.01s
+🚀 Evaluating RF on dataset_38.csv...
+    🔹 Fold 1: Accuracy = 0.9868, Macro F1 = 0.9454
+    🔹 Fold 2: Accuracy = 0.9788, Macro F1 = 0.8944
+    🔹 Fold 3: Accuracy = 0.9947, Macro F1 = 0.9759
+    🔹 Fold 4: Accuracy = 0.9867, Macro F1 = 0.9383
+    🔹 Fold 5: Accuracy = 0.9947, Macro F1 = 0.9768
+    🔹 Fold 6: Accuracy = 0.9841, Macro F1 = 0.9208
+    🔹 Fold 7: Accuracy = 0.9788, Macro F1 = 0.8944
+    🔹 Fold 8: Accuracy = 0.9788, Macro F1 = 0.8944
+    🔹 Fold 9: Accuracy = 0.9894, Macro F1 = 0.9537
+    🔹 Fold 10: Accuracy = 0.9841, Macro F1 = 0.9244
+✅ RF on dataset_38.csv: Accuracy = 0.9857, Macro F1 = 0.9319, Time = 23.21s
+🚀 Evaluating SPORF on dataset_38.csv...
+❌ Fold 1 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 2 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 3 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 4 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 5 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 6 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 7 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 8 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 9 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+❌ Fold 10 failed for SPORF: Input X contains NaN.
+ObliqueRandomForestClassifier does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+✅ SPORF on dataset_38.csv: Accuracy = nan, Macro F1 = nan, Time = 0.03s
+📤 The result that has been written to dataset_38.csv
+
+📂 Dataset: dataset_44.csv
+    🔸 Samples: 4601, Features: 57, Classes: 2
+🚀 Evaluating TabPFN on dataset_44.csv...
+    🔹 Fold 1: Accuracy = 0.9588, Macro F1 = 0.9569
+    🔹 Fold 2: Accuracy = 0.9696, Macro F1 = 0.9682
+    🔹 Fold 3: Accuracy = 0.9674, Macro F1 = 0.9659
+    🔹 Fold 4: Accuracy = 0.9652, Macro F1 = 0.9633
+    🔹 Fold 5: Accuracy = 0.9674, Macro F1 = 0.9657
+    🔹 Fold 6: Accuracy = 0.9565, Macro F1 = 0.9545
+    🔹 Fold 7: Accuracy = 0.9500, Macro F1 = 0.9474
+    🔹 Fold 8: Accuracy = 0.9435, Macro F1 = 0.9411
+    🔹 Fold 9: Accuracy = 0.9565, Macro F1 = 0.9544
+    🔹 Fold 10: Accuracy = 0.9609, Macro F1 = 0.9592
+✅ TabPFN on dataset_44.csv: Accuracy = 0.9596, Macro F1 = 0.9577, Time = 32.22s
+🚀 Evaluating CatBoost on dataset_44.csv...
+    🔹 Fold 1: Accuracy = 0.9588, Macro F1 = 0.9568
+    🔹 Fold 2: Accuracy = 0.9696, Macro F1 = 0.9682
+    🔹 Fold 3: Accuracy = 0.9739, Macro F1 = 0.9726
+    🔹 Fold 4: Accuracy = 0.9609, Macro F1 = 0.9588
+    🔹 Fold 5: Accuracy = 0.9609, Macro F1 = 0.9589
+    🔹 Fold 6: Accuracy = 0.9630, Macro F1 = 0.9612
+    🔹 Fold 7: Accuracy = 0.9565, Macro F1 = 0.9541
+    🔹 Fold 8: Accuracy = 0.9478, Macro F1 = 0.9455
+    🔹 Fold 9: Accuracy = 0.9565, Macro F1 = 0.9544
+    🔹 Fold 10: Accuracy = 0.9630, Macro F1 = 0.9613
+✅ CatBoost on dataset_44.csv: Accuracy = 0.9611, Macro F1 = 0.9592, Time = 19.43s
+🚀 Evaluating RF on dataset_44.csv...
+    🔹 Fold 1: Accuracy = 0.9479, Macro F1 = 0.9450
+    🔹 Fold 2: Accuracy = 0.9587, Macro F1 = 0.9566
+    🔹 Fold 3: Accuracy = 0.9717, Macro F1 = 0.9702
+    🔹 Fold 4: Accuracy = 0.9457, Macro F1 = 0.9424
+    🔹 Fold 5: Accuracy = 0.9565, Macro F1 = 0.9542
+    🔹 Fold 6: Accuracy = 0.9500, Macro F1 = 0.9477
+    🔹 Fold 7: Accuracy = 0.9413, Macro F1 = 0.9378
+    🔹 Fold 8: Accuracy = 0.9457, Macro F1 = 0.9431
+    🔹 Fold 9: Accuracy = 0.9587, Macro F1 = 0.9567
+    🔹 Fold 10: Accuracy = 0.9587, Macro F1 = 0.9568
+✅ RF on dataset_44.csv: Accuracy = 0.9535, Macro F1 = 0.9510, Time = 20.22s
+🚀 Evaluating SPORF on dataset_44.csv...
+    🔹 Fold 1: Accuracy = 0.9501, Macro F1 = 0.9474
+    🔹 Fold 2: Accuracy = 0.9587, Macro F1 = 0.9568
+    🔹 Fold 3: Accuracy = 0.9696, Macro F1 = 0.9679
+    🔹 Fold 4: Accuracy = 0.9543, Macro F1 = 0.9517
+    🔹 Fold 5: Accuracy = 0.9543, Macro F1 = 0.9519
+    🔹 Fold 6: Accuracy = 0.9587, Macro F1 = 0.9567
+    🔹 Fold 7: Accuracy = 0.9391, Macro F1 = 0.9354
+    🔹 Fold 8: Accuracy = 0.9370, Macro F1 = 0.9339
+    🔹 Fold 9: Accuracy = 0.9565, Macro F1 = 0.9542
+    🔹 Fold 10: Accuracy = 0.9587, Macro F1 = 0.9569
+✅ SPORF on dataset_44.csv: Accuracy = 0.9537, Macro F1 = 0.9513, Time = 20.09s
+📤 The result that has been written to dataset_44.csv
+
+📂 Dataset: dataset_46.csv
+    🔸 Samples: 3190, Features: 60, Classes: 3
+🚀 Evaluating TabPFN on dataset_46.csv...
+    🔹 Fold 1: Accuracy = 0.9781, Macro F1 = 0.9766
+    🔹 Fold 2: Accuracy = 0.9781, Macro F1 = 0.9777
+    🔹 Fold 3: Accuracy = 0.9718, Macro F1 = 0.9714
+    🔹 Fold 4: Accuracy = 0.9875, Macro F1 = 0.9873
+    🔹 Fold 5: Accuracy = 0.9687, Macro F1 = 0.9651
+    🔹 Fold 6: Accuracy = 0.9561, Macro F1 = 0.9502
+    🔹 Fold 7: Accuracy = 0.9592, Macro F1 = 0.9564
+    🔹 Fold 8: Accuracy = 0.9781, Macro F1 = 0.9755
+    🔹 Fold 9: Accuracy = 0.9530, Macro F1 = 0.9481
+    🔹 Fold 10: Accuracy = 0.9624, Macro F1 = 0.9545
+✅ TabPFN on dataset_46.csv: Accuracy = 0.9693, Macro F1 = 0.9663, Time = 11.16s
+🚀 Evaluating CatBoost on dataset_46.csv...
+    🔹 Fold 1: Accuracy = 0.9655, Macro F1 = 0.9618
+    🔹 Fold 2: Accuracy = 0.9561, Macro F1 = 0.9559
+    🔹 Fold 3: Accuracy = 0.9749, Macro F1 = 0.9736
+    🔹 Fold 4: Accuracy = 0.9749, Macro F1 = 0.9748
+    🔹 Fold 5: Accuracy = 0.9592, Macro F1 = 0.9548
+    🔹 Fold 6: Accuracy = 0.9498, Macro F1 = 0.9409
+    🔹 Fold 7: Accuracy = 0.9436, Macro F1 = 0.9379
+    🔹 Fold 8: Accuracy = 0.9561, Macro F1 = 0.9528
+    🔹 Fold 9: Accuracy = 0.9530, Macro F1 = 0.9487
+    🔹 Fold 10: Accuracy = 0.9655, Macro F1 = 0.9605
+✅ CatBoost on dataset_46.csv: Accuracy = 0.9599, Macro F1 = 0.9562, Time = 25.07s
+🚀 Evaluating RF on dataset_46.csv...
+    🔹 Fold 1: Accuracy = 0.9592, Macro F1 = 0.9540
+    🔹 Fold 2: Accuracy = 0.9498, Macro F1 = 0.9494
+    🔹 Fold 3: Accuracy = 0.9655, Macro F1 = 0.9639
+    🔹 Fold 4: Accuracy = 0.9655, Macro F1 = 0.9625
+    🔹 Fold 5: Accuracy = 0.9467, Macro F1 = 0.9403
+    🔹 Fold 6: Accuracy = 0.9373, Macro F1 = 0.9257
+    🔹 Fold 7: Accuracy = 0.9498, Macro F1 = 0.9438
+    🔹 Fold 8: Accuracy = 0.9687, Macro F1 = 0.9665
+    🔹 Fold 9: Accuracy = 0.9592, Macro F1 = 0.9544
+    🔹 Fold 10: Accuracy = 0.9530, Macro F1 = 0.9437
+✅ RF on dataset_46.csv: Accuracy = 0.9555, Macro F1 = 0.9504, Time = 20.51s
+🚀 Evaluating SPORF on dataset_46.csv...
+    🔹 Fold 1: Accuracy = 0.9467, Macro F1 = 0.9405
+    🔹 Fold 2: Accuracy = 0.9467, Macro F1 = 0.9452
+    🔹 Fold 3: Accuracy = 0.9749, Macro F1 = 0.9725
+    🔹 Fold 4: Accuracy = 0.9561, Macro F1 = 0.9547
+    🔹 Fold 5: Accuracy = 0.9530, Macro F1 = 0.9486
+    🔹 Fold 6: Accuracy = 0.9498, Macro F1 = 0.9403
+    🔹 Fold 7: Accuracy = 0.9530, Macro F1 = 0.9474
+    🔹 Fold 8: Accuracy = 0.9624, Macro F1 = 0.9591
+    🔹 Fold 9: Accuracy = 0.9530, Macro F1 = 0.9490
+    🔹 Fold 10: Accuracy = 0.9561, Macro F1 = 0.9500
+✅ SPORF on dataset_46.csv: Accuracy = 0.9552, Macro F1 = 0.9507, Time = 19.40s
+📤 The result that has been written to dataset_46.csv
+
+📂 Dataset: dataset_50.csv
+    🔸 Samples: 958, Features: 9, Classes: 2
+🚀 Evaluating TabPFN on dataset_50.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9792, Macro F1 = 0.9769
+    🔹 Fold 3: Accuracy = 0.9688, Macro F1 = 0.9646
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9688, Macro F1 = 0.9646
+    🔹 Fold 6: Accuracy = 0.9792, Macro F1 = 0.9766
+    🔹 Fold 7: Accuracy = 0.9896, Macro F1 = 0.9884
+    🔹 Fold 8: Accuracy = 0.9896, Macro F1 = 0.9884
+    🔹 Fold 9: Accuracy = 0.9895, Macro F1 = 0.9883
+    🔹 Fold 10: Accuracy = 0.9895, Macro F1 = 0.9883
+✅ TabPFN on dataset_50.csv: Accuracy = 0.9854, Macro F1 = 0.9836, Time = 5.36s
+🚀 Evaluating CatBoost on dataset_50.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ CatBoost on dataset_50.csv: Accuracy = 1.0000, Macro F1 = 1.0000, Time = 18.27s
+🚀 Evaluating RF on dataset_50.csv...
+    🔹 Fold 1: Accuracy = 0.9792, Macro F1 = 0.9769
+    🔹 Fold 2: Accuracy = 0.9375, Macro F1 = 0.9285
+    🔹 Fold 3: Accuracy = 0.9792, Macro F1 = 0.9766
+    🔹 Fold 4: Accuracy = 0.9479, Macro F1 = 0.9399
+    🔹 Fold 5: Accuracy = 0.9479, Macro F1 = 0.9399
+    🔹 Fold 6: Accuracy = 0.9583, Macro F1 = 0.9524
+    🔹 Fold 7: Accuracy = 0.9479, Macro F1 = 0.9399
+    🔹 Fold 8: Accuracy = 0.9688, Macro F1 = 0.9646
+    🔹 Fold 9: Accuracy = 0.9368, Macro F1 = 0.9269
+    🔹 Fold 10: Accuracy = 0.9579, Macro F1 = 0.9521
+✅ RF on dataset_50.csv: Accuracy = 0.9561, Macro F1 = 0.9498, Time = 23.04s
+🚀 Evaluating SPORF on dataset_50.csv...
+    🔹 Fold 1: Accuracy = 0.9583, Macro F1 = 0.9531
+    🔹 Fold 2: Accuracy = 0.9271, Macro F1 = 0.9159
+    🔹 Fold 3: Accuracy = 0.9688, Macro F1 = 0.9646
+    🔹 Fold 4: Accuracy = 0.9583, Macro F1 = 0.9524
+    🔹 Fold 5: Accuracy = 0.8958, Macro F1 = 0.8739
+    🔹 Fold 6: Accuracy = 0.9479, Macro F1 = 0.9399
+    🔹 Fold 7: Accuracy = 0.9583, Macro F1 = 0.9524
+    🔹 Fold 8: Accuracy = 0.9583, Macro F1 = 0.9524
+    🔹 Fold 9: Accuracy = 0.8947, Macro F1 = 0.8759
+    🔹 Fold 10: Accuracy = 0.9263, Macro F1 = 0.9140
+✅ SPORF on dataset_50.csv: Accuracy = 0.9394, Macro F1 = 0.9294, Time = 22.04s
+📤 The result that has been written to dataset_50.csv
+
+📂 Dataset: dataset_54.csv
+    🔸 Samples: 846, Features: 18, Classes: 4
+🚀 Evaluating TabPFN on dataset_54.csv...
+    🔹 Fold 1: Accuracy = 0.8471, Macro F1 = 0.8485
+    🔹 Fold 2: Accuracy = 0.8941, Macro F1 = 0.8951
+    🔹 Fold 3: Accuracy = 0.8353, Macro F1 = 0.8364
+    🔹 Fold 4: Accuracy = 0.8118, Macro F1 = 0.8130
+    🔹 Fold 5: Accuracy = 0.8471, Macro F1 = 0.8454
+    🔹 Fold 6: Accuracy = 0.8941, Macro F1 = 0.8951
+    🔹 Fold 7: Accuracy = 0.8929, Macro F1 = 0.8920
+    🔹 Fold 8: Accuracy = 0.8690, Macro F1 = 0.8725
+    🔹 Fold 9: Accuracy = 0.8214, Macro F1 = 0.8252
+    🔹 Fold 10: Accuracy = 0.8690, Macro F1 = 0.8696
+✅ TabPFN on dataset_54.csv: Accuracy = 0.8582, Macro F1 = 0.8593, Time = 7.31s
+🚀 Evaluating CatBoost on dataset_54.csv...
+    🔹 Fold 1: Accuracy = 0.7412, Macro F1 = 0.7354
+    🔹 Fold 2: Accuracy = 0.8118, Macro F1 = 0.8101
+    🔹 Fold 3: Accuracy = 0.6706, Macro F1 = 0.6660
+    🔹 Fold 4: Accuracy = 0.7412, Macro F1 = 0.7310
+    🔹 Fold 5: Accuracy = 0.7882, Macro F1 = 0.7760
+    🔹 Fold 6: Accuracy = 0.8118, Macro F1 = 0.8121
+    🔹 Fold 7: Accuracy = 0.8452, Macro F1 = 0.8437
+    🔹 Fold 8: Accuracy = 0.7619, Macro F1 = 0.7616
+    🔹 Fold 9: Accuracy = 0.7619, Macro F1 = 0.7633
+    🔹 Fold 10: Accuracy = 0.7262, Macro F1 = 0.7197
+✅ CatBoost on dataset_54.csv: Accuracy = 0.7660, Macro F1 = 0.7619, Time = 17.80s
+🚀 Evaluating RF on dataset_54.csv...
+    🔹 Fold 1: Accuracy = 0.7412, Macro F1 = 0.7372
+    🔹 Fold 2: Accuracy = 0.7882, Macro F1 = 0.7846
+    🔹 Fold 3: Accuracy = 0.6706, Macro F1 = 0.6600
+    🔹 Fold 4: Accuracy = 0.7412, Macro F1 = 0.7262
+    🔹 Fold 5: Accuracy = 0.8118, Macro F1 = 0.8067
+    🔹 Fold 6: Accuracy = 0.7647, Macro F1 = 0.7578
+    🔹 Fold 7: Accuracy = 0.7857, Macro F1 = 0.7836
+    🔹 Fold 8: Accuracy = 0.7262, Macro F1 = 0.7212
+    🔹 Fold 9: Accuracy = 0.7262, Macro F1 = 0.7229
+    🔹 Fold 10: Accuracy = 0.7262, Macro F1 = 0.7184
+✅ RF on dataset_54.csv: Accuracy = 0.7482, Macro F1 = 0.7419, Time = 20.98s
+🚀 Evaluating SPORF on dataset_54.csv...
+    🔹 Fold 1: Accuracy = 0.7059, Macro F1 = 0.7022
+    🔹 Fold 2: Accuracy = 0.8000, Macro F1 = 0.7975
+    🔹 Fold 3: Accuracy = 0.6824, Macro F1 = 0.6692
+    🔹 Fold 4: Accuracy = 0.7176, Macro F1 = 0.7076
+    🔹 Fold 5: Accuracy = 0.8353, Macro F1 = 0.8284
+    🔹 Fold 6: Accuracy = 0.8235, Macro F1 = 0.8212
+    🔹 Fold 7: Accuracy = 0.8095, Macro F1 = 0.8077
+    🔹 Fold 8: Accuracy = 0.7262, Macro F1 = 0.7193
+    🔹 Fold 9: Accuracy = 0.7381, Macro F1 = 0.7324
+    🔹 Fold 10: Accuracy = 0.7262, Macro F1 = 0.7184
+✅ SPORF on dataset_54.csv: Accuracy = 0.7565, Macro F1 = 0.7504, Time = 17.43s
+📤 The result that has been written to dataset_54.csv
+
+📂 Dataset: dataset_151.csv
+    🔸 Samples: 45312, Features: 8, Classes: 2
+⏭️ Skip TabPFN on dataset_151.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_151.csv...
+    🔹 Fold 1: Accuracy = 0.9188, Macro F1 = 0.9167
+    🔹 Fold 2: Accuracy = 0.9195, Macro F1 = 0.9176
+    🔹 Fold 3: Accuracy = 0.9181, Macro F1 = 0.9159
+    🔹 Fold 4: Accuracy = 0.9212, Macro F1 = 0.9192
+    🔹 Fold 5: Accuracy = 0.9223, Macro F1 = 0.9204
+    🔹 Fold 6: Accuracy = 0.9223, Macro F1 = 0.9202
+    🔹 Fold 7: Accuracy = 0.9181, Macro F1 = 0.9161
+    🔹 Fold 8: Accuracy = 0.9212, Macro F1 = 0.9192
+    🔹 Fold 9: Accuracy = 0.9214, Macro F1 = 0.9194
+    🔹 Fold 10: Accuracy = 0.9141, Macro F1 = 0.9121
+✅ CatBoost on dataset_151.csv: Accuracy = 0.9197, Macro F1 = 0.9177, Time = 191.78s
+🚀 Evaluating RF on dataset_151.csv...
+    🔹 Fold 1: Accuracy = 0.9113, Macro F1 = 0.9089
+    🔹 Fold 2: Accuracy = 0.9091, Macro F1 = 0.9068
+    🔹 Fold 3: Accuracy = 0.9161, Macro F1 = 0.9137
+    🔹 Fold 4: Accuracy = 0.9141, Macro F1 = 0.9119
+    🔹 Fold 5: Accuracy = 0.9141, Macro F1 = 0.9119
+    🔹 Fold 6: Accuracy = 0.9164, Macro F1 = 0.9140
+    🔹 Fold 7: Accuracy = 0.9064, Macro F1 = 0.9039
+    🔹 Fold 8: Accuracy = 0.9141, Macro F1 = 0.9120
+    🔹 Fold 9: Accuracy = 0.9168, Macro F1 = 0.9147
+    🔹 Fold 10: Accuracy = 0.9091, Macro F1 = 0.9067
+✅ RF on dataset_151.csv: Accuracy = 0.9128, Macro F1 = 0.9104, Time = 28.31s
+🚀 Evaluating SPORF on dataset_151.csv...
+    🔹 Fold 1: Accuracy = 0.9179, Macro F1 = 0.9157
+    🔹 Fold 2: Accuracy = 0.9131, Macro F1 = 0.9109
+    🔹 Fold 3: Accuracy = 0.9170, Macro F1 = 0.9146
+    🔹 Fold 4: Accuracy = 0.9194, Macro F1 = 0.9173
+    🔹 Fold 5: Accuracy = 0.9166, Macro F1 = 0.9144
+    🔹 Fold 6: Accuracy = 0.9177, Macro F1 = 0.9153
+    🔹 Fold 7: Accuracy = 0.9095, Macro F1 = 0.9071
+    🔹 Fold 8: Accuracy = 0.9148, Macro F1 = 0.9127
+    🔹 Fold 9: Accuracy = 0.9232, Macro F1 = 0.9212
+    🔹 Fold 10: Accuracy = 0.9091, Macro F1 = 0.9067
+✅ SPORF on dataset_151.csv: Accuracy = 0.9158, Macro F1 = 0.9136, Time = 49.31s
+📤 The result that has been written to dataset_151.csv
+
+📂 Dataset: dataset_182.csv
+    🔸 Samples: 6430, Features: 36, Classes: 6
+🚀 Evaluating TabPFN on dataset_182.csv...
+    🔹 Fold 1: Accuracy = 0.9347, Macro F1 = 0.9237
+    🔹 Fold 2: Accuracy = 0.9347, Macro F1 = 0.9212
+    🔹 Fold 3: Accuracy = 0.9285, Macro F1 = 0.9101
+    🔹 Fold 4: Accuracy = 0.9253, Macro F1 = 0.9099
+    🔹 Fold 5: Accuracy = 0.9114, Macro F1 = 0.8953
+    🔹 Fold 6: Accuracy = 0.9285, Macro F1 = 0.9149
+    🔹 Fold 7: Accuracy = 0.9253, Macro F1 = 0.9114
+    🔹 Fold 8: Accuracy = 0.9456, Macro F1 = 0.9343
+    🔹 Fold 9: Accuracy = 0.9440, Macro F1 = 0.9339
+    🔹 Fold 10: Accuracy = 0.9487, Macro F1 = 0.9414
+✅ TabPFN on dataset_182.csv: Accuracy = 0.9327, Macro F1 = 0.9196, Time = 23.39s
+🚀 Evaluating CatBoost on dataset_182.csv...
+    🔹 Fold 1: Accuracy = 0.9331, Macro F1 = 0.9206
+    🔹 Fold 2: Accuracy = 0.9362, Macro F1 = 0.9241
+    🔹 Fold 3: Accuracy = 0.9253, Macro F1 = 0.9065
+    🔹 Fold 4: Accuracy = 0.9129, Macro F1 = 0.8967
+    🔹 Fold 5: Accuracy = 0.9098, Macro F1 = 0.8881
+    🔹 Fold 6: Accuracy = 0.9020, Macro F1 = 0.8845
+    🔹 Fold 7: Accuracy = 0.9191, Macro F1 = 0.9045
+    🔹 Fold 8: Accuracy = 0.9222, Macro F1 = 0.8989
+    🔹 Fold 9: Accuracy = 0.9331, Macro F1 = 0.9200
+    🔹 Fold 10: Accuracy = 0.9347, Macro F1 = 0.9231
+✅ CatBoost on dataset_182.csv: Accuracy = 0.9229, Macro F1 = 0.9067, Time = 68.74s
+🚀 Evaluating RF on dataset_182.csv...
+    🔹 Fold 1: Accuracy = 0.9285, Macro F1 = 0.9113
+    🔹 Fold 2: Accuracy = 0.9222, Macro F1 = 0.9038
+    🔹 Fold 3: Accuracy = 0.9160, Macro F1 = 0.8940
+    🔹 Fold 4: Accuracy = 0.9176, Macro F1 = 0.9008
+    🔹 Fold 5: Accuracy = 0.9114, Macro F1 = 0.8892
+    🔹 Fold 6: Accuracy = 0.9082, Macro F1 = 0.8871
+    🔹 Fold 7: Accuracy = 0.9145, Macro F1 = 0.8981
+    🔹 Fold 8: Accuracy = 0.9285, Macro F1 = 0.9078
+    🔹 Fold 9: Accuracy = 0.9285, Macro F1 = 0.9115
+    🔹 Fold 10: Accuracy = 0.9362, Macro F1 = 0.9224
+✅ RF on dataset_182.csv: Accuracy = 0.9212, Macro F1 = 0.9026, Time = 21.81s
+🚀 Evaluating SPORF on dataset_182.csv...
+    🔹 Fold 1: Accuracy = 0.9222, Macro F1 = 0.9045
+    🔹 Fold 2: Accuracy = 0.9176, Macro F1 = 0.8968
+    🔹 Fold 3: Accuracy = 0.9207, Macro F1 = 0.8999
+    🔹 Fold 4: Accuracy = 0.9176, Macro F1 = 0.9007
+    🔹 Fold 5: Accuracy = 0.9129, Macro F1 = 0.8932
+    🔹 Fold 6: Accuracy = 0.9145, Macro F1 = 0.8964
+    🔹 Fold 7: Accuracy = 0.9145, Macro F1 = 0.8980
+    🔹 Fold 8: Accuracy = 0.9238, Macro F1 = 0.9001
+    🔹 Fold 9: Accuracy = 0.9331, Macro F1 = 0.9178
+    🔹 Fold 10: Accuracy = 0.9347, Macro F1 = 0.9205
+✅ SPORF on dataset_182.csv: Accuracy = 0.9212, Macro F1 = 0.9028, Time = 26.53s
+📤 The result that has been written to dataset_182.csv
+
+📂 Dataset: dataset_188.csv
+    🔸 Samples: 736, Features: 19, Classes: 5
+🚀 Evaluating TabPFN on dataset_188.csv...
+    🔹 Fold 1: Accuracy = 0.7432, Macro F1 = 0.7359
+    🔹 Fold 2: Accuracy = 0.7027, Macro F1 = 0.6667
+    🔹 Fold 3: Accuracy = 0.7027, Macro F1 = 0.6808
+    🔹 Fold 4: Accuracy = 0.7297, Macro F1 = 0.6876
+    🔹 Fold 5: Accuracy = 0.7027, Macro F1 = 0.6755
+    🔹 Fold 6: Accuracy = 0.7703, Macro F1 = 0.7624
+    🔹 Fold 7: Accuracy = 0.7397, Macro F1 = 0.6940
+    🔹 Fold 8: Accuracy = 0.7260, Macro F1 = 0.6885
+    🔹 Fold 9: Accuracy = 0.7671, Macro F1 = 0.7316
+    🔹 Fold 10: Accuracy = 0.6438, Macro F1 = 0.6019
+✅ TabPFN on dataset_188.csv: Accuracy = 0.7228, Macro F1 = 0.6925, Time = 5.77s
+🚀 Evaluating CatBoost on dataset_188.csv...
+    🔹 Fold 1: Accuracy = 0.6892, Macro F1 = 0.7013
+    🔹 Fold 2: Accuracy = 0.6892, Macro F1 = 0.6702
+    🔹 Fold 3: Accuracy = 0.6486, Macro F1 = 0.6045
+    🔹 Fold 4: Accuracy = 0.6622, Macro F1 = 0.6247
+    🔹 Fold 5: Accuracy = 0.6622, Macro F1 = 0.6338
+    🔹 Fold 6: Accuracy = 0.7568, Macro F1 = 0.7457
+    🔹 Fold 7: Accuracy = 0.6849, Macro F1 = 0.6322
+    🔹 Fold 8: Accuracy = 0.7260, Macro F1 = 0.6938
+    🔹 Fold 9: Accuracy = 0.6849, Macro F1 = 0.6397
+    🔹 Fold 10: Accuracy = 0.6575, Macro F1 = 0.6104
+✅ CatBoost on dataset_188.csv: Accuracy = 0.6862, Macro F1 = 0.6556, Time = 16.04s
+🚀 Evaluating RF on dataset_188.csv...
+    🔹 Fold 1: Accuracy = 0.7432, Macro F1 = 0.7428
+    🔹 Fold 2: Accuracy = 0.7027, Macro F1 = 0.6830
+    🔹 Fold 3: Accuracy = 0.6081, Macro F1 = 0.5851
+    🔹 Fold 4: Accuracy = 0.6486, Macro F1 = 0.5939
+    🔹 Fold 5: Accuracy = 0.6757, Macro F1 = 0.6370
+    🔹 Fold 6: Accuracy = 0.6892, Macro F1 = 0.6853
+    🔹 Fold 7: Accuracy = 0.6438, Macro F1 = 0.5722
+    🔹 Fold 8: Accuracy = 0.7123, Macro F1 = 0.6703
+    🔹 Fold 9: Accuracy = 0.6301, Macro F1 = 0.5921
+    🔹 Fold 10: Accuracy = 0.6849, Macro F1 = 0.6230
+✅ RF on dataset_188.csv: Accuracy = 0.6739, Macro F1 = 0.6385, Time = 19.49s
+🚀 Evaluating SPORF on dataset_188.csv...
+    🔹 Fold 1: Accuracy = 0.7432, Macro F1 = 0.7383
+    🔹 Fold 2: Accuracy = 0.7432, Macro F1 = 0.7239
+    🔹 Fold 3: Accuracy = 0.6081, Macro F1 = 0.5730
+    🔹 Fold 4: Accuracy = 0.6757, Macro F1 = 0.6209
+    🔹 Fold 5: Accuracy = 0.6486, Macro F1 = 0.6154
+    🔹 Fold 6: Accuracy = 0.7162, Macro F1 = 0.7102
+    🔹 Fold 7: Accuracy = 0.6027, Macro F1 = 0.5494
+    🔹 Fold 8: Accuracy = 0.7397, Macro F1 = 0.6911
+    🔹 Fold 9: Accuracy = 0.6575, Macro F1 = 0.6218
+    🔹 Fold 10: Accuracy = 0.6849, Macro F1 = 0.6339
+✅ SPORF on dataset_188.csv: Accuracy = 0.6820, Macro F1 = 0.6478, Time = 18.16s
+📤 The result that has been written to dataset_188.csv
+
+📂 Dataset: dataset_300.csv
+    🔸 Samples: 7797, Features: 617, Classes: 26
+⏭️ Skip TabPFN on dataset_300.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_300.csv...
+    🔹 Fold 1: Accuracy = 0.9564, Macro F1 = 0.9559
+    🔹 Fold 2: Accuracy = 0.9603, Macro F1 = 0.9602
+    🔹 Fold 3: Accuracy = 0.9538, Macro F1 = 0.9537
+    🔹 Fold 4: Accuracy = 0.9731, Macro F1 = 0.9732
+    🔹 Fold 5: Accuracy = 0.9577, Macro F1 = 0.9577
+    🔹 Fold 6: Accuracy = 0.9551, Macro F1 = 0.9553
+    🔹 Fold 7: Accuracy = 0.9538, Macro F1 = 0.9536
+    🔹 Fold 8: Accuracy = 0.9564, Macro F1 = 0.9563
+    🔹 Fold 9: Accuracy = 0.9615, Macro F1 = 0.9616
+    🔹 Fold 10: Accuracy = 0.9551, Macro F1 = 0.9550
+✅ CatBoost on dataset_300.csv: Accuracy = 0.9583, Macro F1 = 0.9582, Time = 824.65s
+🚀 Evaluating RF on dataset_300.csv...
+    🔹 Fold 1: Accuracy = 0.9385, Macro F1 = 0.9386
+    🔹 Fold 2: Accuracy = 0.9526, Macro F1 = 0.9526
+    🔹 Fold 3: Accuracy = 0.9397, Macro F1 = 0.9394
+    🔹 Fold 4: Accuracy = 0.9564, Macro F1 = 0.9564
+    🔹 Fold 5: Accuracy = 0.9513, Macro F1 = 0.9515
+    🔹 Fold 6: Accuracy = 0.9487, Macro F1 = 0.9487
+    🔹 Fold 7: Accuracy = 0.9513, Macro F1 = 0.9510
+    🔹 Fold 8: Accuracy = 0.9371, Macro F1 = 0.9369
+    🔹 Fold 9: Accuracy = 0.9564, Macro F1 = 0.9562
+    🔹 Fold 10: Accuracy = 0.9602, Macro F1 = 0.9600
+✅ RF on dataset_300.csv: Accuracy = 0.9492, Macro F1 = 0.9491, Time = 47.66s
+🚀 Evaluating SPORF on dataset_300.csv...
+    🔹 Fold 1: Accuracy = 0.9423, Macro F1 = 0.9423
+    🔹 Fold 2: Accuracy = 0.9423, Macro F1 = 0.9421
+    🔹 Fold 3: Accuracy = 0.9436, Macro F1 = 0.9435
+    🔹 Fold 4: Accuracy = 0.9577, Macro F1 = 0.9578
+    🔹 Fold 5: Accuracy = 0.9449, Macro F1 = 0.9449
+    🔹 Fold 6: Accuracy = 0.9526, Macro F1 = 0.9525
+    🔹 Fold 7: Accuracy = 0.9462, Macro F1 = 0.9459
+    🔹 Fold 8: Accuracy = 0.9397, Macro F1 = 0.9393
+    🔹 Fold 9: Accuracy = 0.9499, Macro F1 = 0.9500
+    🔹 Fold 10: Accuracy = 0.9564, Macro F1 = 0.9563
+✅ SPORF on dataset_300.csv: Accuracy = 0.9475, Macro F1 = 0.9475, Time = 738.79s
+📤 The result that has been written to dataset_300.csv
+
+📂 Dataset: dataset_307.csv
+    🔸 Samples: 990, Features: 12, Classes: 11
+⏭️ Skip TabPFN on dataset_307.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_307.csv...
+    🔹 Fold 1: Accuracy = 0.9596, Macro F1 = 0.9591
+    🔹 Fold 2: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 3: Accuracy = 0.9697, Macro F1 = 0.9710
+    🔹 Fold 4: Accuracy = 0.9899, Macro F1 = 0.9899
+    🔹 Fold 5: Accuracy = 0.9798, Macro F1 = 0.9795
+    🔹 Fold 6: Accuracy = 0.9596, Macro F1 = 0.9599
+    🔹 Fold 7: Accuracy = 0.9899, Macro F1 = 0.9899
+    🔹 Fold 8: Accuracy = 0.9495, Macro F1 = 0.9482
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9697, Macro F1 = 0.9696
+✅ CatBoost on dataset_307.csv: Accuracy = 0.9747, Macro F1 = 0.9747, Time = 61.25s
+🚀 Evaluating RF on dataset_307.csv...
+    🔹 Fold 1: Accuracy = 0.9596, Macro F1 = 0.9593
+    🔹 Fold 2: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 3: Accuracy = 0.9596, Macro F1 = 0.9608
+    🔹 Fold 4: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 5: Accuracy = 0.9798, Macro F1 = 0.9795
+    🔹 Fold 6: Accuracy = 0.9697, Macro F1 = 0.9696
+    🔹 Fold 7: Accuracy = 0.9697, Macro F1 = 0.9696
+    🔹 Fold 8: Accuracy = 0.9394, Macro F1 = 0.9376
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9899, Macro F1 = 0.9899
+✅ RF on dataset_307.csv: Accuracy = 0.9727, Macro F1 = 0.9726, Time = 21.13s
+🚀 Evaluating SPORF on dataset_307.csv...
+    🔹 Fold 1: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 2: Accuracy = 0.9798, Macro F1 = 0.9791
+    🔹 Fold 3: Accuracy = 0.9596, Macro F1 = 0.9608
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9697, Macro F1 = 0.9695
+    🔹 Fold 6: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 7: Accuracy = 0.9798, Macro F1 = 0.9797
+    🔹 Fold 8: Accuracy = 0.9495, Macro F1 = 0.9478
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ SPORF on dataset_307.csv: Accuracy = 0.9798, Macro F1 = 0.9796, Time = 19.97s
+📤 The result that has been written to dataset_307.csv
+
+📂 Dataset: dataset_458.csv
+    🔸 Samples: 841, Features: 70, Classes: 4
+🚀 Evaluating TabPFN on dataset_458.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ TabPFN on dataset_458.csv: Accuracy = 1.0000, Macro F1 = 1.0000, Time = 13.66s
+🚀 Evaluating CatBoost on dataset_458.csv...
+    🔹 Fold 1: Accuracy = 0.9765, Macro F1 = 0.9620
+    🔹 Fold 2: Accuracy = 0.9762, Macro F1 = 0.9779
+    🔹 Fold 3: Accuracy = 0.9762, Macro F1 = 0.9567
+    🔹 Fold 4: Accuracy = 0.9762, Macro F1 = 0.9839
+    🔹 Fold 5: Accuracy = 0.9881, Macro F1 = 0.9919
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 0.9881, Macro F1 = 0.9705
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ CatBoost on dataset_458.csv: Accuracy = 0.9881, Macro F1 = 0.9843, Time = 34.34s
+🚀 Evaluating RF on dataset_458.csv...
+    🔹 Fold 1: Accuracy = 0.9882, Macro F1 = 0.9919
+    🔹 Fold 2: Accuracy = 0.9881, Macro F1 = 0.9889
+    🔹 Fold 3: Accuracy = 0.9762, Macro F1 = 0.9567
+    🔹 Fold 4: Accuracy = 0.9762, Macro F1 = 0.9839
+    🔹 Fold 5: Accuracy = 0.9881, Macro F1 = 0.9919
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ RF on dataset_458.csv: Accuracy = 0.9917, Macro F1 = 0.9913, Time = 20.33s
+🚀 Evaluating SPORF on dataset_458.csv...
+    🔹 Fold 1: Accuracy = 0.9765, Macro F1 = 0.9620
+    🔹 Fold 2: Accuracy = 0.9643, Macro F1 = 0.9697
+    🔹 Fold 3: Accuracy = 0.9643, Macro F1 = 0.9487
+    🔹 Fold 4: Accuracy = 0.9762, Macro F1 = 0.9806
+    🔹 Fold 5: Accuracy = 0.9881, Macro F1 = 0.9919
+    🔹 Fold 6: Accuracy = 0.9881, Macro F1 = 0.9889
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 0.9881, Macro F1 = 0.9886
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9881, Macro F1 = 0.9918
+✅ SPORF on dataset_458.csv: Accuracy = 0.9834, Macro F1 = 0.9822, Time = 19.44s
+📤 The result that has been written to dataset_458.csv
+
+📂 Dataset: dataset_469.csv
+    🔸 Samples: 797, Features: 4, Classes: 6
+🚀 Evaluating TabPFN on dataset_469.csv...
+    🔹 Fold 1: Accuracy = 0.2125, Macro F1 = 0.1481
+    🔹 Fold 2: Accuracy = 0.2000, Macro F1 = 0.1675
+    🔹 Fold 3: Accuracy = 0.2750, Macro F1 = 0.2382
+    🔹 Fold 4: Accuracy = 0.1750, Macro F1 = 0.1379
+    🔹 Fold 5: Accuracy = 0.2000, Macro F1 = 0.1677
+    🔹 Fold 6: Accuracy = 0.2250, Macro F1 = 0.1905
+    🔹 Fold 7: Accuracy = 0.2375, Macro F1 = 0.1817
+    🔹 Fold 8: Accuracy = 0.1646, Macro F1 = 0.1234
+    🔹 Fold 9: Accuracy = 0.1646, Macro F1 = 0.1065
+    🔹 Fold 10: Accuracy = 0.2532, Macro F1 = 0.2242
+✅ TabPFN on dataset_469.csv: Accuracy = 0.2107, Macro F1 = 0.1686, Time = 3.10s
+🚀 Evaluating CatBoost on dataset_469.csv...
+    🔹 Fold 1: Accuracy = 0.2625, Macro F1 = 0.2546
+    🔹 Fold 2: Accuracy = 0.1750, Macro F1 = 0.1628
+    🔹 Fold 3: Accuracy = 0.2125, Macro F1 = 0.2075
+    🔹 Fold 4: Accuracy = 0.2625, Macro F1 = 0.2552
+    🔹 Fold 5: Accuracy = 0.2125, Macro F1 = 0.1854
+    🔹 Fold 6: Accuracy = 0.1875, Macro F1 = 0.1853
+    🔹 Fold 7: Accuracy = 0.2000, Macro F1 = 0.1941
+    🔹 Fold 8: Accuracy = 0.1772, Macro F1 = 0.1622
+    🔹 Fold 9: Accuracy = 0.1519, Macro F1 = 0.1476
+    🔹 Fold 10: Accuracy = 0.1772, Macro F1 = 0.1812
+✅ CatBoost on dataset_469.csv: Accuracy = 0.2019, Macro F1 = 0.1936, Time = 1.65s
+🚀 Evaluating RF on dataset_469.csv...
+    🔹 Fold 1: Accuracy = 0.2125, Macro F1 = 0.2123
+    🔹 Fold 2: Accuracy = 0.1750, Macro F1 = 0.1727
+    🔹 Fold 3: Accuracy = 0.2250, Macro F1 = 0.2111
+    🔹 Fold 4: Accuracy = 0.1875, Macro F1 = 0.1817
+    🔹 Fold 5: Accuracy = 0.1750, Macro F1 = 0.1686
+    🔹 Fold 6: Accuracy = 0.2250, Macro F1 = 0.2253
+    🔹 Fold 7: Accuracy = 0.2000, Macro F1 = 0.2027
+    🔹 Fold 8: Accuracy = 0.2025, Macro F1 = 0.1929
+    🔹 Fold 9: Accuracy = 0.2025, Macro F1 = 0.2012
+    🔹 Fold 10: Accuracy = 0.2025, Macro F1 = 0.1959
+✅ RF on dataset_469.csv: Accuracy = 0.2008, Macro F1 = 0.1964, Time = 18.77s
+🚀 Evaluating SPORF on dataset_469.csv...
+    🔹 Fold 1: Accuracy = 0.2000, Macro F1 = 0.2035
+    🔹 Fold 2: Accuracy = 0.1125, Macro F1 = 0.1154
+    🔹 Fold 3: Accuracy = 0.2125, Macro F1 = 0.2060
+    🔹 Fold 4: Accuracy = 0.1750, Macro F1 = 0.1742
+    🔹 Fold 5: Accuracy = 0.1625, Macro F1 = 0.1577
+    🔹 Fold 6: Accuracy = 0.2125, Macro F1 = 0.2013
+    🔹 Fold 7: Accuracy = 0.1750, Macro F1 = 0.1743
+    🔹 Fold 8: Accuracy = 0.2405, Macro F1 = 0.2232
+    🔹 Fold 9: Accuracy = 0.1899, Macro F1 = 0.1895
+    🔹 Fold 10: Accuracy = 0.2278, Macro F1 = 0.2240
+✅ SPORF on dataset_469.csv: Accuracy = 0.1908, Macro F1 = 0.1869, Time = 18.62s
+📤 The result that has been written to dataset_469.csv
+
+📂 Dataset: dataset_554.csv
+    🔸 Samples: 70000, Features: 784, Classes: 10
+⏭️ Skip TabPFN on dataset_554.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_554.csv...
+    🔹 Fold 1: Accuracy = 0.9727, Macro F1 = 0.9726
+    🔹 Fold 2: Accuracy = 0.9734, Macro F1 = 0.9733
+    🔹 Fold 3: Accuracy = 0.9724, Macro F1 = 0.9722
+    🔹 Fold 4: Accuracy = 0.9700, Macro F1 = 0.9698
+    🔹 Fold 5: Accuracy = 0.9703, Macro F1 = 0.9701
+    🔹 Fold 6: Accuracy = 0.9717, Macro F1 = 0.9716
+    🔹 Fold 7: Accuracy = 0.9707, Macro F1 = 0.9704
+    🔹 Fold 8: Accuracy = 0.9720, Macro F1 = 0.9717
+    🔹 Fold 9: Accuracy = 0.9736, Macro F1 = 0.9735
+    🔹 Fold 10: Accuracy = 0.9743, Macro F1 = 0.9741
+✅ CatBoost on dataset_554.csv: Accuracy = 0.9721, Macro F1 = 0.9719, Time = 784.48s
+🚀 Evaluating RF on dataset_554.csv...
+    🔹 Fold 1: Accuracy = 0.9706, Macro F1 = 0.9704
+    🔹 Fold 2: Accuracy = 0.9720, Macro F1 = 0.9719
+    🔹 Fold 3: Accuracy = 0.9711, Macro F1 = 0.9709
+    🔹 Fold 4: Accuracy = 0.9701, Macro F1 = 0.9699
+    🔹 Fold 5: Accuracy = 0.9724, Macro F1 = 0.9723
+    🔹 Fold 6: Accuracy = 0.9713, Macro F1 = 0.9712
+    🔹 Fold 7: Accuracy = 0.9714, Macro F1 = 0.9711
+    🔹 Fold 8: Accuracy = 0.9734, Macro F1 = 0.9731
+    🔹 Fold 9: Accuracy = 0.9746, Macro F1 = 0.9744
+    🔹 Fold 10: Accuracy = 0.9733, Macro F1 = 0.9731
+✅ RF on dataset_554.csv: Accuracy = 0.9720, Macro F1 = 0.9718, Time = 252.09s
+🚀 Evaluating SPORF on dataset_554.csv...
+    🔹 Fold 1: Accuracy = 0.9719, Macro F1 = 0.9717
+    🔹 Fold 2: Accuracy = 0.9721, Macro F1 = 0.9720
+    🔹 Fold 3: Accuracy = 0.9719, Macro F1 = 0.9716
+    🔹 Fold 4: Accuracy = 0.9706, Macro F1 = 0.9702
+    🔹 Fold 5: Accuracy = 0.9720, Macro F1 = 0.9719
+    🔹 Fold 6: Accuracy = 0.9710, Macro F1 = 0.9708
+    🔹 Fold 7: Accuracy = 0.9717, Macro F1 = 0.9714
+    🔹 Fold 8: Accuracy = 0.9733, Macro F1 = 0.9730
+    🔹 Fold 9: Accuracy = 0.9736, Macro F1 = 0.9733
+    🔹 Fold 10: Accuracy = 0.9714, Macro F1 = 0.9712
+✅ SPORF on dataset_554.csv: Accuracy = 0.9719, Macro F1 = 0.9717, Time = 7478.85s
+📤 The result that has been written to dataset_554.csv
+
+📂 Dataset: dataset_1049.csv
+    🔸 Samples: 1458, Features: 37, Classes: 2
+🚀 Evaluating TabPFN on dataset_1049.csv...
+    🔹 Fold 1: Accuracy = 0.8904, Macro F1 = 0.7775
+    🔹 Fold 2: Accuracy = 0.9315, Macro F1 = 0.8487
+    🔹 Fold 3: Accuracy = 0.9384, Macro F1 = 0.8539
+    🔹 Fold 4: Accuracy = 0.9041, Macro F1 = 0.7235
+    🔹 Fold 5: Accuracy = 0.9110, Macro F1 = 0.7511
+    🔹 Fold 6: Accuracy = 0.9178, Macro F1 = 0.8099
+    🔹 Fold 7: Accuracy = 0.9247, Macro F1 = 0.8215
+    🔹 Fold 8: Accuracy = 0.9178, Macro F1 = 0.7771
+    🔹 Fold 9: Accuracy = 0.9448, Macro F1 = 0.8513
+    🔹 Fold 10: Accuracy = 0.9034, Macro F1 = 0.7880
+✅ TabPFN on dataset_1049.csv: Accuracy = 0.9184, Macro F1 = 0.8003, Time = 8.46s
+🚀 Evaluating CatBoost on dataset_1049.csv...
+    🔹 Fold 1: Accuracy = 0.9247, Macro F1 = 0.8215
+    🔹 Fold 2: Accuracy = 0.9178, Macro F1 = 0.7771
+    🔹 Fold 3: Accuracy = 0.9110, Macro F1 = 0.7890
+    🔹 Fold 4: Accuracy = 0.8836, Macro F1 = 0.5988
+    🔹 Fold 5: Accuracy = 0.8904, Macro F1 = 0.6067
+    🔹 Fold 6: Accuracy = 0.9315, Macro F1 = 0.7889
+    🔹 Fold 7: Accuracy = 0.9247, Macro F1 = 0.8015
+    🔹 Fold 8: Accuracy = 0.9178, Macro F1 = 0.7630
+    🔹 Fold 9: Accuracy = 0.9310, Macro F1 = 0.8244
+    🔹 Fold 10: Accuracy = 0.9241, Macro F1 = 0.8013
+✅ CatBoost on dataset_1049.csv: Accuracy = 0.9157, Macro F1 = 0.7572, Time = 6.17s
+🚀 Evaluating RF on dataset_1049.csv...
+    🔹 Fold 1: Accuracy = 0.9247, Macro F1 = 0.8121
+    🔹 Fold 2: Accuracy = 0.8973, Macro F1 = 0.6939
+    🔹 Fold 3: Accuracy = 0.9315, Macro F1 = 0.8025
+    🔹 Fold 4: Accuracy = 0.8836, Macro F1 = 0.5639
+    🔹 Fold 5: Accuracy = 0.9178, Macro F1 = 0.7276
+    🔹 Fold 6: Accuracy = 0.8904, Macro F1 = 0.6368
+    🔹 Fold 7: Accuracy = 0.9041, Macro F1 = 0.7045
+    🔹 Fold 8: Accuracy = 0.8836, Macro F1 = 0.6282
+    🔹 Fold 9: Accuracy = 0.9310, Macro F1 = 0.7888
+    🔹 Fold 10: Accuracy = 0.9172, Macro F1 = 0.7274
+✅ RF on dataset_1049.csv: Accuracy = 0.9081, Macro F1 = 0.7086, Time = 19.32s
+🚀 Evaluating SPORF on dataset_1049.csv...
+    🔹 Fold 1: Accuracy = 0.9247, Macro F1 = 0.8215
+    🔹 Fold 2: Accuracy = 0.9178, Macro F1 = 0.7630
+    🔹 Fold 3: Accuracy = 0.9247, Macro F1 = 0.8015
+    🔹 Fold 4: Accuracy = 0.8904, Macro F1 = 0.5706
+    🔹 Fold 5: Accuracy = 0.9178, Macro F1 = 0.7276
+    🔹 Fold 6: Accuracy = 0.9178, Macro F1 = 0.7630
+    🔹 Fold 7: Accuracy = 0.9315, Macro F1 = 0.8142
+    🔹 Fold 8: Accuracy = 0.9041, Macro F1 = 0.7045
+    🔹 Fold 9: Accuracy = 0.9310, Macro F1 = 0.7888
+    🔹 Fold 10: Accuracy = 0.9103, Macro F1 = 0.7345
+✅ SPORF on dataset_1049.csv: Accuracy = 0.9170, Macro F1 = 0.7489, Time = 19.93s
+📤 The result that has been written to dataset_1049.csv
+
+📂 Dataset: dataset_1050.csv
+    🔸 Samples: 1563, Features: 37, Classes: 2
+🚀 Evaluating TabPFN on dataset_1050.csv...
+    🔹 Fold 1: Accuracy = 0.8981, Macro F1 = 0.5728
+    🔹 Fold 2: Accuracy = 0.8917, Macro F1 = 0.5662
+    🔹 Fold 3: Accuracy = 0.9045, Macro F1 = 0.5336
+    🔹 Fold 4: Accuracy = 0.8974, Macro F1 = 0.4730
+    🔹 Fold 5: Accuracy = 0.8910, Macro F1 = 0.5236
+    🔹 Fold 6: Accuracy = 0.8846, Macro F1 = 0.5192
+    🔹 Fold 7: Accuracy = 0.8910, Macro F1 = 0.5236
+    🔹 Fold 8: Accuracy = 0.9103, Macro F1 = 0.5873
+    🔹 Fold 9: Accuracy = 0.9103, Macro F1 = 0.6260
+    🔹 Fold 10: Accuracy = 0.8910, Macro F1 = 0.5236
+✅ TabPFN on dataset_1050.csv: Accuracy = 0.8970, Macro F1 = 0.5449, Time = 9.93s
+🚀 Evaluating CatBoost on dataset_1050.csv...
+    🔹 Fold 1: Accuracy = 0.9236, Macro F1 = 0.7789
+    🔹 Fold 2: Accuracy = 0.8917, Macro F1 = 0.5662
+    🔹 Fold 3: Accuracy = 0.8981, Macro F1 = 0.5728
+    🔹 Fold 4: Accuracy = 0.9103, Macro F1 = 0.5873
+    🔹 Fold 5: Accuracy = 0.8910, Macro F1 = 0.4712
+    🔹 Fold 6: Accuracy = 0.8846, Macro F1 = 0.4694
+    🔹 Fold 7: Accuracy = 0.9038, Macro F1 = 0.5797
+    🔹 Fold 8: Accuracy = 0.9038, Macro F1 = 0.5334
+    🔹 Fold 9: Accuracy = 0.8782, Macro F1 = 0.5541
+    🔹 Fold 10: Accuracy = 0.8718, Macro F1 = 0.5110
+✅ CatBoost on dataset_1050.csv: Accuracy = 0.8957, Macro F1 = 0.5624, Time = 5.10s
+🚀 Evaluating RF on dataset_1050.csv...
+    🔹 Fold 1: Accuracy = 0.9045, Macro F1 = 0.6740
+    🔹 Fold 2: Accuracy = 0.9045, Macro F1 = 0.6481
+    🔹 Fold 3: Accuracy = 0.9045, Macro F1 = 0.5798
+    🔹 Fold 4: Accuracy = 0.9167, Macro F1 = 0.6357
+    🔹 Fold 5: Accuracy = 0.8846, Macro F1 = 0.5192
+    🔹 Fold 6: Accuracy = 0.8910, Macro F1 = 0.5236
+    🔹 Fold 7: Accuracy = 0.8910, Macro F1 = 0.5660
+    🔹 Fold 8: Accuracy = 0.8910, Macro F1 = 0.5660
+    🔹 Fold 9: Accuracy = 0.8846, Macro F1 = 0.5938
+    🔹 Fold 10: Accuracy = 0.9103, Macro F1 = 0.6260
+✅ RF on dataset_1050.csv: Accuracy = 0.8983, Macro F1 = 0.5932, Time = 20.82s
+🚀 Evaluating SPORF on dataset_1050.csv...
+    🔹 Fold 1: Accuracy = 0.9045, Macro F1 = 0.6961
+    🔹 Fold 2: Accuracy = 0.9108, Macro F1 = 0.6578
+    🔹 Fold 3: Accuracy = 0.9045, Macro F1 = 0.5798
+    🔹 Fold 4: Accuracy = 0.9167, Macro F1 = 0.6357
+    🔹 Fold 5: Accuracy = 0.8846, Macro F1 = 0.5192
+    🔹 Fold 6: Accuracy = 0.8846, Macro F1 = 0.5192
+    🔹 Fold 7: Accuracy = 0.8974, Macro F1 = 0.6088
+    🔹 Fold 8: Accuracy = 0.8910, Macro F1 = 0.5660
+    🔹 Fold 9: Accuracy = 0.8910, Macro F1 = 0.6304
+    🔹 Fold 10: Accuracy = 0.9103, Macro F1 = 0.6577
+✅ SPORF on dataset_1050.csv: Accuracy = 0.8995, Macro F1 = 0.6071, Time = 20.31s
+📤 The result that has been written to dataset_1050.csv
+
+📂 Dataset: dataset_1053.csv
+    🔸 Samples: 10885, Features: 21, Classes: 2
+⏭️ Skip TabPFN on dataset_1053.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_1053.csv...
+    🔹 Fold 1: Accuracy = 0.8136, Macro F1 = 0.5552
+    🔹 Fold 2: Accuracy = 0.8090, Macro F1 = 0.5427
+    🔹 Fold 3: Accuracy = 0.8219, Macro F1 = 0.5819
+    🔹 Fold 4: Accuracy = 0.8099, Macro F1 = 0.5434
+    🔹 Fold 5: Accuracy = 0.8209, Macro F1 = 0.5756
+    🔹 Fold 6: Accuracy = 0.8162, Macro F1 = 0.5850
+    🔹 Fold 7: Accuracy = 0.8042, Macro F1 = 0.5594
+    🔹 Fold 8: Accuracy = 0.8171, Macro F1 = 0.5550
+    🔹 Fold 9: Accuracy = 0.8153, Macro F1 = 0.5764
+    🔹 Fold 10: Accuracy = 0.8272, Macro F1 = 0.5839
+✅ CatBoost on dataset_1053.csv: Accuracy = 0.8155, Macro F1 = 0.5659, Time = 13.37s
+🚀 Evaluating RF on dataset_1053.csv...
+    🔹 Fold 1: Accuracy = 0.8246, Macro F1 = 0.6234
+    🔹 Fold 2: Accuracy = 0.8118, Macro F1 = 0.5911
+    🔹 Fold 3: Accuracy = 0.8200, Macro F1 = 0.6168
+    🔹 Fold 4: Accuracy = 0.8209, Macro F1 = 0.6241
+    🔹 Fold 5: Accuracy = 0.8274, Macro F1 = 0.6346
+    🔹 Fold 6: Accuracy = 0.8153, Macro F1 = 0.6168
+    🔹 Fold 7: Accuracy = 0.8208, Macro F1 = 0.6241
+    🔹 Fold 8: Accuracy = 0.8208, Macro F1 = 0.6177
+    🔹 Fold 9: Accuracy = 0.8116, Macro F1 = 0.6070
+    🔹 Fold 10: Accuracy = 0.8318, Macro F1 = 0.6412
+✅ RF on dataset_1053.csv: Accuracy = 0.8205, Macro F1 = 0.6197, Time = 24.40s
+🚀 Evaluating SPORF on dataset_1053.csv...
+    🔹 Fold 1: Accuracy = 0.8246, Macro F1 = 0.6212
+    🔹 Fold 2: Accuracy = 0.8044, Macro F1 = 0.5776
+    🔹 Fold 3: Accuracy = 0.8237, Macro F1 = 0.6203
+    🔹 Fold 4: Accuracy = 0.8154, Macro F1 = 0.6126
+    🔹 Fold 5: Accuracy = 0.8246, Macro F1 = 0.6318
+    🔹 Fold 6: Accuracy = 0.8143, Macro F1 = 0.6180
+    🔹 Fold 7: Accuracy = 0.8171, Macro F1 = 0.6247
+    🔹 Fold 8: Accuracy = 0.8180, Macro F1 = 0.6194
+    🔹 Fold 9: Accuracy = 0.8107, Macro F1 = 0.6083
+    🔹 Fold 10: Accuracy = 0.8263, Macro F1 = 0.6315
+✅ SPORF on dataset_1053.csv: Accuracy = 0.8179, Macro F1 = 0.6165, Time = 29.28s
+📤 The result that has been written to dataset_1053.csv
+
+📂 Dataset: dataset_1063.csv
+    🔸 Samples: 522, Features: 21, Classes: 2
+🚀 Evaluating TabPFN on dataset_1063.csv...
+    🔹 Fold 1: Accuracy = 0.8113, Macro F1 = 0.7452
+    🔹 Fold 2: Accuracy = 0.8491, Macro F1 = 0.6708
+    🔹 Fold 3: Accuracy = 0.8269, Macro F1 = 0.6836
+    🔹 Fold 4: Accuracy = 0.8269, Macro F1 = 0.7102
+    🔹 Fold 5: Accuracy = 0.9423, Macro F1 = 0.9105
+    🔹 Fold 6: Accuracy = 0.8269, Macro F1 = 0.6494
+    🔹 Fold 7: Accuracy = 0.9038, Macro F1 = 0.8390
+    🔹 Fold 8: Accuracy = 0.7692, Macro F1 = 0.4348
+    🔹 Fold 9: Accuracy = 0.8077, Macro F1 = 0.6307
+    🔹 Fold 10: Accuracy = 0.8846, Macro F1 = 0.7784
+✅ TabPFN on dataset_1063.csv: Accuracy = 0.8449, Macro F1 = 0.7053, Time = 3.54s
+🚀 Evaluating CatBoost on dataset_1063.csv...
+    🔹 Fold 1: Accuracy = 0.7925, Macro F1 = 0.7267
+    🔹 Fold 2: Accuracy = 0.8302, Macro F1 = 0.6505
+    🔹 Fold 3: Accuracy = 0.8269, Macro F1 = 0.7102
+    🔹 Fold 4: Accuracy = 0.8269, Macro F1 = 0.7102
+    🔹 Fold 5: Accuracy = 0.8846, Macro F1 = 0.8271
+    🔹 Fold 6: Accuracy = 0.8269, Macro F1 = 0.6494
+    🔹 Fold 7: Accuracy = 0.8462, Macro F1 = 0.7313
+    🔹 Fold 8: Accuracy = 0.7692, Macro F1 = 0.4348
+    🔹 Fold 9: Accuracy = 0.8269, Macro F1 = 0.6836
+    🔹 Fold 10: Accuracy = 0.8462, Macro F1 = 0.6698
+✅ CatBoost on dataset_1063.csv: Accuracy = 0.8276, Macro F1 = 0.6794, Time = 2.60s
+🚀 Evaluating RF on dataset_1063.csv...
+    🔹 Fold 1: Accuracy = 0.8491, Macro F1 = 0.7846
+    🔹 Fold 2: Accuracy = 0.8302, Macro F1 = 0.6847
+    🔹 Fold 3: Accuracy = 0.7885, Macro F1 = 0.6718
+    🔹 Fold 4: Accuracy = 0.8654, Macro F1 = 0.7746
+    🔹 Fold 5: Accuracy = 0.8846, Macro F1 = 0.8143
+    🔹 Fold 6: Accuracy = 0.8462, Macro F1 = 0.7045
+    🔹 Fold 7: Accuracy = 0.9038, Macro F1 = 0.8508
+    🔹 Fold 8: Accuracy = 0.8269, Macro F1 = 0.6044
+    🔹 Fold 9: Accuracy = 0.8462, Macro F1 = 0.7313
+    🔹 Fold 10: Accuracy = 0.8462, Macro F1 = 0.7313
+✅ RF on dataset_1063.csv: Accuracy = 0.8487, Macro F1 = 0.7352, Time = 17.78s
+🚀 Evaluating SPORF on dataset_1063.csv...
+    🔹 Fold 1: Accuracy = 0.8491, Macro F1 = 0.7846
+    🔹 Fold 2: Accuracy = 0.8491, Macro F1 = 0.7056
+    🔹 Fold 3: Accuracy = 0.7885, Macro F1 = 0.6718
+    🔹 Fold 4: Accuracy = 0.8462, Macro F1 = 0.7524
+    🔹 Fold 5: Accuracy = 0.8846, Macro F1 = 0.8143
+    🔹 Fold 6: Accuracy = 0.8462, Macro F1 = 0.7045
+    🔹 Fold 7: Accuracy = 0.8846, Macro F1 = 0.8271
+    🔹 Fold 8: Accuracy = 0.8077, Macro F1 = 0.5290
+    🔹 Fold 9: Accuracy = 0.8462, Macro F1 = 0.7313
+    🔹 Fold 10: Accuracy = 0.8462, Macro F1 = 0.7313
+✅ SPORF on dataset_1063.csv: Accuracy = 0.8448, Macro F1 = 0.7252, Time = 17.30s
+📤 The result that has been written to dataset_1063.csv
+
+📂 Dataset: dataset_1067.csv
+    🔸 Samples: 2109, Features: 21, Classes: 2
+🚀 Evaluating TabPFN on dataset_1067.csv...
+    🔹 Fold 1: Accuracy = 0.8626, Macro F1 = 0.5903
+    🔹 Fold 2: Accuracy = 0.8673, Macro F1 = 0.6134
+    🔹 Fold 3: Accuracy = 0.8815, Macro F1 = 0.7007
+    🔹 Fold 4: Accuracy = 0.8768, Macro F1 = 0.6702
+    🔹 Fold 5: Accuracy = 0.8768, Macro F1 = 0.6944
+    🔹 Fold 6: Accuracy = 0.8720, Macro F1 = 0.6504
+    🔹 Fold 7: Accuracy = 0.8294, Macro F1 = 0.6052
+    🔹 Fold 8: Accuracy = 0.8673, Macro F1 = 0.6298
+    🔹 Fold 9: Accuracy = 0.8768, Macro F1 = 0.6828
+    🔹 Fold 10: Accuracy = 0.8571, Macro F1 = 0.6338
+✅ TabPFN on dataset_1067.csv: Accuracy = 0.8668, Macro F1 = 0.6471, Time = 9.95s
+🚀 Evaluating CatBoost on dataset_1067.csv...
+    🔹 Fold 1: Accuracy = 0.8720, Macro F1 = 0.6186
+    🔹 Fold 2: Accuracy = 0.8578, Macro F1 = 0.6034
+    🔹 Fold 3: Accuracy = 0.8910, Macro F1 = 0.7435
+    🔹 Fold 4: Accuracy = 0.8720, Macro F1 = 0.6504
+    🔹 Fold 5: Accuracy = 0.8957, Macro F1 = 0.7587
+    🔹 Fold 6: Accuracy = 0.8720, Macro F1 = 0.6642
+    🔹 Fold 7: Accuracy = 0.8389, Macro F1 = 0.6004
+    🔹 Fold 8: Accuracy = 0.8483, Macro F1 = 0.6096
+    🔹 Fold 9: Accuracy = 0.8673, Macro F1 = 0.6448
+    🔹 Fold 10: Accuracy = 0.8476, Macro F1 = 0.5938
+✅ CatBoost on dataset_1067.csv: Accuracy = 0.8663, Macro F1 = 0.6487, Time = 5.65s
+🚀 Evaluating RF on dataset_1067.csv...
+    🔹 Fold 1: Accuracy = 0.8673, Macro F1 = 0.6709
+    🔹 Fold 2: Accuracy = 0.8720, Macro F1 = 0.6642
+    🔹 Fold 3: Accuracy = 0.8910, Macro F1 = 0.7345
+    🔹 Fold 4: Accuracy = 0.8531, Macro F1 = 0.6856
+    🔹 Fold 5: Accuracy = 0.9005, Macro F1 = 0.7870
+    🔹 Fold 6: Accuracy = 0.8720, Macro F1 = 0.6883
+    🔹 Fold 7: Accuracy = 0.8436, Macro F1 = 0.6320
+    🔹 Fold 8: Accuracy = 0.8626, Macro F1 = 0.6871
+    🔹 Fold 9: Accuracy = 0.8483, Macro F1 = 0.6239
+    🔹 Fold 10: Accuracy = 0.8476, Macro F1 = 0.6368
+✅ RF on dataset_1067.csv: Accuracy = 0.8658, Macro F1 = 0.6810, Time = 20.61s
+🚀 Evaluating SPORF on dataset_1067.csv...
+    🔹 Fold 1: Accuracy = 0.8626, Macro F1 = 0.6245
+    🔹 Fold 2: Accuracy = 0.8720, Macro F1 = 0.6504
+    🔹 Fold 3: Accuracy = 0.9005, Macro F1 = 0.7734
+    🔹 Fold 4: Accuracy = 0.8720, Macro F1 = 0.7087
+    🔹 Fold 5: Accuracy = 0.9052, Macro F1 = 0.7876
+    🔹 Fold 6: Accuracy = 0.8768, Macro F1 = 0.6944
+    🔹 Fold 7: Accuracy = 0.8389, Macro F1 = 0.6500
+    🔹 Fold 8: Accuracy = 0.8673, Macro F1 = 0.7027
+    🔹 Fold 9: Accuracy = 0.8531, Macro F1 = 0.6421
+    🔹 Fold 10: Accuracy = 0.8524, Macro F1 = 0.6541
+✅ SPORF on dataset_1067.csv: Accuracy = 0.8701, Macro F1 = 0.6888, Time = 20.13s
+📤 The result that has been written to dataset_1067.csv
+
+📂 Dataset: dataset_1068.csv
+    🔸 Samples: 1109, Features: 21, Classes: 2
+🚀 Evaluating TabPFN on dataset_1068.csv...
+    🔹 Fold 1: Accuracy = 0.9459, Macro F1 = 0.6858
+    🔹 Fold 2: Accuracy = 0.9369, Macro F1 = 0.4837
+    🔹 Fold 3: Accuracy = 0.9459, Macro F1 = 0.6858
+    🔹 Fold 4: Accuracy = 0.9279, Macro F1 = 0.5811
+    🔹 Fold 5: Accuracy = 0.9189, Macro F1 = 0.4789
+    🔹 Fold 6: Accuracy = 0.9550, Macro F1 = 0.7609
+    🔹 Fold 7: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 8: Accuracy = 0.9369, Macro F1 = 0.7140
+    🔹 Fold 9: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 10: Accuracy = 0.9545, Macro F1 = 0.7104
+✅ TabPFN on dataset_1068.csv: Accuracy = 0.9396, Macro F1 = 0.6431, Time = 7.51s
+🚀 Evaluating CatBoost on dataset_1068.csv...
+    🔹 Fold 1: Accuracy = 0.9459, Macro F1 = 0.6858
+    🔹 Fold 2: Accuracy = 0.9369, Macro F1 = 0.4837
+    🔹 Fold 3: Accuracy = 0.9279, Macro F1 = 0.5811
+    🔹 Fold 4: Accuracy = 0.9189, Macro F1 = 0.4789
+    🔹 Fold 5: Accuracy = 0.9189, Macro F1 = 0.4789
+    🔹 Fold 6: Accuracy = 0.9550, Macro F1 = 0.7609
+    🔹 Fold 7: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 8: Accuracy = 0.9459, Macro F1 = 0.7357
+    🔹 Fold 9: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 10: Accuracy = 0.9545, Macro F1 = 0.7104
+✅ CatBoost on dataset_1068.csv: Accuracy = 0.9378, Macro F1 = 0.6246, Time = 3.74s
+🚀 Evaluating RF on dataset_1068.csv...
+    🔹 Fold 1: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 2: Accuracy = 0.9279, Macro F1 = 0.4813
+    🔹 Fold 3: Accuracy = 0.9279, Macro F1 = 0.6476
+    🔹 Fold 4: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 5: Accuracy = 0.9099, Macro F1 = 0.4764
+    🔹 Fold 6: Accuracy = 0.9550, Macro F1 = 0.7609
+    🔹 Fold 7: Accuracy = 0.9459, Macro F1 = 0.7357
+    🔹 Fold 8: Accuracy = 0.9369, Macro F1 = 0.7140
+    🔹 Fold 9: Accuracy = 0.9279, Macro F1 = 0.6476
+    🔹 Fold 10: Accuracy = 0.9636, Macro F1 = 0.7905
+✅ RF on dataset_1068.csv: Accuracy = 0.9369, Macro F1 = 0.6585, Time = 19.99s
+🚀 Evaluating SPORF on dataset_1068.csv...
+    🔹 Fold 1: Accuracy = 0.9459, Macro F1 = 0.7357
+    🔹 Fold 2: Accuracy = 0.9279, Macro F1 = 0.4813
+    🔹 Fold 3: Accuracy = 0.9279, Macro F1 = 0.6476
+    🔹 Fold 4: Accuracy = 0.9369, Macro F1 = 0.6652
+    🔹 Fold 5: Accuracy = 0.9099, Macro F1 = 0.4764
+    🔹 Fold 6: Accuracy = 0.9550, Macro F1 = 0.7609
+    🔹 Fold 7: Accuracy = 0.9459, Macro F1 = 0.7357
+    🔹 Fold 8: Accuracy = 0.9369, Macro F1 = 0.7140
+    🔹 Fold 9: Accuracy = 0.9279, Macro F1 = 0.6476
+    🔹 Fold 10: Accuracy = 0.9636, Macro F1 = 0.7905
+✅ SPORF on dataset_1068.csv: Accuracy = 0.9378, Macro F1 = 0.6655, Time = 18.92s
+📤 The result that has been written to dataset_1068.csv
+
+📂 Dataset: dataset_1461.csv
+    🔸 Samples: 45211, Features: 16, Classes: 2
+⏭️ Skip TabPFN on dataset_1461.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_1461.csv...
+    🔹 Fold 1: Accuracy = 0.9089, Macro F1 = 0.7380
+    🔹 Fold 2: Accuracy = 0.9067, Macro F1 = 0.7417
+    🔹 Fold 3: Accuracy = 0.9044, Macro F1 = 0.7303
+    🔹 Fold 4: Accuracy = 0.9104, Macro F1 = 0.7547
+    🔹 Fold 5: Accuracy = 0.9102, Macro F1 = 0.7534
+    🔹 Fold 6: Accuracy = 0.9122, Macro F1 = 0.7596
+    🔹 Fold 7: Accuracy = 0.9124, Macro F1 = 0.7585
+    🔹 Fold 8: Accuracy = 0.9058, Macro F1 = 0.7356
+    🔹 Fold 9: Accuracy = 0.9095, Macro F1 = 0.7433
+    🔹 Fold 10: Accuracy = 0.9082, Macro F1 = 0.7462
+✅ CatBoost on dataset_1461.csv: Accuracy = 0.9089, Macro F1 = 0.7461, Time = 62.83s
+🚀 Evaluating RF on dataset_1461.csv...
+    🔹 Fold 1: Accuracy = 0.9093, Macro F1 = 0.7349
+    🔹 Fold 2: Accuracy = 0.9027, Macro F1 = 0.7253
+    🔹 Fold 3: Accuracy = 0.9033, Macro F1 = 0.7269
+    🔹 Fold 4: Accuracy = 0.9100, Macro F1 = 0.7471
+    🔹 Fold 5: Accuracy = 0.9025, Macro F1 = 0.7216
+    🔹 Fold 6: Accuracy = 0.9111, Macro F1 = 0.7525
+    🔹 Fold 7: Accuracy = 0.9080, Macro F1 = 0.7413
+    🔹 Fold 8: Accuracy = 0.9049, Macro F1 = 0.7299
+    🔹 Fold 9: Accuracy = 0.9102, Macro F1 = 0.7358
+    🔹 Fold 10: Accuracy = 0.9069, Macro F1 = 0.7363
+✅ RF on dataset_1461.csv: Accuracy = 0.9069, Macro F1 = 0.7352, Time = 30.99s
+🚀 Evaluating SPORF on dataset_1461.csv...
+    🔹 Fold 1: Accuracy = 0.9073, Macro F1 = 0.7355
+    🔹 Fold 2: Accuracy = 0.9038, Macro F1 = 0.7329
+    🔹 Fold 3: Accuracy = 0.9049, Macro F1 = 0.7393
+    🔹 Fold 4: Accuracy = 0.9075, Macro F1 = 0.7481
+    🔹 Fold 5: Accuracy = 0.9049, Macro F1 = 0.7357
+    🔹 Fold 6: Accuracy = 0.9071, Macro F1 = 0.7516
+    🔹 Fold 7: Accuracy = 0.9053, Macro F1 = 0.7420
+    🔹 Fold 8: Accuracy = 0.9033, Macro F1 = 0.7274
+    🔹 Fold 9: Accuracy = 0.9091, Macro F1 = 0.7389
+    🔹 Fold 10: Accuracy = 0.9060, Macro F1 = 0.7365
+✅ SPORF on dataset_1461.csv: Accuracy = 0.9059, Macro F1 = 0.7388, Time = 51.34s
+📤 The result that has been written to dataset_1461.csv
+
+📂 Dataset: dataset_1462.csv
+    🔸 Samples: 1372, Features: 4, Classes: 2
+🚀 Evaluating TabPFN on dataset_1462.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ TabPFN on dataset_1462.csv: Accuracy = 1.0000, Macro F1 = 1.0000, Time = 2.78s
+🚀 Evaluating CatBoost on dataset_1462.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9928, Macro F1 = 0.9927
+    🔹 Fold 3: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 4: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ CatBoost on dataset_1462.csv: Accuracy = 0.9971, Macro F1 = 0.9971, Time = 10.19s
+🚀 Evaluating RF on dataset_1462.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 0.9928, Macro F1 = 0.9927
+    🔹 Fold 3: Accuracy = 0.9781, Macro F1 = 0.9779
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 7: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 10: Accuracy = 0.9927, Macro F1 = 0.9926
+✅ RF on dataset_1462.csv: Accuracy = 0.9942, Macro F1 = 0.9941, Time = 20.03s
+🚀 Evaluating SPORF on dataset_1462.csv...
+    🔹 Fold 1: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 0.9927, Macro F1 = 0.9926
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 6: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 7: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 8: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ SPORF on dataset_1462.csv: Accuracy = 0.9993, Macro F1 = 0.9993, Time = 18.79s
+📤 The result that has been written to dataset_1462.csv
+
+📂 Dataset: dataset_1464.csv
+    🔸 Samples: 748, Features: 4, Classes: 2
+🚀 Evaluating TabPFN on dataset_1464.csv...
+    🔹 Fold 1: Accuracy = 0.8000, Macro F1 = 0.6400
+    🔹 Fold 2: Accuracy = 0.7867, Macro F1 = 0.6667
+    🔹 Fold 3: Accuracy = 0.7733, Macro F1 = 0.6161
+    🔹 Fold 4: Accuracy = 0.7467, Macro F1 = 0.5440
+    🔹 Fold 5: Accuracy = 0.7600, Macro F1 = 0.5536
+    🔹 Fold 6: Accuracy = 0.7733, Macro F1 = 0.6161
+    🔹 Fold 7: Accuracy = 0.8133, Macro F1 = 0.6743
+    🔹 Fold 8: Accuracy = 0.8267, Macro F1 = 0.6880
+    🔹 Fold 9: Accuracy = 0.7297, Macro F1 = 0.4661
+    🔹 Fold 10: Accuracy = 0.8514, Macro F1 = 0.7508
+✅ TabPFN on dataset_1464.csv: Accuracy = 0.7861, Macro F1 = 0.6216, Time = 4.55s
+🚀 Evaluating CatBoost on dataset_1464.csv...
+    🔹 Fold 1: Accuracy = 0.8400, Macro F1 = 0.7500
+    🔹 Fold 2: Accuracy = 0.7733, Macro F1 = 0.6366
+    🔹 Fold 3: Accuracy = 0.7867, Macro F1 = 0.5739
+    🔹 Fold 4: Accuracy = 0.8267, Macro F1 = 0.7064
+    🔹 Fold 5: Accuracy = 0.7733, Macro F1 = 0.6366
+    🔹 Fold 6: Accuracy = 0.7867, Macro F1 = 0.6487
+    🔹 Fold 7: Accuracy = 0.8133, Macro F1 = 0.6926
+    🔹 Fold 8: Accuracy = 0.8133, Macro F1 = 0.6271
+    🔹 Fold 9: Accuracy = 0.7297, Macro F1 = 0.4661
+    🔹 Fold 10: Accuracy = 0.8649, Macro F1 = 0.7667
+✅ CatBoost on dataset_1464.csv: Accuracy = 0.8008, Macro F1 = 0.6505, Time = 1.94s
+🚀 Evaluating RF on dataset_1464.csv...
+    🔹 Fold 1: Accuracy = 0.7733, Macro F1 = 0.6698
+    🔹 Fold 2: Accuracy = 0.7067, Macro F1 = 0.5816
+    🔹 Fold 3: Accuracy = 0.6533, Macro F1 = 0.4836
+    🔹 Fold 4: Accuracy = 0.7200, Macro F1 = 0.5921
+    🔹 Fold 5: Accuracy = 0.7467, Macro F1 = 0.6137
+    🔹 Fold 6: Accuracy = 0.7333, Macro F1 = 0.6197
+    🔹 Fold 7: Accuracy = 0.8000, Macro F1 = 0.6950
+    🔹 Fold 8: Accuracy = 0.7600, Macro F1 = 0.5813
+    🔹 Fold 9: Accuracy = 0.7027, Macro F1 = 0.4530
+    🔹 Fold 10: Accuracy = 0.8243, Macro F1 = 0.6872
+✅ RF on dataset_1464.csv: Accuracy = 0.7420, Macro F1 = 0.5977, Time = 18.85s
+🚀 Evaluating SPORF on dataset_1464.csv...
+    🔹 Fold 1: Accuracy = 0.7867, Macro F1 = 0.6957
+    🔹 Fold 2: Accuracy = 0.7600, Macro F1 = 0.6250
+    🔹 Fold 3: Accuracy = 0.6533, Macro F1 = 0.4836
+    🔹 Fold 4: Accuracy = 0.7467, Macro F1 = 0.6137
+    🔹 Fold 5: Accuracy = 0.7733, Macro F1 = 0.6366
+    🔹 Fold 6: Accuracy = 0.7067, Macro F1 = 0.5980
+    🔹 Fold 7: Accuracy = 0.7867, Macro F1 = 0.6487
+    🔹 Fold 8: Accuracy = 0.7733, Macro F1 = 0.5920
+    🔹 Fold 9: Accuracy = 0.7027, Macro F1 = 0.4530
+    🔹 Fold 10: Accuracy = 0.8378, Macro F1 = 0.7016
+✅ SPORF on dataset_1464.csv: Accuracy = 0.7527, Macro F1 = 0.6048, Time = 19.00s
+📤 The result that has been written to dataset_1464.csv
+
+📂 Dataset: dataset_1468.csv
+    🔸 Samples: 1080, Features: 856, Classes: 9
+🚀 Evaluating TabPFN on dataset_1468.csv...
+    🔹 Fold 1: Accuracy = 0.9722, Macro F1 = 0.9722
+    🔹 Fold 2: Accuracy = 0.9722, Macro F1 = 0.9718
+    🔹 Fold 3: Accuracy = 0.9537, Macro F1 = 0.9531
+    🔹 Fold 4: Accuracy = 0.9630, Macro F1 = 0.9629
+    🔹 Fold 5: Accuracy = 0.9444, Macro F1 = 0.9438
+    🔹 Fold 6: Accuracy = 0.9630, Macro F1 = 0.9624
+    🔹 Fold 7: Accuracy = 0.9815, Macro F1 = 0.9815
+    🔹 Fold 8: Accuracy = 0.9722, Macro F1 = 0.9727
+    🔹 Fold 9: Accuracy = 0.9537, Macro F1 = 0.9537
+    🔹 Fold 10: Accuracy = 0.9352, Macro F1 = 0.9363
+✅ TabPFN on dataset_1468.csv: Accuracy = 0.9611, Macro F1 = 0.9610, Time = 51.47s
+🚀 Evaluating CatBoost on dataset_1468.csv...
+    🔹 Fold 1: Accuracy = 0.9259, Macro F1 = 0.9270
+    🔹 Fold 2: Accuracy = 0.9259, Macro F1 = 0.9260
+    🔹 Fold 3: Accuracy = 0.9352, Macro F1 = 0.9356
+    🔹 Fold 4: Accuracy = 0.9722, Macro F1 = 0.9717
+    🔹 Fold 5: Accuracy = 0.8889, Macro F1 = 0.8857
+    🔹 Fold 6: Accuracy = 0.9444, Macro F1 = 0.9453
+    🔹 Fold 7: Accuracy = 0.9630, Macro F1 = 0.9633
+    🔹 Fold 8: Accuracy = 0.9352, Macro F1 = 0.9353
+    🔹 Fold 9: Accuracy = 0.9630, Macro F1 = 0.9625
+    🔹 Fold 10: Accuracy = 0.9352, Macro F1 = 0.9350
+✅ CatBoost on dataset_1468.csv: Accuracy = 0.9389, Macro F1 = 0.9387, Time = 85.54s
+🚀 Evaluating RF on dataset_1468.csv...
+    🔹 Fold 1: Accuracy = 0.9537, Macro F1 = 0.9546
+    🔹 Fold 2: Accuracy = 0.8796, Macro F1 = 0.8803
+    🔹 Fold 3: Accuracy = 0.9167, Macro F1 = 0.9167
+    🔹 Fold 4: Accuracy = 0.9352, Macro F1 = 0.9348
+    🔹 Fold 5: Accuracy = 0.9167, Macro F1 = 0.9139
+    🔹 Fold 6: Accuracy = 0.9352, Macro F1 = 0.9343
+    🔹 Fold 7: Accuracy = 0.9259, Macro F1 = 0.9254
+    🔹 Fold 8: Accuracy = 0.9444, Macro F1 = 0.9434
+    🔹 Fold 9: Accuracy = 0.9630, Macro F1 = 0.9619
+    🔹 Fold 10: Accuracy = 0.9259, Macro F1 = 0.9251
+✅ RF on dataset_1468.csv: Accuracy = 0.9296, Macro F1 = 0.9290, Time = 20.56s
+🚀 Evaluating SPORF on dataset_1468.csv...
+    🔹 Fold 1: Accuracy = 0.9074, Macro F1 = 0.9066
+    🔹 Fold 2: Accuracy = 0.8333, Macro F1 = 0.8424
+    🔹 Fold 3: Accuracy = 0.8611, Macro F1 = 0.8628
+    🔹 Fold 4: Accuracy = 0.9074, Macro F1 = 0.9081
+    🔹 Fold 5: Accuracy = 0.8611, Macro F1 = 0.8536
+    🔹 Fold 6: Accuracy = 0.8981, Macro F1 = 0.8987
+    🔹 Fold 7: Accuracy = 0.8981, Macro F1 = 0.8969
+    🔹 Fold 8: Accuracy = 0.9167, Macro F1 = 0.9163
+    🔹 Fold 9: Accuracy = 0.9167, Macro F1 = 0.9146
+    🔹 Fold 10: Accuracy = 0.9074, Macro F1 = 0.9062
+✅ SPORF on dataset_1468.csv: Accuracy = 0.8907, Macro F1 = 0.8906, Time = 78.93s
+📤 The result that has been written to dataset_1468.csv
+
+📂 Dataset: dataset_1475.csv
+    🔸 Samples: 6118, Features: 51, Classes: 6
+🚀 Evaluating TabPFN on dataset_1475.csv...
+    🔹 Fold 1: Accuracy = 0.6176, Macro F1 = 0.4857
+    🔹 Fold 2: Accuracy = 0.5980, Macro F1 = 0.4728
+    🔹 Fold 3: Accuracy = 0.6046, Macro F1 = 0.4639
+    🔹 Fold 4: Accuracy = 0.6062, Macro F1 = 0.4773
+    🔹 Fold 5: Accuracy = 0.6258, Macro F1 = 0.5174
+    🔹 Fold 6: Accuracy = 0.6127, Macro F1 = 0.4989
+    🔹 Fold 7: Accuracy = 0.6013, Macro F1 = 0.4667
+    🔹 Fold 8: Accuracy = 0.6209, Macro F1 = 0.4857
+    🔹 Fold 9: Accuracy = 0.6318, Macro F1 = 0.5175
+    🔹 Fold 10: Accuracy = 0.5892, Macro F1 = 0.4523
+✅ TabPFN on dataset_1475.csv: Accuracy = 0.6108, Macro F1 = 0.4838, Time = 21.62s
+🚀 Evaluating CatBoost on dataset_1475.csv...
+    🔹 Fold 1: Accuracy = 0.6013, Macro F1 = 0.4756
+    🔹 Fold 2: Accuracy = 0.5948, Macro F1 = 0.4781
+    🔹 Fold 3: Accuracy = 0.5833, Macro F1 = 0.4485
+    🔹 Fold 4: Accuracy = 0.6095, Macro F1 = 0.4994
+    🔹 Fold 5: Accuracy = 0.6176, Macro F1 = 0.5246
+    🔹 Fold 6: Accuracy = 0.6078, Macro F1 = 0.5096
+    🔹 Fold 7: Accuracy = 0.5833, Macro F1 = 0.4649
+    🔹 Fold 8: Accuracy = 0.6340, Macro F1 = 0.5321
+    🔹 Fold 9: Accuracy = 0.6187, Macro F1 = 0.5182
+    🔹 Fold 10: Accuracy = 0.5810, Macro F1 = 0.4538
+✅ CatBoost on dataset_1475.csv: Accuracy = 0.6031, Macro F1 = 0.4905, Time = 102.53s
+🚀 Evaluating RF on dataset_1475.csv...
+    🔹 Fold 1: Accuracy = 0.6291, Macro F1 = 0.5219
+    🔹 Fold 2: Accuracy = 0.6078, Macro F1 = 0.5074
+    🔹 Fold 3: Accuracy = 0.6291, Macro F1 = 0.5132
+    🔹 Fold 4: Accuracy = 0.6618, Macro F1 = 0.5689
+    🔹 Fold 5: Accuracy = 0.6422, Macro F1 = 0.5485
+    🔹 Fold 6: Accuracy = 0.6275, Macro F1 = 0.5258
+    🔹 Fold 7: Accuracy = 0.6078, Macro F1 = 0.4998
+    🔹 Fold 8: Accuracy = 0.6454, Macro F1 = 0.5447
+    🔹 Fold 9: Accuracy = 0.6530, Macro F1 = 0.5554
+    🔹 Fold 10: Accuracy = 0.6056, Macro F1 = 0.4941
+✅ RF on dataset_1475.csv: Accuracy = 0.6309, Macro F1 = 0.5280, Time = 21.74s
+🚀 Evaluating SPORF on dataset_1475.csv...
+    🔹 Fold 1: Accuracy = 0.6487, Macro F1 = 0.5420
+    🔹 Fold 2: Accuracy = 0.6062, Macro F1 = 0.5071
+    🔹 Fold 3: Accuracy = 0.6405, Macro F1 = 0.5202
+    🔹 Fold 4: Accuracy = 0.6520, Macro F1 = 0.5557
+    🔹 Fold 5: Accuracy = 0.6356, Macro F1 = 0.5369
+    🔹 Fold 6: Accuracy = 0.6307, Macro F1 = 0.5316
+    🔹 Fold 7: Accuracy = 0.6193, Macro F1 = 0.5078
+    🔹 Fold 8: Accuracy = 0.6405, Macro F1 = 0.5391
+    🔹 Fold 9: Accuracy = 0.6481, Macro F1 = 0.5494
+    🔹 Fold 10: Accuracy = 0.6072, Macro F1 = 0.4991
+✅ SPORF on dataset_1475.csv: Accuracy = 0.6329, Macro F1 = 0.5289, Time = 37.38s
+📤 The result that has been written to dataset_1475.csv
+
+📂 Dataset: dataset_1478.csv
+    🔸 Samples: 10299, Features: 561, Classes: 6
+⏭️ Skip TabPFN on dataset_1478.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_1478.csv...
+    🔹 Fold 1: Accuracy = 0.9883, Macro F1 = 0.9889
+    🔹 Fold 2: Accuracy = 0.9932, Macro F1 = 0.9935
+    🔹 Fold 3: Accuracy = 0.9893, Macro F1 = 0.9899
+    🔹 Fold 4: Accuracy = 0.9903, Macro F1 = 0.9903
+    🔹 Fold 5: Accuracy = 0.9913, Macro F1 = 0.9914
+    🔹 Fold 6: Accuracy = 0.9893, Macro F1 = 0.9900
+    🔹 Fold 7: Accuracy = 0.9932, Macro F1 = 0.9934
+    🔹 Fold 8: Accuracy = 0.9942, Macro F1 = 0.9944
+    🔹 Fold 9: Accuracy = 0.9922, Macro F1 = 0.9924
+    🔹 Fold 10: Accuracy = 0.9922, Macro F1 = 0.9925
+✅ CatBoost on dataset_1478.csv: Accuracy = 0.9914, Macro F1 = 0.9917, Time = 557.77s
+🚀 Evaluating RF on dataset_1478.csv...
+    🔹 Fold 1: Accuracy = 0.9777, Macro F1 = 0.9788
+    🔹 Fold 2: Accuracy = 0.9825, Macro F1 = 0.9827
+    🔹 Fold 3: Accuracy = 0.9806, Macro F1 = 0.9804
+    🔹 Fold 4: Accuracy = 0.9825, Macro F1 = 0.9820
+    🔹 Fold 5: Accuracy = 0.9816, Macro F1 = 0.9813
+    🔹 Fold 6: Accuracy = 0.9777, Macro F1 = 0.9770
+    🔹 Fold 7: Accuracy = 0.9806, Macro F1 = 0.9800
+    🔹 Fold 8: Accuracy = 0.9825, Macro F1 = 0.9826
+    🔹 Fold 9: Accuracy = 0.9825, Macro F1 = 0.9822
+    🔹 Fold 10: Accuracy = 0.9835, Macro F1 = 0.9832
+✅ RF on dataset_1478.csv: Accuracy = 0.9812, Macro F1 = 0.9810, Time = 58.64s
+🚀 Evaluating SPORF on dataset_1478.csv...
+    🔹 Fold 1: Accuracy = 0.9806, Macro F1 = 0.9811
+    🔹 Fold 2: Accuracy = 0.9767, Macro F1 = 0.9770
+    🔹 Fold 3: Accuracy = 0.9825, Macro F1 = 0.9827
+    🔹 Fold 4: Accuracy = 0.9825, Macro F1 = 0.9820
+    🔹 Fold 5: Accuracy = 0.9816, Macro F1 = 0.9817
+    🔹 Fold 6: Accuracy = 0.9816, Macro F1 = 0.9815
+    🔹 Fold 7: Accuracy = 0.9845, Macro F1 = 0.9840
+    🔹 Fold 8: Accuracy = 0.9835, Macro F1 = 0.9836
+    🔹 Fold 9: Accuracy = 0.9835, Macro F1 = 0.9832
+    🔹 Fold 10: Accuracy = 0.9874, Macro F1 = 0.9876
+✅ SPORF on dataset_1478.csv: Accuracy = 0.9824, Macro F1 = 0.9824, Time = 793.07s
+📤 The result that has been written to dataset_1478.csv
+
+📂 Dataset: dataset_1480.csv
+    🔸 Samples: 583, Features: 10, Classes: 2
+🚀 Evaluating TabPFN on dataset_1480.csv...
+    🔹 Fold 1: Accuracy = 0.7627, Macro F1 = 0.5786
+    🔹 Fold 2: Accuracy = 0.6610, Macro F1 = 0.5067
+    🔹 Fold 3: Accuracy = 0.7119, Macro F1 = 0.5686
+    🔹 Fold 4: Accuracy = 0.7241, Macro F1 = 0.5797
+    🔹 Fold 5: Accuracy = 0.7241, Macro F1 = 0.4739
+    🔹 Fold 6: Accuracy = 0.6897, Macro F1 = 0.4952
+    🔹 Fold 7: Accuracy = 0.7414, Macro F1 = 0.5933
+    🔹 Fold 8: Accuracy = 0.6897, Macro F1 = 0.5272
+    🔹 Fold 9: Accuracy = 0.7586, Macro F1 = 0.6322
+    🔹 Fold 10: Accuracy = 0.7414, Macro F1 = 0.5279
+✅ TabPFN on dataset_1480.csv: Accuracy = 0.7205, Macro F1 = 0.5483, Time = 4.91s
+🚀 Evaluating CatBoost on dataset_1480.csv...
+    🔹 Fold 1: Accuracy = 0.8305, Macro F1 = 0.7533
+    🔹 Fold 2: Accuracy = 0.6780, Macro F1 = 0.5178
+    🔹 Fold 3: Accuracy = 0.7119, Macro F1 = 0.5686
+    🔹 Fold 4: Accuracy = 0.6724, Macro F1 = 0.5156
+    🔹 Fold 5: Accuracy = 0.7586, Macro F1 = 0.6530
+    🔹 Fold 6: Accuracy = 0.6207, Macro F1 = 0.4821
+    🔹 Fold 7: Accuracy = 0.7069, Macro F1 = 0.5390
+    🔹 Fold 8: Accuracy = 0.7241, Macro F1 = 0.5513
+    🔹 Fold 9: Accuracy = 0.7069, Macro F1 = 0.5666
+    🔹 Fold 10: Accuracy = 0.6379, Macro F1 = 0.4306
+✅ CatBoost on dataset_1480.csv: Accuracy = 0.7048, Macro F1 = 0.5578, Time = 2.59s
+🚀 Evaluating RF on dataset_1480.csv...
+    🔹 Fold 1: Accuracy = 0.7627, Macro F1 = 0.6339
+    🔹 Fold 2: Accuracy = 0.7458, Macro F1 = 0.6571
+    🔹 Fold 3: Accuracy = 0.6441, Macro F1 = 0.5200
+    🔹 Fold 4: Accuracy = 0.6552, Macro F1 = 0.5685
+    🔹 Fold 5: Accuracy = 0.7414, Macro F1 = 0.6380
+    🔹 Fold 6: Accuracy = 0.7069, Macro F1 = 0.6258
+    🔹 Fold 7: Accuracy = 0.7069, Macro F1 = 0.6258
+    🔹 Fold 8: Accuracy = 0.6379, Macro F1 = 0.4306
+    🔹 Fold 9: Accuracy = 0.7586, Macro F1 = 0.6705
+    🔹 Fold 10: Accuracy = 0.6207, Macro F1 = 0.4547
+✅ RF on dataset_1480.csv: Accuracy = 0.6980, Macro F1 = 0.5825, Time = 19.25s
+🚀 Evaluating SPORF on dataset_1480.csv...
+    🔹 Fold 1: Accuracy = 0.7627, Macro F1 = 0.6339
+    🔹 Fold 2: Accuracy = 0.7797, Macro F1 = 0.7028
+    🔹 Fold 3: Accuracy = 0.6271, Macro F1 = 0.5083
+    🔹 Fold 4: Accuracy = 0.6379, Macro F1 = 0.5378
+    🔹 Fold 5: Accuracy = 0.7414, Macro F1 = 0.6176
+    🔹 Fold 6: Accuracy = 0.6897, Macro F1 = 0.6116
+    🔹 Fold 7: Accuracy = 0.6897, Macro F1 = 0.5953
+    🔹 Fold 8: Accuracy = 0.6724, Macro F1 = 0.5156
+    🔹 Fold 9: Accuracy = 0.7759, Macro F1 = 0.6862
+    🔹 Fold 10: Accuracy = 0.6379, Macro F1 = 0.5172
+✅ SPORF on dataset_1480.csv: Accuracy = 0.7014, Macro F1 = 0.5926, Time = 19.12s
+📤 The result that has been written to dataset_1480.csv
+
+📂 Dataset: dataset_1485.csv
+    🔸 Samples: 2600, Features: 500, Classes: 2
+🚀 Evaluating TabPFN on dataset_1485.csv...
+    🔹 Fold 1: Accuracy = 0.9154, Macro F1 = 0.9154
+    🔹 Fold 2: Accuracy = 0.8577, Macro F1 = 0.8576
+    🔹 Fold 3: Accuracy = 0.8923, Macro F1 = 0.8923
+⏭️ Skip the completed or invalid files: dataset_3.csv
+⏭️ Skip the completed or invalid files: dataset_6.csv
+⏭️ Skip the completed or invalid files: dataset_11.csv
+⏭️ Skip the completed or invalid files: dataset_12.csv
+⏭️ Skip the completed or invalid files: dataset_14.csv
+⏭️ Skip the completed or invalid files: dataset_15.csv
+⏭️ Skip the completed or invalid files: dataset_16.csv
+⏭️ Skip the completed or invalid files: dataset_18.csv
+⏭️ Skip the completed or invalid files: dataset_22.csv
+⏭️ Skip the completed or invalid files: dataset_23.csv
+⏭️ Skip the completed or invalid files: dataset_28.csv
+⏭️ Skip the completed or invalid files: dataset_29.csv
+⏭️ Skip the completed or invalid files: dataset_31.csv
+⏭️ Skip the completed or invalid files: dataset_32.csv
+⏭️ Skip the completed or invalid files: dataset_37.csv
+⏭️ Skip the completed or invalid files: dataset_38.csv
+⏭️ Skip the completed or invalid files: dataset_44.csv
+⏭️ Skip the completed or invalid files: dataset_46.csv
+⏭️ Skip the completed or invalid files: dataset_50.csv
+⏭️ Skip the completed or invalid files: dataset_54.csv
+⏭️ Skip the completed or invalid files: dataset_151.csv
+⏭️ Skip the completed or invalid files: dataset_182.csv
+⏭️ Skip the completed or invalid files: dataset_188.csv
+⏭️ Skip the completed or invalid files: dataset_300.csv
+⏭️ Skip the completed or invalid files: dataset_307.csv
+⏭️ Skip the completed or invalid files: dataset_458.csv
+⏭️ Skip the completed or invalid files: dataset_469.csv
+⏭️ Skip the completed or invalid files: dataset_554.csv
+⏭️ Skip the completed or invalid files: dataset_1049.csv
+⏭️ Skip the completed or invalid files: dataset_1050.csv
+⏭️ Skip the completed or invalid files: dataset_1053.csv
+⏭️ Skip the completed or invalid files: dataset_1063.csv
+⏭️ Skip the completed or invalid files: dataset_1067.csv
+⏭️ Skip the completed or invalid files: dataset_1068.csv
+⏭️ Skip the completed or invalid files: dataset_1461.csv
+⏭️ Skip the completed or invalid files: dataset_1462.csv
+⏭️ Skip the completed or invalid files: dataset_1464.csv
+⏭️ Skip the completed or invalid files: dataset_1468.csv
+⏭️ Skip the completed or invalid files: dataset_1475.csv
+⏭️ Skip the completed or invalid files: dataset_1478.csv
+⏭️ Skip the completed or invalid files: dataset_1480.csv
+
+📂 Dataset: dataset_1485.csv
+    🔸 Samples: 2600, Features: 500, Classes: 2
+🚀 Evaluating TabPFN on dataset_1485.csv...
+    🔹 Fold 1: Accuracy = 0.9154, Macro F1 = 0.9154
+    🔹 Fold 2: Accuracy = 0.8577, Macro F1 = 0.8576
+    🔹 Fold 3: Accuracy = 0.8923, Macro F1 = 0.8923
+    🔹 Fold 4: Accuracy = 0.9038, Macro F1 = 0.9038
+    🔹 Fold 5: Accuracy = 0.9038, Macro F1 = 0.9038
+    🔹 Fold 6: Accuracy = 0.9115, Macro F1 = 0.9115
+    🔹 Fold 7: Accuracy = 0.8923, Macro F1 = 0.8923
+    🔹 Fold 8: Accuracy = 0.9115, Macro F1 = 0.9114
+    🔹 Fold 9: Accuracy = 0.8769, Macro F1 = 0.8769
+    🔹 Fold 10: Accuracy = 0.8846, Macro F1 = 0.8846
+✅ TabPFN on dataset_1485.csv: Accuracy = 0.8950, Macro F1 = 0.8950, Time = 199.93s
+🚀 Evaluating CatBoost on dataset_1485.csv...
+    🔹 Fold 1: Accuracy = 0.8731, Macro F1 = 0.8731
+    🔹 Fold 2: Accuracy = 0.8269, Macro F1 = 0.8263
+    🔹 Fold 3: Accuracy = 0.8500, Macro F1 = 0.8500
+    🔹 Fold 4: Accuracy = 0.8577, Macro F1 = 0.8577
+    🔹 Fold 5: Accuracy = 0.8577, Macro F1 = 0.8576
+    🔹 Fold 6: Accuracy = 0.8769, Macro F1 = 0.8769
+    🔹 Fold 7: Accuracy = 0.8654, Macro F1 = 0.8652
+    🔹 Fold 8: Accuracy = 0.8577, Macro F1 = 0.8576
+    🔹 Fold 9: Accuracy = 0.8346, Macro F1 = 0.8344
+    🔹 Fold 10: Accuracy = 0.8423, Macro F1 = 0.8423
+✅ CatBoost on dataset_1485.csv: Accuracy = 0.8542, Macro F1 = 0.8541, Time = 21.84s
+🚀 Evaluating RF on dataset_1485.csv...
+    🔹 Fold 1: Accuracy = 0.7615, Macro F1 = 0.7608
+    🔹 Fold 2: Accuracy = 0.7654, Macro F1 = 0.7653
+    🔹 Fold 3: Accuracy = 0.7192, Macro F1 = 0.7152
+    🔹 Fold 4: Accuracy = 0.7538, Macro F1 = 0.7524
+    🔹 Fold 5: Accuracy = 0.7692, Macro F1 = 0.7681
+    🔹 Fold 6: Accuracy = 0.7385, Macro F1 = 0.7377
+    🔹 Fold 7: Accuracy = 0.7462, Macro F1 = 0.7440
+    🔹 Fold 8: Accuracy = 0.6731, Macro F1 = 0.6713
+    🔹 Fold 9: Accuracy = 0.7077, Macro F1 = 0.7060
+    🔹 Fold 10: Accuracy = 0.7192, Macro F1 = 0.7180
+✅ RF on dataset_1485.csv: Accuracy = 0.7354, Macro F1 = 0.7339, Time = 20.87s
+🚀 Evaluating SPORF on dataset_1485.csv...
+    🔹 Fold 1: Accuracy = 0.8692, Macro F1 = 0.8692
+    🔹 Fold 2: Accuracy = 0.8308, Macro F1 = 0.8307
+    🔹 Fold 3: Accuracy = 0.8038, Macro F1 = 0.8034
+    🔹 Fold 4: Accuracy = 0.8500, Macro F1 = 0.8500
+    🔹 Fold 5: Accuracy = 0.8654, Macro F1 = 0.8654
+    🔹 Fold 6: Accuracy = 0.8154, Macro F1 = 0.8153
+    🔹 Fold 7: Accuracy = 0.8154, Macro F1 = 0.8150
+    🔹 Fold 8: Accuracy = 0.8115, Macro F1 = 0.8115
+    🔹 Fold 9: Accuracy = 0.8000, Macro F1 = 0.8000
+    🔹 Fold 10: Accuracy = 0.8115, Macro F1 = 0.8115
+✅ SPORF on dataset_1485.csv: Accuracy = 0.8273, Macro F1 = 0.8272, Time = 124.59s
+📤 The result that has been written to dataset_1485.csv
+
+📂 Dataset: dataset_1486.csv
+    🔸 Samples: 34465, Features: 118, Classes: 2
+⏭️ Skip TabPFN on dataset_1486.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_1486.csv...
+    🔹 Fold 1: Accuracy = 0.9707, Macro F1 = 0.9639
+    🔹 Fold 2: Accuracy = 0.9768, Macro F1 = 0.9715
+    🔹 Fold 3: Accuracy = 0.9753, Macro F1 = 0.9698
+    🔹 Fold 4: Accuracy = 0.9687, Macro F1 = 0.9617
+    🔹 Fold 5: Accuracy = 0.9719, Macro F1 = 0.9654
+    🔹 Fold 6: Accuracy = 0.9750, Macro F1 = 0.9691
+    🔹 Fold 7: Accuracy = 0.9701, Macro F1 = 0.9634
+    🔹 Fold 8: Accuracy = 0.9736, Macro F1 = 0.9675
+    🔹 Fold 9: Accuracy = 0.9724, Macro F1 = 0.9662
+    🔹 Fold 10: Accuracy = 0.9742, Macro F1 = 0.9684
+✅ CatBoost on dataset_1486.csv: Accuracy = 0.9729, Macro F1 = 0.9667, Time = 140.00s
+🚀 Evaluating RF on dataset_1486.csv...
+    🔹 Fold 1: Accuracy = 0.9690, Macro F1 = 0.9618
+    🔹 Fold 2: Accuracy = 0.9719, Macro F1 = 0.9652
+    🔹 Fold 3: Accuracy = 0.9698, Macro F1 = 0.9630
+    🔹 Fold 4: Accuracy = 0.9661, Macro F1 = 0.9583
+    🔹 Fold 5: Accuracy = 0.9721, Macro F1 = 0.9657
+    🔹 Fold 6: Accuracy = 0.9704, Macro F1 = 0.9634
+    🔹 Fold 7: Accuracy = 0.9681, Macro F1 = 0.9608
+    🔹 Fold 8: Accuracy = 0.9782, Macro F1 = 0.9732
+    🔹 Fold 9: Accuracy = 0.9716, Macro F1 = 0.9652
+    🔹 Fold 10: Accuracy = 0.9689, Macro F1 = 0.9618
+✅ RF on dataset_1486.csv: Accuracy = 0.9706, Macro F1 = 0.9638, Time = 24.65s
+🚀 Evaluating SPORF on dataset_1486.csv...
+    🔹 Fold 1: Accuracy = 0.9658, Macro F1 = 0.9579
+    🔹 Fold 2: Accuracy = 0.9727, Macro F1 = 0.9663
+    🔹 Fold 3: Accuracy = 0.9695, Macro F1 = 0.9626
+    🔹 Fold 4: Accuracy = 0.9661, Macro F1 = 0.9584
+    🔹 Fold 5: Accuracy = 0.9701, Macro F1 = 0.9632
+    🔹 Fold 6: Accuracy = 0.9719, Macro F1 = 0.9653
+    🔹 Fold 7: Accuracy = 0.9660, Macro F1 = 0.9584
+    🔹 Fold 8: Accuracy = 0.9753, Macro F1 = 0.9697
+    🔹 Fold 9: Accuracy = 0.9713, Macro F1 = 0.9648
+    🔹 Fold 10: Accuracy = 0.9681, Macro F1 = 0.9607
+✅ SPORF on dataset_1486.csv: Accuracy = 0.9697, Macro F1 = 0.9627, Time = 172.24s
+📤 The result that has been written to dataset_1486.csv
+
+📂 Dataset: dataset_1487.csv
+    🔸 Samples: 2534, Features: 72, Classes: 2
+🚀 Evaluating TabPFN on dataset_1487.csv...
+    🔹 Fold 1: Accuracy = 0.9488, Macro F1 = 0.7040
+    🔹 Fold 2: Accuracy = 0.9449, Macro F1 = 0.6674
+    🔹 Fold 3: Accuracy = 0.9488, Macro F1 = 0.7265
+    🔹 Fold 4: Accuracy = 0.9488, Macro F1 = 0.7265
+    🔹 Fold 5: Accuracy = 0.9407, Macro F1 = 0.6844
+    🔹 Fold 6: Accuracy = 0.9605, Macro F1 = 0.7813
+    🔹 Fold 7: Accuracy = 0.9447, Macro F1 = 0.5968
+    🔹 Fold 8: Accuracy = 0.9486, Macro F1 = 0.7039
+    🔹 Fold 9: Accuracy = 0.9447, Macro F1 = 0.6674
+    🔹 Fold 10: Accuracy = 0.9407, Macro F1 = 0.6844
+✅ TabPFN on dataset_1487.csv: Accuracy = 0.9471, Macro F1 = 0.6943, Time = 8.80s
+🚀 Evaluating CatBoost on dataset_1487.csv...
+    🔹 Fold 1: Accuracy = 0.9409, Macro F1 = 0.6275
+    🔹 Fold 2: Accuracy = 0.9449, Macro F1 = 0.6674
+    🔹 Fold 3: Accuracy = 0.9331, Macro F1 = 0.5778
+    🔹 Fold 4: Accuracy = 0.9488, Macro F1 = 0.6446
+    🔹 Fold 5: Accuracy = 0.9407, Macro F1 = 0.5899
+    🔹 Fold 6: Accuracy = 0.9368, Macro F1 = 0.6198
+    🔹 Fold 7: Accuracy = 0.9407, Macro F1 = 0.6274
+    🔹 Fold 8: Accuracy = 0.9565, Macro F1 = 0.7268
+    🔹 Fold 9: Accuracy = 0.9407, Macro F1 = 0.5435
+    🔹 Fold 10: Accuracy = 0.9526, Macro F1 = 0.6877
+✅ CatBoost on dataset_1487.csv: Accuracy = 0.9436, Macro F1 = 0.6312, Time = 8.45s
+🚀 Evaluating RF on dataset_1487.csv...
+    🔹 Fold 1: Accuracy = 0.9409, Macro F1 = 0.5899
+    🔹 Fold 2: Accuracy = 0.9409, Macro F1 = 0.6275
+    🔹 Fold 3: Accuracy = 0.9409, Macro F1 = 0.5899
+    🔹 Fold 4: Accuracy = 0.9370, Macro F1 = 0.5836
+    🔹 Fold 5: Accuracy = 0.9407, Macro F1 = 0.5899
+    🔹 Fold 6: Accuracy = 0.9447, Macro F1 = 0.6674
+    🔹 Fold 7: Accuracy = 0.9407, Macro F1 = 0.5899
+    🔹 Fold 8: Accuracy = 0.9526, Macro F1 = 0.6877
+    🔹 Fold 9: Accuracy = 0.9407, Macro F1 = 0.5435
+    🔹 Fold 10: Accuracy = 0.9447, Macro F1 = 0.5968
+✅ RF on dataset_1487.csv: Accuracy = 0.9424, Macro F1 = 0.6066, Time = 17.93s
+🚀 Evaluating SPORF on dataset_1487.csv...
+    🔹 Fold 1: Accuracy = 0.9409, Macro F1 = 0.5899
+    🔹 Fold 2: Accuracy = 0.9331, Macro F1 = 0.6129
+    🔹 Fold 3: Accuracy = 0.9370, Macro F1 = 0.5836
+    🔹 Fold 4: Accuracy = 0.9488, Macro F1 = 0.7040
+    🔹 Fold 5: Accuracy = 0.9407, Macro F1 = 0.5899
+    🔹 Fold 6: Accuracy = 0.9486, Macro F1 = 0.6771
+    🔹 Fold 7: Accuracy = 0.9447, Macro F1 = 0.5968
+    🔹 Fold 8: Accuracy = 0.9565, Macro F1 = 0.7268
+    🔹 Fold 9: Accuracy = 0.9368, Macro F1 = 0.5392
+    🔹 Fold 10: Accuracy = 0.9407, Macro F1 = 0.5899
+✅ SPORF on dataset_1487.csv: Accuracy = 0.9428, Macro F1 = 0.6210, Time = 17.76s
+📤 The result that has been written to dataset_1487.csv
+
+📂 Dataset: dataset_1489.csv
+    🔸 Samples: 5404, Features: 5, Classes: 2
+🚀 Evaluating TabPFN on dataset_1489.csv...
+    🔹 Fold 1: Accuracy = 0.9131, Macro F1 = 0.8951
+    🔹 Fold 2: Accuracy = 0.9187, Macro F1 = 0.9017
+    🔹 Fold 3: Accuracy = 0.9242, Macro F1 = 0.9082
+    🔹 Fold 4: Accuracy = 0.8946, Macro F1 = 0.8742
+    🔹 Fold 5: Accuracy = 0.9278, Macro F1 = 0.9116
+    🔹 Fold 6: Accuracy = 0.9352, Macro F1 = 0.9200
+    🔹 Fold 7: Accuracy = 0.9056, Macro F1 = 0.8839
+    🔹 Fold 8: Accuracy = 0.9167, Macro F1 = 0.8980
+    🔹 Fold 9: Accuracy = 0.9185, Macro F1 = 0.9027
+    🔹 Fold 10: Accuracy = 0.9074, Macro F1 = 0.8882
+✅ TabPFN on dataset_1489.csv: Accuracy = 0.9162, Macro F1 = 0.8984, Time = 5.02s
+🚀 Evaluating CatBoost on dataset_1489.csv...
+    🔹 Fold 1: Accuracy = 0.9261, Macro F1 = 0.9099
+    🔹 Fold 2: Accuracy = 0.9113, Macro F1 = 0.8935
+    🔹 Fold 3: Accuracy = 0.9076, Macro F1 = 0.8882
+    🔹 Fold 4: Accuracy = 0.8799, Macro F1 = 0.8560
+    🔹 Fold 5: Accuracy = 0.9019, Macro F1 = 0.8799
+    🔹 Fold 6: Accuracy = 0.9019, Macro F1 = 0.8789
+    🔹 Fold 7: Accuracy = 0.9019, Macro F1 = 0.8794
+    🔹 Fold 8: Accuracy = 0.8963, Macro F1 = 0.8723
+    🔹 Fold 9: Accuracy = 0.9037, Macro F1 = 0.8824
+    🔹 Fold 10: Accuracy = 0.9204, Macro F1 = 0.9025
+✅ CatBoost on dataset_1489.csv: Accuracy = 0.9051, Macro F1 = 0.8843, Time = 30.33s
+🚀 Evaluating RF on dataset_1489.csv...
+    🔹 Fold 1: Accuracy = 0.9094, Macro F1 = 0.8903
+    🔹 Fold 2: Accuracy = 0.9168, Macro F1 = 0.9000
+    🔹 Fold 3: Accuracy = 0.9316, Macro F1 = 0.9168
+    🔹 Fold 4: Accuracy = 0.9039, Macro F1 = 0.8846
+    🔹 Fold 5: Accuracy = 0.9130, Macro F1 = 0.8947
+    🔹 Fold 6: Accuracy = 0.9148, Macro F1 = 0.8951
+    🔹 Fold 7: Accuracy = 0.9037, Macro F1 = 0.8819
+    🔹 Fold 8: Accuracy = 0.9111, Macro F1 = 0.8918
+    🔹 Fold 9: Accuracy = 0.9130, Macro F1 = 0.8939
+    🔹 Fold 10: Accuracy = 0.9204, Macro F1 = 0.9033
+✅ RF on dataset_1489.csv: Accuracy = 0.9138, Macro F1 = 0.8952, Time = 19.03s
+🚀 Evaluating SPORF on dataset_1489.csv...
+    🔹 Fold 1: Accuracy = 0.9039, Macro F1 = 0.8838
+    🔹 Fold 2: Accuracy = 0.9298, Macro F1 = 0.9154
+    🔹 Fold 3: Accuracy = 0.9279, Macro F1 = 0.9123
+    🔹 Fold 4: Accuracy = 0.9057, Macro F1 = 0.8875
+    🔹 Fold 5: Accuracy = 0.9185, Macro F1 = 0.9019
+    🔹 Fold 6: Accuracy = 0.9148, Macro F1 = 0.8951
+    🔹 Fold 7: Accuracy = 0.9056, Macro F1 = 0.8848
+    🔹 Fold 8: Accuracy = 0.9093, Macro F1 = 0.8894
+    🔹 Fold 9: Accuracy = 0.9167, Macro F1 = 0.8980
+    🔹 Fold 10: Accuracy = 0.9241, Macro F1 = 0.9071
+✅ SPORF on dataset_1489.csv: Accuracy = 0.9156, Macro F1 = 0.8975, Time = 18.78s
+📤 The result that has been written to dataset_1489.csv
+
+📂 Dataset: dataset_1494.csv
+    🔸 Samples: 1055, Features: 41, Classes: 2
+🚀 Evaluating TabPFN on dataset_1494.csv...
+    🔹 Fold 1: Accuracy = 0.8774, Macro F1 = 0.8582
+    🔹 Fold 2: Accuracy = 0.8962, Macro F1 = 0.8835
+    🔹 Fold 3: Accuracy = 0.9057, Macro F1 = 0.8948
+    🔹 Fold 4: Accuracy = 0.8962, Macro F1 = 0.8851
+    🔹 Fold 5: Accuracy = 0.8962, Macro F1 = 0.8818
+    🔹 Fold 6: Accuracy = 0.8857, Macro F1 = 0.8714
+    🔹 Fold 7: Accuracy = 0.8762, Macro F1 = 0.8552
+    🔹 Fold 8: Accuracy = 0.8095, Macro F1 = 0.7711
+    🔹 Fold 9: Accuracy = 0.8667, Macro F1 = 0.8453
+    🔹 Fold 10: Accuracy = 0.8952, Macro F1 = 0.8794
+✅ TabPFN on dataset_1494.csv: Accuracy = 0.8805, Macro F1 = 0.8626, Time = 3.77s
+🚀 Evaluating CatBoost on dataset_1494.csv...
+    🔹 Fold 1: Accuracy = 0.9057, Macro F1 = 0.8934
+    🔹 Fold 2: Accuracy = 0.8868, Macro F1 = 0.8720
+    🔹 Fold 3: Accuracy = 0.8868, Macro F1 = 0.8738
+    🔹 Fold 4: Accuracy = 0.8868, Macro F1 = 0.8754
+    🔹 Fold 5: Accuracy = 0.8868, Macro F1 = 0.8738
+    🔹 Fold 6: Accuracy = 0.8571, Macro F1 = 0.8356
+    🔹 Fold 7: Accuracy = 0.8476, Macro F1 = 0.8169
+    🔹 Fold 8: Accuracy = 0.8571, Macro F1 = 0.8267
+    🔹 Fold 9: Accuracy = 0.8476, Macro F1 = 0.8286
+    🔹 Fold 10: Accuracy = 0.9048, Macro F1 = 0.8876
+✅ CatBoost on dataset_1494.csv: Accuracy = 0.8767, Macro F1 = 0.8584, Time = 5.20s
+🚀 Evaluating RF on dataset_1494.csv...
+    🔹 Fold 1: Accuracy = 0.8962, Macro F1 = 0.8835
+    🔹 Fold 2: Accuracy = 0.8868, Macro F1 = 0.8720
+    🔹 Fold 3: Accuracy = 0.9057, Macro F1 = 0.8934
+    🔹 Fold 4: Accuracy = 0.8868, Macro F1 = 0.8754
+    🔹 Fold 5: Accuracy = 0.8774, Macro F1 = 0.8624
+    🔹 Fold 6: Accuracy = 0.8667, Macro F1 = 0.8453
+    🔹 Fold 7: Accuracy = 0.8381, Macro F1 = 0.8106
+    🔹 Fold 8: Accuracy = 0.8476, Macro F1 = 0.8202
+    🔹 Fold 9: Accuracy = 0.8381, Macro F1 = 0.8165
+    🔹 Fold 10: Accuracy = 0.8952, Macro F1 = 0.8753
+✅ RF on dataset_1494.csv: Accuracy = 0.8739, Macro F1 = 0.8555, Time = 19.22s
+🚀 Evaluating SPORF on dataset_1494.csv...
+    🔹 Fold 1: Accuracy = 0.9057, Macro F1 = 0.8934
+    🔹 Fold 2: Accuracy = 0.8774, Macro F1 = 0.8603
+    🔹 Fold 3: Accuracy = 0.8962, Macro F1 = 0.8835
+    🔹 Fold 4: Accuracy = 0.8585, Macro F1 = 0.8412
+    🔹 Fold 5: Accuracy = 0.8774, Macro F1 = 0.8624
+    🔹 Fold 6: Accuracy = 0.8667, Macro F1 = 0.8453
+    🔹 Fold 7: Accuracy = 0.8571, Macro F1 = 0.8267
+    🔹 Fold 8: Accuracy = 0.8381, Macro F1 = 0.8073
+    🔹 Fold 9: Accuracy = 0.8762, Macro F1 = 0.8575
+    🔹 Fold 10: Accuracy = 0.8857, Macro F1 = 0.8627
+✅ SPORF on dataset_1494.csv: Accuracy = 0.8739, Macro F1 = 0.8540, Time = 18.11s
+📤 The result that has been written to dataset_1494.csv
+
+📂 Dataset: dataset_1497.csv
+    🔸 Samples: 5456, Features: 24, Classes: 4
+🚀 Evaluating TabPFN on dataset_1497.csv...
+    🔹 Fold 1: Accuracy = 0.9963, Macro F1 = 0.9945
+    🔹 Fold 2: Accuracy = 0.9908, Macro F1 = 0.9873
+    🔹 Fold 3: Accuracy = 0.9908, Macro F1 = 0.9883
+    🔹 Fold 4: Accuracy = 0.9963, Macro F1 = 0.9968
+    🔹 Fold 5: Accuracy = 0.9853, Macro F1 = 0.9830
+    🔹 Fold 6: Accuracy = 0.9927, Macro F1 = 0.9904
+    🔹 Fold 7: Accuracy = 0.9872, Macro F1 = 0.9815
+    🔹 Fold 8: Accuracy = 0.9872, Macro F1 = 0.9818
+    🔹 Fold 9: Accuracy = 0.9908, Macro F1 = 0.9901
+    🔹 Fold 10: Accuracy = 0.9927, Macro F1 = 0.9893
+✅ TabPFN on dataset_1497.csv: Accuracy = 0.9910, Macro F1 = 0.9883, Time = 8.34s
+🚀 Evaluating CatBoost on dataset_1497.csv...
+    🔹 Fold 1: Accuracy = 0.9927, Macro F1 = 0.9856
+    🔹 Fold 2: Accuracy = 0.9963, Macro F1 = 0.9944
+    🔹 Fold 3: Accuracy = 0.9982, Macro F1 = 0.9988
+    🔹 Fold 4: Accuracy = 0.9982, Macro F1 = 0.9988
+    🔹 Fold 5: Accuracy = 0.9927, Macro F1 = 0.9925
+    🔹 Fold 6: Accuracy = 0.9963, Macro F1 = 0.9977
+    🔹 Fold 7: Accuracy = 0.9927, Macro F1 = 0.9847
+    🔹 Fold 8: Accuracy = 0.9945, Macro F1 = 0.9923
+    🔹 Fold 9: Accuracy = 0.9945, Macro F1 = 0.9924
+    🔹 Fold 10: Accuracy = 1.0000, Macro F1 = 1.0000
+✅ CatBoost on dataset_1497.csv: Accuracy = 0.9956, Macro F1 = 0.9937, Time = 106.50s
+🚀 Evaluating RF on dataset_1497.csv...
+    🔹 Fold 1: Accuracy = 0.9927, Macro F1 = 0.9856
+    🔹 Fold 2: Accuracy = 0.9890, Macro F1 = 0.9837
+    🔹 Fold 3: Accuracy = 0.9982, Macro F1 = 0.9979
+    🔹 Fold 4: Accuracy = 0.9963, Macro F1 = 0.9968
+    🔹 Fold 5: Accuracy = 0.9890, Macro F1 = 0.9852
+    🔹 Fold 6: Accuracy = 0.9945, Macro F1 = 0.9956
+    🔹 Fold 7: Accuracy = 0.9963, Macro F1 = 0.9934
+    🔹 Fold 8: Accuracy = 0.9927, Macro F1 = 0.9870
+    🔹 Fold 9: Accuracy = 0.9982, Macro F1 = 0.9988
+    🔹 Fold 10: Accuracy = 0.9963, Macro F1 = 0.9935
+✅ RF on dataset_1497.csv: Accuracy = 0.9943, Macro F1 = 0.9918, Time = 21.43s
+🚀 Evaluating SPORF on dataset_1497.csv...
+    🔹 Fold 1: Accuracy = 0.9927, Macro F1 = 0.9856
+    🔹 Fold 2: Accuracy = 0.9927, Macro F1 = 0.9894
+    🔹 Fold 3: Accuracy = 0.9982, Macro F1 = 0.9979
+    🔹 Fold 4: Accuracy = 0.9963, Macro F1 = 0.9968
+    🔹 Fold 5: Accuracy = 0.9908, Macro F1 = 0.9873
+    🔹 Fold 6: Accuracy = 0.9945, Macro F1 = 0.9956
+    🔹 Fold 7: Accuracy = 0.9963, Macro F1 = 0.9934
+    🔹 Fold 8: Accuracy = 0.9963, Macro F1 = 0.9913
+    🔹 Fold 9: Accuracy = 0.9963, Macro F1 = 0.9944
+    🔹 Fold 10: Accuracy = 0.9945, Macro F1 = 0.9914
+✅ SPORF on dataset_1497.csv: Accuracy = 0.9949, Macro F1 = 0.9923, Time = 21.79s
+📤 The result that has been written to dataset_1497.csv
+
+📂 Dataset: dataset_1501.csv
+    🔸 Samples: 1593, Features: 256, Classes: 10
+🚀 Evaluating TabPFN on dataset_1501.csv...
+    🔹 Fold 1: Accuracy = 0.9375, Macro F1 = 0.9376
+    🔹 Fold 2: Accuracy = 0.9313, Macro F1 = 0.9312
+    🔹 Fold 3: Accuracy = 0.9187, Macro F1 = 0.9189
+    🔹 Fold 4: Accuracy = 0.9434, Macro F1 = 0.9415
+    🔹 Fold 5: Accuracy = 0.9245, Macro F1 = 0.9229
+    🔹 Fold 6: Accuracy = 0.9497, Macro F1 = 0.9501
+    🔹 Fold 7: Accuracy = 0.9371, Macro F1 = 0.9371
+    🔹 Fold 8: Accuracy = 0.9371, Macro F1 = 0.9366
+    🔹 Fold 9: Accuracy = 0.9497, Macro F1 = 0.9496
+    🔹 Fold 10: Accuracy = 0.9811, Macro F1 = 0.9812
+✅ TabPFN on dataset_1501.csv: Accuracy = 0.9410, Macro F1 = 0.9407, Time = 18.17s
+🚀 Evaluating CatBoost on dataset_1501.csv...
+    🔹 Fold 1: Accuracy = 0.9500, Macro F1 = 0.9501
+    🔹 Fold 2: Accuracy = 0.9187, Macro F1 = 0.9178
+    🔹 Fold 3: Accuracy = 0.9500, Macro F1 = 0.9485
+    🔹 Fold 4: Accuracy = 0.9371, Macro F1 = 0.9353
+    🔹 Fold 5: Accuracy = 0.9182, Macro F1 = 0.9184
+    🔹 Fold 6: Accuracy = 0.9371, Macro F1 = 0.9368
+    🔹 Fold 7: Accuracy = 0.9434, Macro F1 = 0.9436
+    🔹 Fold 8: Accuracy = 0.9371, Macro F1 = 0.9367
+    🔹 Fold 9: Accuracy = 0.9560, Macro F1 = 0.9561
+    🔹 Fold 10: Accuracy = 0.9874, Macro F1 = 0.9871
+✅ CatBoost on dataset_1501.csv: Accuracy = 0.9435, Macro F1 = 0.9430, Time = 251.53s
+🚀 Evaluating RF on dataset_1501.csv...
+    🔹 Fold 1: Accuracy = 0.9437, Macro F1 = 0.9443
+    🔹 Fold 2: Accuracy = 0.9437, Macro F1 = 0.9439
+    🔹 Fold 3: Accuracy = 0.9313, Macro F1 = 0.9302
+    🔹 Fold 4: Accuracy = 0.9371, Macro F1 = 0.9355
+    🔹 Fold 5: Accuracy = 0.8994, Macro F1 = 0.8995
+    🔹 Fold 6: Accuracy = 0.9434, Macro F1 = 0.9433
+    🔹 Fold 7: Accuracy = 0.9371, Macro F1 = 0.9371
+    🔹 Fold 8: Accuracy = 0.9497, Macro F1 = 0.9495
+    🔹 Fold 9: Accuracy = 0.9748, Macro F1 = 0.9748
+    🔹 Fold 10: Accuracy = 0.9937, Macro F1 = 0.9935
+✅ RF on dataset_1501.csv: Accuracy = 0.9454, Macro F1 = 0.9452, Time = 21.94s
+🚀 Evaluating SPORF on dataset_1501.csv...
+    🔹 Fold 1: Accuracy = 0.9437, Macro F1 = 0.9442
+    🔹 Fold 2: Accuracy = 0.9250, Macro F1 = 0.9241
+    🔹 Fold 3: Accuracy = 0.9187, Macro F1 = 0.9177
+    🔹 Fold 4: Accuracy = 0.9245, Macro F1 = 0.9214
+    🔹 Fold 5: Accuracy = 0.8931, Macro F1 = 0.8936
+    🔹 Fold 6: Accuracy = 0.9371, Macro F1 = 0.9369
+    🔹 Fold 7: Accuracy = 0.9182, Macro F1 = 0.9177
+    🔹 Fold 8: Accuracy = 0.9308, Macro F1 = 0.9316
+    🔹 Fold 9: Accuracy = 0.9686, Macro F1 = 0.9687
+    🔹 Fold 10: Accuracy = 0.9937, Macro F1 = 0.9935
+✅ SPORF on dataset_1501.csv: Accuracy = 0.9354, Macro F1 = 0.9349, Time = 21.71s
+📤 The result that has been written to dataset_1501.csv
+
+📂 Dataset: dataset_1510.csv
+    🔸 Samples: 569, Features: 30, Classes: 2
+🚀 Evaluating TabPFN on dataset_1510.csv...
+    🔹 Fold 1: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 2: Accuracy = 0.9825, Macro F1 = 0.9810
+    🔹 Fold 3: Accuracy = 0.9825, Macro F1 = 0.9810
+    🔹 Fold 4: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 5: Accuracy = 0.9298, Macro F1 = 0.9230
+    🔹 Fold 6: Accuracy = 0.9825, Macro F1 = 0.9810
+    🔹 Fold 7: Accuracy = 0.9825, Macro F1 = 0.9810
+    🔹 Fold 8: Accuracy = 0.9474, Macro F1 = 0.9440
+    🔹 Fold 9: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 10: Accuracy = 0.9464, Macro F1 = 0.9434
+✅ TabPFN on dataset_1510.csv: Accuracy = 0.9718, Macro F1 = 0.9697, Time = 3.20s
+🚀 Evaluating CatBoost on dataset_1510.csv...
+    🔹 Fold 1: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 2: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 3: Accuracy = 0.9474, Macro F1 = 0.9415
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9123, Macro F1 = 0.9048
+    🔹 Fold 6: Accuracy = 0.9649, Macro F1 = 0.9615
+    🔹 Fold 7: Accuracy = 0.9825, Macro F1 = 0.9810
+    🔹 Fold 8: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 9: Accuracy = 0.9649, Macro F1 = 0.9630
+    🔹 Fold 10: Accuracy = 0.9643, Macro F1 = 0.9619
+✅ CatBoost on dataset_1510.csv: Accuracy = 0.9701, Macro F1 = 0.9676, Time = 105.30s
+🚀 Evaluating RF on dataset_1510.csv...
+    🔹 Fold 1: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 2: Accuracy = 0.9649, Macro F1 = 0.9623
+    🔹 Fold 3: Accuracy = 0.9474, Macro F1 = 0.9415
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9123, Macro F1 = 0.9048
+    🔹 Fold 6: Accuracy = 0.9298, Macro F1 = 0.9246
+    🔹 Fold 7: Accuracy = 0.9474, Macro F1 = 0.9440
+    🔹 Fold 8: Accuracy = 0.9649, Macro F1 = 0.9623
+    🔹 Fold 9: Accuracy = 0.9649, Macro F1 = 0.9630
+    🔹 Fold 10: Accuracy = 0.9821, Macro F1 = 0.9808
+✅ RF on dataset_1510.csv: Accuracy = 0.9596, Macro F1 = 0.9565, Time = 24.19s
+🚀 Evaluating SPORF on dataset_1510.csv...
+    🔹 Fold 1: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 2: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 3: Accuracy = 0.9649, Macro F1 = 0.9623
+    🔹 Fold 4: Accuracy = 1.0000, Macro F1 = 1.0000
+    🔹 Fold 5: Accuracy = 0.9298, Macro F1 = 0.9230
+    🔹 Fold 6: Accuracy = 0.9474, Macro F1 = 0.9429
+    🔹 Fold 7: Accuracy = 0.9649, Macro F1 = 0.9623
+    🔹 Fold 8: Accuracy = 0.9825, Macro F1 = 0.9813
+    🔹 Fold 9: Accuracy = 0.9649, Macro F1 = 0.9630
+    🔹 Fold 10: Accuracy = 0.9643, Macro F1 = 0.9619
+✅ SPORF on dataset_1510.csv: Accuracy = 0.9684, Macro F1 = 0.9659, Time = 27.49s
+📤 The result that has been written to dataset_1510.csv
+
+📂 Dataset: dataset_1590.csv
+    🔸 Samples: 48842, Features: 14, Classes: 2
+⏭️ Skip TabPFN on dataset_1590.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_1590.csv...
+    🔹 Fold 1: Accuracy = 0.8766, Macro F1 = 0.8187
+    🔹 Fold 2: Accuracy = 0.8727, Macro F1 = 0.8103
+    🔹 Fold 3: Accuracy = 0.8712, Macro F1 = 0.8121
+    🔹 Fold 4: Accuracy = 0.8761, Macro F1 = 0.8193
+    🔹 Fold 5: Accuracy = 0.8765, Macro F1 = 0.8199
+    🔹 Fold 6: Accuracy = 0.8679, Macro F1 = 0.8043
+    🔹 Fold 7: Accuracy = 0.8749, Macro F1 = 0.8150
+    🔹 Fold 8: Accuracy = 0.8720, Macro F1 = 0.8117
+    🔹 Fold 9: Accuracy = 0.8741, Macro F1 = 0.8195
+    🔹 Fold 10: Accuracy = 0.8800, Macro F1 = 0.8237
+✅ CatBoost on dataset_1590.csv: Accuracy = 0.8742, Macro F1 = 0.8155, Time = 697.02s
+🚀 Evaluating RF on dataset_1590.csv...
+    🔹 Fold 1: Accuracy = 0.8620, Macro F1 = 0.7984
+    🔹 Fold 2: Accuracy = 0.8655, Macro F1 = 0.8023
+    🔹 Fold 3: Accuracy = 0.8602, Macro F1 = 0.7956
+    🔹 Fold 4: Accuracy = 0.8571, Macro F1 = 0.7935
+    🔹 Fold 5: Accuracy = 0.8602, Macro F1 = 0.7964
+    🔹 Fold 6: Accuracy = 0.8511, Macro F1 = 0.7836
+    🔹 Fold 7: Accuracy = 0.8597, Macro F1 = 0.7957
+    🔹 Fold 8: Accuracy = 0.8610, Macro F1 = 0.7971
+    🔹 Fold 9: Accuracy = 0.8573, Macro F1 = 0.7968
+    🔹 Fold 10: Accuracy = 0.8626, Macro F1 = 0.8000
+✅ RF on dataset_1590.csv: Accuracy = 0.8597, Macro F1 = 0.7959, Time = 56.73s
+🚀 Evaluating SPORF on dataset_1590.csv...
+    🔹 Fold 1: Accuracy = 0.8608, Macro F1 = 0.7960
+    🔹 Fold 2: Accuracy = 0.8665, Macro F1 = 0.8039
+    🔹 Fold 3: Accuracy = 0.8616, Macro F1 = 0.7976
+    🔹 Fold 4: Accuracy = 0.8632, Macro F1 = 0.8016
+    🔹 Fold 5: Accuracy = 0.8643, Macro F1 = 0.8022
+    🔹 Fold 6: Accuracy = 0.8557, Macro F1 = 0.7880
+    🔹 Fold 7: Accuracy = 0.8591, Macro F1 = 0.7943
+    🔹 Fold 8: Accuracy = 0.8587, Macro F1 = 0.7926
+    🔹 Fold 9: Accuracy = 0.8638, Macro F1 = 0.8056
+    🔹 Fold 10: Accuracy = 0.8677, Macro F1 = 0.8069
+✅ SPORF on dataset_1590.csv: Accuracy = 0.8621, Macro F1 = 0.7989, Time = 48.82s
+📤 The result that has been written to dataset_1590.csv
+
+📂 Dataset: dataset_4134.csv
+    🔸 Samples: 3751, Features: 1776, Classes: 2
+🚀 Evaluating TabPFN on dataset_4134.csv...
+    🔹 Fold 1: Accuracy = 0.7766, Macro F1 = 0.7726
+    🔹 Fold 2: Accuracy = 0.7867, Macro F1 = 0.7835
+    🔹 Fold 3: Accuracy = 0.7600, Macro F1 = 0.7571
+    🔹 Fold 4: Accuracy = 0.7893, Macro F1 = 0.7855
+    🔹 Fold 5: Accuracy = 0.7840, Macro F1 = 0.7798
+    🔹 Fold 6: Accuracy = 0.7493, Macro F1 = 0.7446
+    🔹 Fold 7: Accuracy = 0.7547, Macro F1 = 0.7514
+    🔹 Fold 8: Accuracy = 0.7680, Macro F1 = 0.7651
+    🔹 Fold 9: Accuracy = 0.7707, Macro F1 = 0.7687
+    🔹 Fold 10: Accuracy = 0.7653, Macro F1 = 0.7637
+✅ TabPFN on dataset_4134.csv: Accuracy = 0.7705, Macro F1 = 0.7672, Time = 288.70s
+🚀 Evaluating CatBoost on dataset_4134.csv...
+    🔹 Fold 1: Accuracy = 0.8378, Macro F1 = 0.8358
+    🔹 Fold 2: Accuracy = 0.8027, Macro F1 = 0.7998
+    🔹 Fold 3: Accuracy = 0.7867, Macro F1 = 0.7846
+    🔹 Fold 4: Accuracy = 0.8133, Macro F1 = 0.8120
+    🔹 Fold 5: Accuracy = 0.8000, Macro F1 = 0.7979
+    🔹 Fold 6: Accuracy = 0.7493, Macro F1 = 0.7446
+    🔹 Fold 7: Accuracy = 0.7920, Macro F1 = 0.7892
+    🔹 Fold 8: Accuracy = 0.7840, Macro F1 = 0.7818
+    🔹 Fold 9: Accuracy = 0.8240, Macro F1 = 0.8226
+    🔹 Fold 10: Accuracy = 0.7813, Macro F1 = 0.7806
+✅ CatBoost on dataset_4134.csv: Accuracy = 0.7971, Macro F1 = 0.7949, Time = 50.54s
+🚀 Evaluating RF on dataset_4134.csv...
+    🔹 Fold 1: Accuracy = 0.8165, Macro F1 = 0.8151
+    🔹 Fold 2: Accuracy = 0.8400, Macro F1 = 0.8390
+    🔹 Fold 3: Accuracy = 0.7840, Macro F1 = 0.7807
+    🔹 Fold 4: Accuracy = 0.8240, Macro F1 = 0.8221
+    🔹 Fold 5: Accuracy = 0.8187, Macro F1 = 0.8171
+    🔹 Fold 6: Accuracy = 0.7867, Macro F1 = 0.7835
+    🔹 Fold 7: Accuracy = 0.8187, Macro F1 = 0.8150
+    🔹 Fold 8: Accuracy = 0.7973, Macro F1 = 0.7958
+    🔹 Fold 9: Accuracy = 0.8000, Macro F1 = 0.7989
+    🔹 Fold 10: Accuracy = 0.8027, Macro F1 = 0.8016
+✅ RF on dataset_4134.csv: Accuracy = 0.8088, Macro F1 = 0.8069, Time = 19.46s
+🚀 Evaluating SPORF on dataset_4134.csv...
+    🔹 Fold 1: Accuracy = 0.8324, Macro F1 = 0.8306
+    🔹 Fold 2: Accuracy = 0.8160, Macro F1 = 0.8141
+    🔹 Fold 3: Accuracy = 0.8267, Macro F1 = 0.8242
+    🔹 Fold 4: Accuracy = 0.8320, Macro F1 = 0.8309
+    🔹 Fold 5: Accuracy = 0.8133, Macro F1 = 0.8115
+    🔹 Fold 6: Accuracy = 0.7733, Macro F1 = 0.7705
+    🔹 Fold 7: Accuracy = 0.8107, Macro F1 = 0.8080
+    🔹 Fold 8: Accuracy = 0.7893, Macro F1 = 0.7867
+    🔹 Fold 9: Accuracy = 0.8160, Macro F1 = 0.8145
+    🔹 Fold 10: Accuracy = 0.8080, Macro F1 = 0.8074
+✅ SPORF on dataset_4134.csv: Accuracy = 0.8118, Macro F1 = 0.8098, Time = 1691.45s
+📤 The result that has been written to dataset_4134.csv
+
+📂 Dataset: dataset_4534.csv
+    🔸 Samples: 11055, Features: 30, Classes: 2
+⏭️ Skip TabPFN on dataset_4534.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_4534.csv...
+    🔹 Fold 1: Accuracy = 0.9765, Macro F1 = 0.9762
+    🔹 Fold 2: Accuracy = 0.9602, Macro F1 = 0.9596
+    🔹 Fold 3: Accuracy = 0.9656, Macro F1 = 0.9650
+    🔹 Fold 4: Accuracy = 0.9810, Macro F1 = 0.9808
+    🔹 Fold 5: Accuracy = 0.9810, Macro F1 = 0.9807
+    🔹 Fold 6: Accuracy = 0.9683, Macro F1 = 0.9679
+    🔹 Fold 7: Accuracy = 0.9855, Macro F1 = 0.9853
+    🔹 Fold 8: Accuracy = 0.9765, Macro F1 = 0.9761
+    🔹 Fold 9: Accuracy = 0.9738, Macro F1 = 0.9734
+    🔹 Fold 10: Accuracy = 0.9620, Macro F1 = 0.9615
+✅ CatBoost on dataset_4534.csv: Accuracy = 0.9730, Macro F1 = 0.9726, Time = 43.89s
+🚀 Evaluating RF on dataset_4534.csv...
+    🔹 Fold 1: Accuracy = 0.9756, Macro F1 = 0.9753
+    🔹 Fold 2: Accuracy = 0.9575, Macro F1 = 0.9568
+    🔹 Fold 3: Accuracy = 0.9665, Macro F1 = 0.9659
+    🔹 Fold 4: Accuracy = 0.9774, Macro F1 = 0.9771
+    🔹 Fold 5: Accuracy = 0.9783, Macro F1 = 0.9780
+    🔹 Fold 6: Accuracy = 0.9674, Macro F1 = 0.9670
+    🔹 Fold 7: Accuracy = 0.9819, Macro F1 = 0.9816
+    🔹 Fold 8: Accuracy = 0.9738, Macro F1 = 0.9733
+    🔹 Fold 9: Accuracy = 0.9747, Macro F1 = 0.9743
+    🔹 Fold 10: Accuracy = 0.9665, Macro F1 = 0.9661
+✅ RF on dataset_4534.csv: Accuracy = 0.9720, Macro F1 = 0.9715, Time = 24.48s
+🚀 Evaluating SPORF on dataset_4534.csv...
+    🔹 Fold 1: Accuracy = 0.9747, Macro F1 = 0.9743
+    🔹 Fold 2: Accuracy = 0.9566, Macro F1 = 0.9559
+    🔹 Fold 3: Accuracy = 0.9638, Macro F1 = 0.9632
+    🔹 Fold 4: Accuracy = 0.9756, Macro F1 = 0.9753
+    🔹 Fold 5: Accuracy = 0.9801, Macro F1 = 0.9798
+    🔹 Fold 6: Accuracy = 0.9674, Macro F1 = 0.9670
+    🔹 Fold 7: Accuracy = 0.9810, Macro F1 = 0.9807
+    🔹 Fold 8: Accuracy = 0.9747, Macro F1 = 0.9743
+    🔹 Fold 9: Accuracy = 0.9683, Macro F1 = 0.9679
+    🔹 Fold 10: Accuracy = 0.9656, Macro F1 = 0.9651
+✅ SPORF on dataset_4534.csv: Accuracy = 0.9708, Macro F1 = 0.9703, Time = 24.02s
+📤 The result that has been written to dataset_4534.csv
+
+📂 Dataset: dataset_4538.csv
+    🔸 Samples: 9873, Features: 32, Classes: 5
+🚀 Evaluating TabPFN on dataset_4538.csv...
+    🔹 Fold 1: Accuracy = 0.7338, Macro F1 = 0.6975
+    🔹 Fold 2: Accuracy = 0.7429, Macro F1 = 0.7013
+    🔹 Fold 3: Accuracy = 0.7277, Macro F1 = 0.6946
+    🔹 Fold 4: Accuracy = 0.7143, Macro F1 = 0.6750
+    🔹 Fold 5: Accuracy = 0.7295, Macro F1 = 0.6945
+    🔹 Fold 6: Accuracy = 0.7437, Macro F1 = 0.7119
+    🔹 Fold 7: Accuracy = 0.7234, Macro F1 = 0.6877
+    🔹 Fold 8: Accuracy = 0.7112, Macro F1 = 0.6595
+    🔹 Fold 9: Accuracy = 0.7123, Macro F1 = 0.6866
+    🔹 Fold 10: Accuracy = 0.7163, Macro F1 = 0.6792
+✅ TabPFN on dataset_4538.csv: Accuracy = 0.7255, Macro F1 = 0.6888, Time = 30.05s
+🚀 Evaluating CatBoost on dataset_4538.csv...
+    🔹 Fold 1: Accuracy = 0.6883, Macro F1 = 0.6393
+    🔹 Fold 2: Accuracy = 0.6862, Macro F1 = 0.6441
+    🔹 Fold 3: Accuracy = 0.6751, Macro F1 = 0.6351
+    🔹 Fold 4: Accuracy = 0.6859, Macro F1 = 0.6451
+    🔹 Fold 5: Accuracy = 0.6778, Macro F1 = 0.6386
+    🔹 Fold 6: Accuracy = 0.6768, Macro F1 = 0.6400
+    🔹 Fold 7: Accuracy = 0.6879, Macro F1 = 0.6508
+    🔹 Fold 8: Accuracy = 0.6991, Macro F1 = 0.6446
+    🔹 Fold 9: Accuracy = 0.6920, Macro F1 = 0.6538
+    🔹 Fold 10: Accuracy = 0.6768, Macro F1 = 0.6362
+✅ CatBoost on dataset_4538.csv: Accuracy = 0.6846, Macro F1 = 0.6428, Time = 155.70s
+🚀 Evaluating RF on dataset_4538.csv...
+    🔹 Fold 1: Accuracy = 0.6700, Macro F1 = 0.6077
+    🔹 Fold 2: Accuracy = 0.6923, Macro F1 = 0.6339
+    🔹 Fold 3: Accuracy = 0.6984, Macro F1 = 0.6536
+    🔹 Fold 4: Accuracy = 0.6758, Macro F1 = 0.6194
+    🔹 Fold 5: Accuracy = 0.6738, Macro F1 = 0.6266
+    🔹 Fold 6: Accuracy = 0.7031, Macro F1 = 0.6611
+    🔹 Fold 7: Accuracy = 0.6565, Macro F1 = 0.5963
+    🔹 Fold 8: Accuracy = 0.6879, Macro F1 = 0.6293
+    🔹 Fold 9: Accuracy = 0.6798, Macro F1 = 0.6296
+    🔹 Fold 10: Accuracy = 0.6859, Macro F1 = 0.6363
+✅ RF on dataset_4538.csv: Accuracy = 0.6824, Macro F1 = 0.6294, Time = 26.47s
+🚀 Evaluating SPORF on dataset_4538.csv...
+    🔹 Fold 1: Accuracy = 0.6893, Macro F1 = 0.6351
+    🔹 Fold 2: Accuracy = 0.7126, Macro F1 = 0.6644
+    🔹 Fold 3: Accuracy = 0.7024, Macro F1 = 0.6566
+    🔹 Fold 4: Accuracy = 0.6960, Macro F1 = 0.6508
+    🔹 Fold 5: Accuracy = 0.6910, Macro F1 = 0.6530
+    🔹 Fold 6: Accuracy = 0.7143, Macro F1 = 0.6847
+    🔹 Fold 7: Accuracy = 0.6748, Macro F1 = 0.6283
+    🔹 Fold 8: Accuracy = 0.7042, Macro F1 = 0.6505
+    🔹 Fold 9: Accuracy = 0.6890, Macro F1 = 0.6460
+    🔹 Fold 10: Accuracy = 0.6910, Macro F1 = 0.6433
+✅ SPORF on dataset_4538.csv: Accuracy = 0.6964, Macro F1 = 0.6513, Time = 53.90s
+📤 The result that has been written to dataset_4538.csv
+
+📂 Dataset: dataset_6332.csv
+    🔸 Samples: 540, Features: 37, Classes: 2
+🚀 Evaluating TabPFN on dataset_6332.csv...
+    🔹 Fold 1: Accuracy = 0.7407, Macro F1 = 0.7315
+    🔹 Fold 2: Accuracy = 0.8148, Macro F1 = 0.8015
+    🔹 Fold 3: Accuracy = 0.7778, Macro F1 = 0.7662
+    🔹 Fold 4: Accuracy = 0.7778, Macro F1 = 0.7662
+    🔹 Fold 5: Accuracy = 0.8333, Macro F1 = 0.8286
+    🔹 Fold 6: Accuracy = 0.8519, Macro F1 = 0.8466
+    🔹 Fold 7: Accuracy = 0.8333, Macro F1 = 0.8261
+    🔹 Fold 8: Accuracy = 0.8519, Macro F1 = 0.8485
+    🔹 Fold 9: Accuracy = 0.7778, Macro F1 = 0.7564
+    🔹 Fold 10: Accuracy = 0.7963, Macro F1 = 0.7905
+✅ TabPFN on dataset_6332.csv: Accuracy = 0.8056, Macro F1 = 0.7962, Time = 7.45s
+🚀 Evaluating CatBoost on dataset_6332.csv...
+    🔹 Fold 1: Accuracy = 0.7778, Macro F1 = 0.7564
+    🔹 Fold 2: Accuracy = 0.7963, Macro F1 = 0.7838
+    🔹 Fold 3: Accuracy = 0.9074, Macro F1 = 0.9048
+    🔹 Fold 4: Accuracy = 0.9074, Macro F1 = 0.9017
+    🔹 Fold 5: Accuracy = 0.8333, Macro F1 = 0.8261
+    🔹 Fold 6: Accuracy = 0.8333, Macro F1 = 0.8231
+    🔹 Fold 7: Accuracy = 0.7963, Macro F1 = 0.7739
+    🔹 Fold 8: Accuracy = 0.8519, Macro F1 = 0.8485
+    🔹 Fold 9: Accuracy = 0.8704, Macro F1 = 0.8624
+    🔹 Fold 10: Accuracy = 0.8704, Macro F1 = 0.8624
+✅ CatBoost on dataset_6332.csv: Accuracy = 0.8444, Macro F1 = 0.8343, Time = 9.03s
+🚀 Evaluating RF on dataset_6332.csv...
+    🔹 Fold 1: Accuracy = 0.7407, Macro F1 = 0.7221
+    🔹 Fold 2: Accuracy = 0.7778, Macro F1 = 0.7618
+    🔹 Fold 3: Accuracy = 0.8519, Macro F1 = 0.8412
+    🔹 Fold 4: Accuracy = 0.9074, Macro F1 = 0.9017
+    🔹 Fold 5: Accuracy = 0.7963, Macro F1 = 0.7838
+    🔹 Fold 6: Accuracy = 0.8889, Macro F1 = 0.8831
+    🔹 Fold 7: Accuracy = 0.7963, Macro F1 = 0.7739
+    🔹 Fold 8: Accuracy = 0.8704, Macro F1 = 0.8667
+    🔹 Fold 9: Accuracy = 0.8333, Macro F1 = 0.8194
+    🔹 Fold 10: Accuracy = 0.8333, Macro F1 = 0.8261
+✅ RF on dataset_6332.csv: Accuracy = 0.8296, Macro F1 = 0.8180, Time = 19.21s
+🚀 Evaluating SPORF on dataset_6332.csv...
+    🔹 Fold 1: Accuracy = 0.7407, Macro F1 = 0.7221
+    🔹 Fold 2: Accuracy = 0.7963, Macro F1 = 0.7838
+    🔹 Fold 3: Accuracy = 0.8333, Macro F1 = 0.8194
+    🔹 Fold 4: Accuracy = 0.8704, Macro F1 = 0.8624
+    🔹 Fold 5: Accuracy = 0.8148, Macro F1 = 0.8052
+    🔹 Fold 6: Accuracy = 0.8704, Macro F1 = 0.8648
+    🔹 Fold 7: Accuracy = 0.7963, Macro F1 = 0.7793
+    🔹 Fold 8: Accuracy = 0.8704, Macro F1 = 0.8667
+    🔹 Fold 9: Accuracy = 0.7593, Macro F1 = 0.7391
+    🔹 Fold 10: Accuracy = 0.8333, Macro F1 = 0.8231
+✅ SPORF on dataset_6332.csv: Accuracy = 0.8185, Macro F1 = 0.8066, Time = 18.62s
+📤 The result that has been written to dataset_6332.csv
+
+📂 Dataset: dataset_23381.csv
+    🔸 Samples: 500, Features: 12, Classes: 2
+🚀 Evaluating TabPFN on dataset_23381.csv...
+    🔹 Fold 1: Accuracy = 0.6400, Macro F1 = 0.5322
+    🔹 Fold 2: Accuracy = 0.6200, Macro F1 = 0.4933
+    🔹 Fold 3: Accuracy = 0.6400, Macro F1 = 0.5322
+    🔹 Fold 4: Accuracy = 0.5600, Macro F1 = 0.5226
+    🔹 Fold 5: Accuracy = 0.5200, Macro F1 = 0.4048
+    🔹 Fold 6: Accuracy = 0.6800, Macro F1 = 0.5842
+    🔹 Fold 7: Accuracy = 0.5800, Macro F1 = 0.4673
+    🔹 Fold 8: Accuracy = 0.7000, Macro F1 = 0.6608
+    🔹 Fold 9: Accuracy = 0.6000, Macro F1 = 0.5660
+    🔹 Fold 10: Accuracy = 0.5800, Macro F1 = 0.5385
+✅ TabPFN on dataset_23381.csv: Accuracy = 0.6120, Macro F1 = 0.5302, Time = 6.41s
+🚀 Evaluating CatBoost on dataset_23381.csv...
+    🔹 Fold 1: Accuracy = 0.6200, Macro F1 = 0.4636
+    🔹 Fold 2: Accuracy = 0.6600, Macro F1 = 0.5687
+    🔹 Fold 3: Accuracy = 0.6600, Macro F1 = 0.6026
+    🔹 Fold 4: Accuracy = 0.6600, Macro F1 = 0.6026
+    🔹 Fold 5: Accuracy = 0.5800, Macro F1 = 0.4071
+    🔹 Fold 6: Accuracy = 0.6000, Macro F1 = 0.5238
+    🔹 Fold 7: Accuracy = 0.6000, Macro F1 = 0.5404
+    🔹 Fold 8: Accuracy = 0.4800, Macro F1 = 0.4026
+    🔹 Fold 9: Accuracy = 0.5400, Macro F1 = 0.4624
+    🔹 Fold 10: Accuracy = 0.5400, Macro F1 = 0.4799
+✅ CatBoost on dataset_23381.csv: Accuracy = 0.5940, Macro F1 = 0.5054, Time = 1.87s
+🚀 Evaluating RF on dataset_23381.csv...
+    🔹 Fold 1: Accuracy = 0.6400, Macro F1 = 0.6094
+    🔹 Fold 2: Accuracy = 0.6000, Macro F1 = 0.5404
+    🔹 Fold 3: Accuracy = 0.6400, Macro F1 = 0.6094
+    🔹 Fold 4: Accuracy = 0.5600, Macro F1 = 0.5331
+    🔹 Fold 5: Accuracy = 0.5600, Macro F1 = 0.4762
+    🔹 Fold 6: Accuracy = 0.5800, Macro F1 = 0.5385
+    🔹 Fold 7: Accuracy = 0.5400, Macro F1 = 0.4945
+    🔹 Fold 8: Accuracy = 0.4600, Macro F1 = 0.4492
+    🔹 Fold 9: Accuracy = 0.5600, Macro F1 = 0.5417
+    🔹 Fold 10: Accuracy = 0.5200, Macro F1 = 0.5000
+✅ RF on dataset_23381.csv: Accuracy = 0.5660, Macro F1 = 0.5292, Time = 19.16s
+🚀 Evaluating SPORF on dataset_23381.csv...
+    🔹 Fold 1: Accuracy = 0.6200, Macro F1 = 0.5703
+    🔹 Fold 2: Accuracy = 0.6200, Macro F1 = 0.5703
+    🔹 Fold 3: Accuracy = 0.6000, Macro F1 = 0.5660
+    🔹 Fold 4: Accuracy = 0.5400, Macro F1 = 0.5066
+    🔹 Fold 5: Accuracy = 0.5800, Macro F1 = 0.5091
+    🔹 Fold 6: Accuracy = 0.6000, Macro F1 = 0.5660
+    🔹 Fold 7: Accuracy = 0.5200, Macro F1 = 0.4652
+    🔹 Fold 8: Accuracy = 0.4200, Macro F1 = 0.4006
+    🔹 Fold 9: Accuracy = 0.5600, Macro F1 = 0.5098
+    🔹 Fold 10: Accuracy = 0.5200, Macro F1 = 0.5000
+✅ SPORF on dataset_23381.csv: Accuracy = 0.5580, Macro F1 = 0.5164, Time = 18.34s
+📤 The result that has been written to dataset_23381.csv
+
+📂 Dataset: dataset_23517.csv
+    🔸 Samples: 96320, Features: 21, Classes: 2
+⏭️ Skip TabPFN on dataset_23517.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_23517.csv...
+    🔹 Fold 1: Accuracy = 0.5207, Macro F1 = 0.5130
+    🔹 Fold 2: Accuracy = 0.5254, Macro F1 = 0.5153
+    🔹 Fold 3: Accuracy = 0.5200, Macro F1 = 0.5069
+    🔹 Fold 4: Accuracy = 0.5222, Macro F1 = 0.5126
+    🔹 Fold 5: Accuracy = 0.5244, Macro F1 = 0.5163
+    🔹 Fold 6: Accuracy = 0.5181, Macro F1 = 0.5076
+    🔹 Fold 7: Accuracy = 0.5238, Macro F1 = 0.5162
+    🔹 Fold 8: Accuracy = 0.5235, Macro F1 = 0.5141
+    🔹 Fold 9: Accuracy = 0.5170, Macro F1 = 0.5097
+    🔹 Fold 10: Accuracy = 0.5178, Macro F1 = 0.5095
+✅ CatBoost on dataset_23517.csv: Accuracy = 0.5213, Macro F1 = 0.5121, Time = 16.33s
+🚀 Evaluating RF on dataset_23517.csv...
+    🔹 Fold 1: Accuracy = 0.5165, Macro F1 = 0.5153
+    🔹 Fold 2: Accuracy = 0.5105, Macro F1 = 0.5094
+    🔹 Fold 3: Accuracy = 0.5143, Macro F1 = 0.5132
+    🔹 Fold 4: Accuracy = 0.5119, Macro F1 = 0.5108
+    🔹 Fold 5: Accuracy = 0.5213, Macro F1 = 0.5197
+    🔹 Fold 6: Accuracy = 0.5111, Macro F1 = 0.5101
+    🔹 Fold 7: Accuracy = 0.5128, Macro F1 = 0.5115
+    🔹 Fold 8: Accuracy = 0.5079, Macro F1 = 0.5068
+    🔹 Fold 9: Accuracy = 0.5142, Macro F1 = 0.5127
+    🔹 Fold 10: Accuracy = 0.5165, Macro F1 = 0.5154
+✅ RF on dataset_23517.csv: Accuracy = 0.5137, Macro F1 = 0.5125, Time = 157.87s
+🚀 Evaluating SPORF on dataset_23517.csv...
+    🔹 Fold 1: Accuracy = 0.5172, Macro F1 = 0.5163
+    🔹 Fold 2: Accuracy = 0.5111, Macro F1 = 0.5101
+    🔹 Fold 3: Accuracy = 0.5161, Macro F1 = 0.5150
+    🔹 Fold 4: Accuracy = 0.5119, Macro F1 = 0.5107
+    🔹 Fold 5: Accuracy = 0.5295, Macro F1 = 0.5280
+    🔹 Fold 6: Accuracy = 0.5154, Macro F1 = 0.5146
+    🔹 Fold 7: Accuracy = 0.5120, Macro F1 = 0.5107
+    🔹 Fold 8: Accuracy = 0.5136, Macro F1 = 0.5128
+    🔹 Fold 9: Accuracy = 0.5148, Macro F1 = 0.5136
+    🔹 Fold 10: Accuracy = 0.5056, Macro F1 = 0.5044
+✅ SPORF on dataset_23517.csv: Accuracy = 0.5147, Macro F1 = 0.5136, Time = 547.82s
+📤 The result that has been written to dataset_23517.csv
+
+📂 Dataset: dataset_40499.csv
+    🔸 Samples: 5500, Features: 40, Classes: 11
+⏭️ Skip TabPFN on dataset_40499.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_40499.csv...
+    🔹 Fold 1: Accuracy = 0.9891, Macro F1 = 0.9891
+    🔹 Fold 2: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 3: Accuracy = 0.9855, Macro F1 = 0.9855
+    🔹 Fold 4: Accuracy = 0.9855, Macro F1 = 0.9855
+    🔹 Fold 5: Accuracy = 0.9891, Macro F1 = 0.9891
+    🔹 Fold 6: Accuracy = 0.9855, Macro F1 = 0.9854
+    🔹 Fold 7: Accuracy = 0.9855, Macro F1 = 0.9855
+    🔹 Fold 8: Accuracy = 0.9909, Macro F1 = 0.9909
+    🔹 Fold 9: Accuracy = 0.9964, Macro F1 = 0.9964
+    🔹 Fold 10: Accuracy = 0.9927, Macro F1 = 0.9927
+✅ CatBoost on dataset_40499.csv: Accuracy = 0.9895, Macro F1 = 0.9895, Time = 123.24s
+🚀 Evaluating RF on dataset_40499.csv...
+    🔹 Fold 1: Accuracy = 0.9873, Macro F1 = 0.9873
+    🔹 Fold 2: Accuracy = 0.9855, Macro F1 = 0.9855
+    🔹 Fold 3: Accuracy = 0.9800, Macro F1 = 0.9801
+    🔹 Fold 4: Accuracy = 0.9727, Macro F1 = 0.9728
+    🔹 Fold 5: Accuracy = 0.9800, Macro F1 = 0.9801
+    🔹 Fold 6: Accuracy = 0.9764, Macro F1 = 0.9763
+    🔹 Fold 7: Accuracy = 0.9782, Macro F1 = 0.9782
+    🔹 Fold 8: Accuracy = 0.9800, Macro F1 = 0.9801
+    🔹 Fold 9: Accuracy = 0.9709, Macro F1 = 0.9710
+    🔹 Fold 10: Accuracy = 0.9800, Macro F1 = 0.9800
+✅ RF on dataset_40499.csv: Accuracy = 0.9791, Macro F1 = 0.9791, Time = 23.18s
+🚀 Evaluating SPORF on dataset_40499.csv...
+    🔹 Fold 1: Accuracy = 0.9909, Macro F1 = 0.9909
+    🔹 Fold 2: Accuracy = 0.9927, Macro F1 = 0.9927
+    🔹 Fold 3: Accuracy = 0.9891, Macro F1 = 0.9891
+    🔹 Fold 4: Accuracy = 0.9855, Macro F1 = 0.9855
+    🔹 Fold 5: Accuracy = 0.9927, Macro F1 = 0.9927
+    🔹 Fold 6: Accuracy = 0.9891, Macro F1 = 0.9891
+    🔹 Fold 7: Accuracy = 0.9873, Macro F1 = 0.9873
+    🔹 Fold 8: Accuracy = 0.9891, Macro F1 = 0.9891
+    🔹 Fold 9: Accuracy = 0.9945, Macro F1 = 0.9945
+    🔹 Fold 10: Accuracy = 0.9891, Macro F1 = 0.9891
+✅ SPORF on dataset_40499.csv: Accuracy = 0.9900, Macro F1 = 0.9900, Time = 28.47s
+📤 The result that has been written to dataset_40499.csv
+
+📂 Dataset: dataset_40668.csv
+    🔸 Samples: 67557, Features: 42, Classes: 3
+⏭️ Skip TabPFN on dataset_40668.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_40668.csv...
+    🔹 Fold 1: Accuracy = 0.8416, Macro F1 = 0.6543
+    🔹 Fold 2: Accuracy = 0.8397, Macro F1 = 0.6575
+    🔹 Fold 3: Accuracy = 0.8342, Macro F1 = 0.6358
+    🔹 Fold 4: Accuracy = 0.8357, Macro F1 = 0.6587
+    🔹 Fold 5: Accuracy = 0.8384, Macro F1 = 0.6522
+    🔹 Fold 6: Accuracy = 0.8419, Macro F1 = 0.6640
+    🔹 Fold 7: Accuracy = 0.8361, Macro F1 = 0.6555
+    🔹 Fold 8: Accuracy = 0.8391, Macro F1 = 0.6543
+    🔹 Fold 9: Accuracy = 0.8394, Macro F1 = 0.6600
+    🔹 Fold 10: Accuracy = 0.8388, Macro F1 = 0.6569
+✅ CatBoost on dataset_40668.csv: Accuracy = 0.8385, Macro F1 = 0.6549, Time = 180.14s
+🚀 Evaluating RF on dataset_40668.csv...
+    🔹 Fold 1: Accuracy = 0.8215, Macro F1 = 0.6157
+    🔹 Fold 2: Accuracy = 0.8187, Macro F1 = 0.6089
+    🔹 Fold 3: Accuracy = 0.8194, Macro F1 = 0.6079
+    🔹 Fold 4: Accuracy = 0.8148, Macro F1 = 0.6112
+    🔹 Fold 5: Accuracy = 0.8212, Macro F1 = 0.6086
+    🔹 Fold 6: Accuracy = 0.8203, Macro F1 = 0.6225
+    🔹 Fold 7: Accuracy = 0.8099, Macro F1 = 0.5995
+    🔹 Fold 8: Accuracy = 0.8264, Macro F1 = 0.6308
+    🔹 Fold 9: Accuracy = 0.8169, Macro F1 = 0.6043
+    🔹 Fold 10: Accuracy = 0.8232, Macro F1 = 0.6241
+✅ RF on dataset_40668.csv: Accuracy = 0.8192, Macro F1 = 0.6133, Time = 37.52s
+🚀 Evaluating SPORF on dataset_40668.csv...
+    🔹 Fold 1: Accuracy = 0.8215, Macro F1 = 0.6406
+    🔹 Fold 2: Accuracy = 0.8218, Macro F1 = 0.6367
+    🔹 Fold 3: Accuracy = 0.8255, Macro F1 = 0.6354
+    🔹 Fold 4: Accuracy = 0.8126, Macro F1 = 0.6242
+    🔹 Fold 5: Accuracy = 0.8273, Macro F1 = 0.6394
+    🔹 Fold 6: Accuracy = 0.8242, Macro F1 = 0.6480
+    🔹 Fold 7: Accuracy = 0.8165, Macro F1 = 0.6275
+    🔹 Fold 8: Accuracy = 0.8290, Macro F1 = 0.6469
+    🔹 Fold 9: Accuracy = 0.8198, Macro F1 = 0.6314
+    🔹 Fold 10: Accuracy = 0.8286, Macro F1 = 0.6593
+✅ SPORF on dataset_40668.csv: Accuracy = 0.8227, Macro F1 = 0.6389, Time = 85.41s
+📤 The result that has been written to dataset_40668.csv
+
+📂 Dataset: dataset_40670.csv
+    🔸 Samples: 3186, Features: 180, Classes: 3
+🚀 Evaluating TabPFN on dataset_40670.csv...
+    🔹 Fold 1: Accuracy = 0.9655, Macro F1 = 0.9599
+    🔹 Fold 2: Accuracy = 0.9624, Macro F1 = 0.9562
+    🔹 Fold 3: Accuracy = 0.9843, Macro F1 = 0.9830
+    🔹 Fold 4: Accuracy = 0.9592, Macro F1 = 0.9556
+    🔹 Fold 5: Accuracy = 0.9624, Macro F1 = 0.9568
+    🔹 Fold 6: Accuracy = 0.9561, Macro F1 = 0.9466
+    🔹 Fold 7: Accuracy = 0.9686, Macro F1 = 0.9656
+    🔹 Fold 8: Accuracy = 0.9717, Macro F1 = 0.9700
+    🔹 Fold 9: Accuracy = 0.9528, Macro F1 = 0.9457
+    🔹 Fold 10: Accuracy = 0.9686, Macro F1 = 0.9642
+✅ TabPFN on dataset_40670.csv: Accuracy = 0.9652, Macro F1 = 0.9604, Time = 23.78s
+🚀 Evaluating CatBoost on dataset_40670.csv...
+    🔹 Fold 1: Accuracy = 0.9561, Macro F1 = 0.9513
+    🔹 Fold 2: Accuracy = 0.9561, Macro F1 = 0.9493
+    🔹 Fold 3: Accuracy = 0.9781, Macro F1 = 0.9768
+    🔹 Fold 4: Accuracy = 0.9655, Macro F1 = 0.9621
+    🔹 Fold 5: Accuracy = 0.9561, Macro F1 = 0.9538
+    🔹 Fold 6: Accuracy = 0.9561, Macro F1 = 0.9494
+    🔹 Fold 7: Accuracy = 0.9591, Macro F1 = 0.9564
+    🔹 Fold 8: Accuracy = 0.9623, Macro F1 = 0.9595
+    🔹 Fold 9: Accuracy = 0.9497, Macro F1 = 0.9425
+    🔹 Fold 10: Accuracy = 0.9654, Macro F1 = 0.9615
+✅ CatBoost on dataset_40670.csv: Accuracy = 0.9605, Macro F1 = 0.9563, Time = 37.64s
+🚀 Evaluating RF on dataset_40670.csv...
+    🔹 Fold 1: Accuracy = 0.9655, Macro F1 = 0.9615
+    🔹 Fold 2: Accuracy = 0.9467, Macro F1 = 0.9400
+    🔹 Fold 3: Accuracy = 0.9561, Macro F1 = 0.9486
+    🔹 Fold 4: Accuracy = 0.9561, Macro F1 = 0.9515
+    🔹 Fold 5: Accuracy = 0.9592, Macro F1 = 0.9566
+    🔹 Fold 6: Accuracy = 0.9467, Macro F1 = 0.9379
+    🔹 Fold 7: Accuracy = 0.9528, Macro F1 = 0.9467
+    🔹 Fold 8: Accuracy = 0.9748, Macro F1 = 0.9708
+    🔹 Fold 9: Accuracy = 0.9623, Macro F1 = 0.9545
+    🔹 Fold 10: Accuracy = 0.9623, Macro F1 = 0.9559
+✅ RF on dataset_40670.csv: Accuracy = 0.9583, Macro F1 = 0.9524, Time = 21.40s
+🚀 Evaluating SPORF on dataset_40670.csv...
+    🔹 Fold 1: Accuracy = 0.9530, Macro F1 = 0.9495
+    🔹 Fold 2: Accuracy = 0.9373, Macro F1 = 0.9268
+    🔹 Fold 3: Accuracy = 0.9530, Macro F1 = 0.9467
+    🔹 Fold 4: Accuracy = 0.9592, Macro F1 = 0.9557
+    🔹 Fold 5: Accuracy = 0.9561, Macro F1 = 0.9526
+    🔹 Fold 6: Accuracy = 0.9467, Macro F1 = 0.9371
+    🔹 Fold 7: Accuracy = 0.9403, Macro F1 = 0.9323
+    🔹 Fold 8: Accuracy = 0.9528, Macro F1 = 0.9486
+    🔹 Fold 9: Accuracy = 0.9528, Macro F1 = 0.9452
+    🔹 Fold 10: Accuracy = 0.9465, Macro F1 = 0.9365
+✅ SPORF on dataset_40670.csv: Accuracy = 0.9498, Macro F1 = 0.9431, Time = 23.46s
+📤 The result that has been written to dataset_40670.csv
+
+📂 Dataset: dataset_40701.csv
+    🔸 Samples: 5000, Features: 20, Classes: 2
+🚀 Evaluating TabPFN on dataset_40701.csv...
+    🔹 Fold 1: Accuracy = 0.9680, Macro F1 = 0.9311
+    🔹 Fold 2: Accuracy = 0.9620, Macro F1 = 0.9154
+    🔹 Fold 3: Accuracy = 0.9480, Macro F1 = 0.8803
+    🔹 Fold 4: Accuracy = 0.9780, Macro F1 = 0.9529
+    🔹 Fold 5: Accuracy = 0.9680, Macro F1 = 0.9293
+    🔹 Fold 6: Accuracy = 0.9780, Macro F1 = 0.9540
+    🔹 Fold 7: Accuracy = 0.9620, Macro F1 = 0.9165
+    🔹 Fold 8: Accuracy = 0.9620, Macro F1 = 0.9143
+    🔹 Fold 9: Accuracy = 0.9640, Macro F1 = 0.9194
+    🔹 Fold 10: Accuracy = 0.9680, Macro F1 = 0.9302
+✅ TabPFN on dataset_40701.csv: Accuracy = 0.9658, Macro F1 = 0.9243, Time = 13.08s
+🚀 Evaluating CatBoost on dataset_40701.csv...
+    🔹 Fold 1: Accuracy = 0.9720, Macro F1 = 0.9373
+    🔹 Fold 2: Accuracy = 0.9700, Macro F1 = 0.9324
+    🔹 Fold 3: Accuracy = 0.9500, Macro F1 = 0.8825
+    🔹 Fold 4: Accuracy = 0.9740, Macro F1 = 0.9443
+    🔹 Fold 5: Accuracy = 0.9740, Macro F1 = 0.9429
+    🔹 Fold 6: Accuracy = 0.9700, Macro F1 = 0.9350
+    🔹 Fold 7: Accuracy = 0.9640, Macro F1 = 0.9204
+    🔹 Fold 8: Accuracy = 0.9540, Macro F1 = 0.8963
+    🔹 Fold 9: Accuracy = 0.9600, Macro F1 = 0.9116
+    🔹 Fold 10: Accuracy = 0.9660, Macro F1 = 0.9253
+✅ CatBoost on dataset_40701.csv: Accuracy = 0.9654, Macro F1 = 0.9228, Time = 15.31s
+🚀 Evaluating RF on dataset_40701.csv...
+    🔹 Fold 1: Accuracy = 0.9600, Macro F1 = 0.9092
+    🔹 Fold 2: Accuracy = 0.9660, Macro F1 = 0.9233
+    🔹 Fold 3: Accuracy = 0.9480, Macro F1 = 0.8769
+    🔹 Fold 4: Accuracy = 0.9520, Macro F1 = 0.8895
+    🔹 Fold 5: Accuracy = 0.9640, Macro F1 = 0.9194
+    🔹 Fold 6: Accuracy = 0.9620, Macro F1 = 0.9186
+    🔹 Fold 7: Accuracy = 0.9660, Macro F1 = 0.9233
+    🔹 Fold 8: Accuracy = 0.9440, Macro F1 = 0.8711
+    🔹 Fold 9: Accuracy = 0.9540, Macro F1 = 0.8949
+    🔹 Fold 10: Accuracy = 0.9540, Macro F1 = 0.8963
+✅ RF on dataset_40701.csv: Accuracy = 0.9570, Macro F1 = 0.9023, Time = 22.70s
+🚀 Evaluating SPORF on dataset_40701.csv...
+    🔹 Fold 1: Accuracy = 0.9600, Macro F1 = 0.9092
+    🔹 Fold 2: Accuracy = 0.9660, Macro F1 = 0.9243
+    🔹 Fold 3: Accuracy = 0.9460, Macro F1 = 0.8712
+    🔹 Fold 4: Accuracy = 0.9580, Macro F1 = 0.9065
+    🔹 Fold 5: Accuracy = 0.9660, Macro F1 = 0.9243
+    🔹 Fold 6: Accuracy = 0.9600, Macro F1 = 0.9159
+    🔹 Fold 7: Accuracy = 0.9660, Macro F1 = 0.9233
+    🔹 Fold 8: Accuracy = 0.9520, Macro F1 = 0.8910
+    🔹 Fold 9: Accuracy = 0.9580, Macro F1 = 0.9040
+    🔹 Fold 10: Accuracy = 0.9540, Macro F1 = 0.8963
+✅ SPORF on dataset_40701.csv: Accuracy = 0.9586, Macro F1 = 0.9066, Time = 24.38s
+📤 The result that has been written to dataset_40701.csv
+
+📂 Dataset: dataset_40923.csv
+    🔸 Samples: 92000, Features: 1024, Classes: 46
+⏭️ Skip TabPFN on dataset_40923.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9497, Macro F1 = 0.9497
+    🔹 Fold 2: Accuracy = 0.9528, Macro F1 = 0.9528
+    🔹 Fold 3: Accuracy = 0.9517, Macro F1 = 0.9518
+    🔹 Fold 4: Accuracy = 0.9526, Macro F1 = 0.9525
+    🔹 Fold 5: Accuracy = 0.9515, Macro F1 = 0.9515
+    🔹 Fold 6: Accuracy = 0.9530, Macro F1 = 0.9530
+    🔹 Fold 7: Accuracy = 0.9578, Macro F1 = 0.9579
+    🔹 Fold 8: Accuracy = 0.9518, Macro F1 = 0.9519
+    🔹 Fold 9: Accuracy = 0.9526, Macro F1 = 0.9526
+    🔹 Fold 10: Accuracy = 0.9514, Macro F1 = 0.9515
+✅ CatBoost on dataset_40923.csv: Accuracy = 0.9525, Macro F1 = 0.9525, Time = 5506.51s
+🚀 Evaluating RF on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9212, Macro F1 = 0.9212
+    🔹 Fold 2: Accuracy = 0.9236, Macro F1 = 0.9234
+    🔹 Fold 3: Accuracy = 0.9239, Macro F1 = 0.9238
+    🔹 Fold 4: Accuracy = 0.9286, Macro F1 = 0.9283
+    🔹 Fold 5: Accuracy = 0.9265, Macro F1 = 0.9264
+    🔹 Fold 6: Accuracy = 0.9257, Macro F1 = 0.9254
+    🔹 Fold 7: Accuracy = 0.9301, Macro F1 = 0.9301
+    🔹 Fold 8: Accuracy = 0.9238, Macro F1 = 0.9237
+    🔹 Fold 9: Accuracy = 0.9220, Macro F1 = 0.9217
+    🔹 Fold 10: Accuracy = 0.9251, Macro F1 = 0.9250
+✅ RF on dataset_40923.csv: Accuracy = 0.9250, Macro F1 = 0.9249, Time = 483.04s
+🚀 Evaluating SPORF on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9127, Macro F1 = 0.9126
+    🔹 Fold 2: Accuracy = 0.9150, Macro F1 = 0.9148
+⏭️ Skip the completed or invalid files: dataset_3.csv
+⏭️ Skip the completed or invalid files: dataset_6.csv
+⏭️ Skip the completed or invalid files: dataset_11.csv
+⏭️ Skip the completed or invalid files: dataset_12.csv
+⏭️ Skip the completed or invalid files: dataset_14.csv
+⏭️ Skip the completed or invalid files: dataset_15.csv
+⏭️ Skip the completed or invalid files: dataset_16.csv
+⏭️ Skip the completed or invalid files: dataset_18.csv
+⏭️ Skip the completed or invalid files: dataset_22.csv
+⏭️ Skip the completed or invalid files: dataset_23.csv
+⏭️ Skip the completed or invalid files: dataset_28.csv
+⏭️ Skip the completed or invalid files: dataset_29.csv
+⏭️ Skip the completed or invalid files: dataset_31.csv
+⏭️ Skip the completed or invalid files: dataset_32.csv
+⏭️ Skip the completed or invalid files: dataset_37.csv
+⏭️ Skip the completed or invalid files: dataset_38.csv
+⏭️ Skip the completed or invalid files: dataset_44.csv
+⏭️ Skip the completed or invalid files: dataset_46.csv
+⏭️ Skip the completed or invalid files: dataset_50.csv
+⏭️ Skip the completed or invalid files: dataset_54.csv
+⏭️ Skip the completed or invalid files: dataset_151.csv
+⏭️ Skip the completed or invalid files: dataset_182.csv
+⏭️ Skip the completed or invalid files: dataset_188.csv
+⏭️ Skip the completed or invalid files: dataset_300.csv
+⏭️ Skip the completed or invalid files: dataset_307.csv
+⏭️ Skip the completed or invalid files: dataset_458.csv
+⏭️ Skip the completed or invalid files: dataset_469.csv
+⏭️ Skip the completed or invalid files: dataset_554.csv
+⏭️ Skip the completed or invalid files: dataset_1049.csv
+⏭️ Skip the completed or invalid files: dataset_1050.csv
+⏭️ Skip the completed or invalid files: dataset_1053.csv
+⏭️ Skip the completed or invalid files: dataset_1063.csv
+⏭️ Skip the completed or invalid files: dataset_1067.csv
+⏭️ Skip the completed or invalid files: dataset_1068.csv
+⏭️ Skip the completed or invalid files: dataset_1461.csv
+⏭️ Skip the completed or invalid files: dataset_1462.csv
+⏭️ Skip the completed or invalid files: dataset_1464.csv
+⏭️ Skip the completed or invalid files: dataset_1468.csv
+⏭️ Skip the completed or invalid files: dataset_1475.csv
+⏭️ Skip the completed or invalid files: dataset_1478.csv
+⏭️ Skip the completed or invalid files: dataset_1480.csv
+⏭️ Skip the completed or invalid files: dataset_1485.csv
+⏭️ Skip the completed or invalid files: dataset_1486.csv
+⏭️ Skip the completed or invalid files: dataset_1487.csv
+⏭️ Skip the completed or invalid files: dataset_1489.csv
+⏭️ Skip the completed or invalid files: dataset_1494.csv
+⏭️ Skip the completed or invalid files: dataset_1497.csv
+⏭️ Skip the completed or invalid files: dataset_1501.csv
+⏭️ Skip the completed or invalid files: dataset_1510.csv
+⏭️ Skip the completed or invalid files: dataset_1590.csv
+⏭️ Skip the completed or invalid files: dataset_4134.csv
+⏭️ Skip the completed or invalid files: dataset_4534.csv
+⏭️ Skip the completed or invalid files: dataset_4538.csv
+⏭️ Skip the completed or invalid files: dataset_6332.csv
+⏭️ Skip the completed or invalid files: dataset_23381.csv
+⏭️ Skip the completed or invalid files: dataset_23517.csv
+⏭️ Skip the completed or invalid files: dataset_40499.csv
+⏭️ Skip the completed or invalid files: dataset_40668.csv
+⏭️ Skip the completed or invalid files: dataset_40670.csv
+⏭️ Skip the completed or invalid files: dataset_40701.csv
+
+📂 Dataset: dataset_40923.csv
+    🔸 Samples: 92000, Features: 1024, Classes: 46
+⏭️ Skip TabPFN on dataset_40923.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9497, Macro F1 = 0.9497
+    🔹 Fold 2: Accuracy = 0.9528, Macro F1 = 0.9528
+    🔹 Fold 3: Accuracy = 0.9517, Macro F1 = 0.9518
+    🔹 Fold 4: Accuracy = 0.9526, Macro F1 = 0.9525
+    🔹 Fold 5: Accuracy = 0.9515, Macro F1 = 0.9515
+    🔹 Fold 6: Accuracy = 0.9530, Macro F1 = 0.9530
+    🔹 Fold 7: Accuracy = 0.9578, Macro F1 = 0.9579
+    🔹 Fold 8: Accuracy = 0.9518, Macro F1 = 0.9519
+    🔹 Fold 9: Accuracy = 0.9526, Macro F1 = 0.9526
+    🔹 Fold 10: Accuracy = 0.9514, Macro F1 = 0.9515
+✅ CatBoost on dataset_40923.csv: Accuracy = 0.9525, Macro F1 = 0.9525, Time = 5417.04s
+🚀 Evaluating RF on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9212, Macro F1 = 0.9212
+    🔹 Fold 2: Accuracy = 0.9236, Macro F1 = 0.9234
+    🔹 Fold 3: Accuracy = 0.9239, Macro F1 = 0.9238
+    🔹 Fold 4: Accuracy = 0.9286, Macro F1 = 0.9283
+    🔹 Fold 5: Accuracy = 0.9265, Macro F1 = 0.9264
+    🔹 Fold 6: Accuracy = 0.9257, Macro F1 = 0.9254
+    🔹 Fold 7: Accuracy = 0.9301, Macro F1 = 0.9301
+    🔹 Fold 8: Accuracy = 0.9238, Macro F1 = 0.9237
+    🔹 Fold 9: Accuracy = 0.9220, Macro F1 = 0.9217
+    🔹 Fold 10: Accuracy = 0.9251, Macro F1 = 0.9250
+✅ RF on dataset_40923.csv: Accuracy = 0.9250, Macro F1 = 0.9249, Time = 509.71s
+🚀 Evaluating SPORF on dataset_40923.csv...
+    🔹 Fold 1: Accuracy = 0.9141, Macro F1 = 0.9141
+    🔹 Fold 2: Accuracy = 0.9136, Macro F1 = 0.9133
+    🔹 Fold 3: Accuracy = 0.9145, Macro F1 = 0.9143
+    🔹 Fold 4: Accuracy = 0.9192, Macro F1 = 0.9190
+    🔹 Fold 5: Accuracy = 0.9159, Macro F1 = 0.9157
+    🔹 Fold 6: Accuracy = 0.9175, Macro F1 = 0.9174
+    🔹 Fold 7: Accuracy = 0.9207, Macro F1 = 0.9207
+    🔹 Fold 8: Accuracy = 0.9153, Macro F1 = 0.9152
+    🔹 Fold 9: Accuracy = 0.9102, Macro F1 = 0.9099
+    🔹 Fold 10: Accuracy = 0.9171, Macro F1 = 0.9169
+✅ SPORF on dataset_40923.csv: Accuracy = 0.9158, Macro F1 = 0.9157, Time = 23514.58s
+📤 The result that has been written to dataset_40923.csv
+
+📂 Dataset: dataset_40927.csv
+    🔸 Samples: 60000, Features: 3072, Classes: 10
+⏭️ Skip TabPFN on dataset_40927.csv due to TabPFN limitation
+🚀 Evaluating CatBoost on dataset_40927.csv...
+    🔹 Fold 1: Accuracy = 0.5747, Macro F1 = 0.5728
+    🔹 Fold 2: Accuracy = 0.5575, Macro F1 = 0.5555
+    🔹 Fold 3: Accuracy = 0.5728, Macro F1 = 0.5706
+    🔹 Fold 4: Accuracy = 0.5783, Macro F1 = 0.5755
+    🔹 Fold 5: Accuracy = 0.5828, Macro F1 = 0.5804
+    🔹 Fold 6: Accuracy = 0.5675, Macro F1 = 0.5643
+    🔹 Fold 7: Accuracy = 0.5752, Macro F1 = 0.5725
+    🔹 Fold 8: Accuracy = 0.5668, Macro F1 = 0.5644
+    🔹 Fold 9: Accuracy = 0.5757, Macro F1 = 0.5733
+    🔹 Fold 10: Accuracy = 0.5742, Macro F1 = 0.5726
+✅ CatBoost on dataset_40927.csv: Accuracy = 0.5726, Macro F1 = 0.5702, Time = 2562.22s
+🚀 Evaluating RF on dataset_40927.csv...
+    🔹 Fold 1: Accuracy = 0.4882, Macro F1 = 0.4834
+    🔹 Fold 2: Accuracy = 0.4778, Macro F1 = 0.4731
+    🔹 Fold 3: Accuracy = 0.4993, Macro F1 = 0.4949
+    🔹 Fold 4: Accuracy = 0.4980, Macro F1 = 0.4937
+    🔹 Fold 5: Accuracy = 0.4963, Macro F1 = 0.4918
+    🔹 Fold 6: Accuracy = 0.4988, Macro F1 = 0.4943
+    🔹 Fold 7: Accuracy = 0.4952, Macro F1 = 0.4904
+    🔹 Fold 8: Accuracy = 0.4812, Macro F1 = 0.4764
+    🔹 Fold 9: Accuracy = 0.4980, Macro F1 = 0.4925
+    🔹 Fold 10: Accuracy = 0.4938, Macro F1 = 0.4902
+✅ RF on dataset_40927.csv: Accuracy = 0.4927, Macro F1 = 0.4881, Time = 917.04s
+🚀 Evaluating SPORF on dataset_40927.csv...
